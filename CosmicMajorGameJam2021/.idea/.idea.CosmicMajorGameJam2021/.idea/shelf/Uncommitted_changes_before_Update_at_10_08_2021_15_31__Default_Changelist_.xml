@@ -1,0 +1,19 @@
+﻿<changelist name="Uncommitted_changes_before_Update_at_10_08_2021_15_31_[Default_Changelist]" date="1628598673041" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.CosmicMajorGameJam2021/.idea/shelf/Uncommitted_changes_before_Update_at_10_08_2021_15_31_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10/08/2021 15:31 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Library/SourceAssetDB" />
+    <option name="AFTER_PATH" value="Library/SourceAssetDB" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CosmicMajorGameJam2021/.idea/shelf/Uncommitted_changes_before_Update_at_10_08_2021_15_31_[Default_Changelist]/SourceAssetDB" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/ArtifactDB" />
+    <option name="AFTER_PATH" value="Library/ArtifactDB" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CosmicMajorGameJam2021/.idea/shelf/Uncommitted_changes_before_Update_at_10_08_2021_15_31_[Default_Changelist]/ArtifactDB" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Library/SourceAssetDB-lock" />
+    <option name="AFTER_PATH" value="Library/SourceAssetDB-lock" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.CosmicMajorGameJam2021/.idea/shelf/Uncommitted_changes_before_Update_at_10_08_2021_15_31_[Default_Changelist]/SourceAssetDB-lock" />
+  </binary>
+</changelist>
