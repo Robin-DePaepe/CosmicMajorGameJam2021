@@ -75,16 +75,14 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
         {
             planetPropertyWindow.transform.SetParent(GameObject.FindWithTag("Canvas").transform);
             planetPropertyWindow.SetActive(false);
-        }
-
-        
+        }        
     }
     private void Update()
     {
         //if we can move then we will calculate the new position of the planet and teleport to it
         if (canMove)
         {
-            currentAngle += (travelingSpeed + speedBoost) * Time.deltaTime;
+            currentAngle += (travelingSpeed + speedBoost) * TimeManager.main.ConvertRealTimeToGameTime(Time.deltaTime);
 
             Vector3 centralPos = new Vector3(0, 0, 0);
             Vector3 dir = new Vector3(1, 0, 0);
