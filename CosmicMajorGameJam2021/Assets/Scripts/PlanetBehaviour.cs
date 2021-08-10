@@ -71,6 +71,8 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
             planetPropertyWindow.transform.SetParent(FindObjectOfType<Canvas>().transform);
             planetPropertyWindow.SetActive(false);
         }
+
+        
     }
     private void Update()
     {
