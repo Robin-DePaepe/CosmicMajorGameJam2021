@@ -151,4 +151,20 @@ public class TimeManager : MonoBehaviour
         return inGameTime / rate;
     }
 
+    public void BeginTheDay()
+    {
+        
+    }
+
+    public void EndOfDay()
+    {
+        
+    }
+
+    public void ScheduleModDownLoad(/*the modifier to add, the time taken to add it*/)
+    {
+        //convert the time, from in-game hours, to real time seconds
+        //invoke a add to modifier function, send the modifier as argument
+        
+    }
 }

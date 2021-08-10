@@ -33,7 +33,7 @@ public class SuspicionManager : MonoBehaviour
     public void AddSuspicion(int addition)
     {
         suspicion += addition;
-        
+        CheckForLossCondition();
     }
 
     public void ReduceSuspicion(int reduction)
