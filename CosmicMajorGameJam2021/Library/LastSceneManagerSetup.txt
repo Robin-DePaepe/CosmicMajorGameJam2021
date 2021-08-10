@@ -5,5 +5,9 @@ sceneSetups:
   isSubScene: 0
 - path: Assets/Scenes/Sandboxes/SB_Lowskii.unity
   isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Sandboxes/SB_Moe.unity
+  isLoaded: 1
   isActive: 1
   isSubScene: 0

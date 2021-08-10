@@ -8,19 +8,19 @@ public class GameTime //time object for in game events, to be set in game standa
 {
     public int hours;
     public int minutes;
-    public int seconds;
+    public float seconds;
 
     public void convert()
     {
         if (seconds >= 60)
         {
-            int minAdd = seconds % 60;
+            int minAdd = Mathf.RoundToInt(seconds) / 60;
             minutes += minAdd;
             seconds -=minAdd*60;
         }
         if (minutes >= 60)
         {
-            int hourAdd = minutes % 60;
+            int hourAdd = minutes / 60;
             hours += hourAdd;
             minutes -=hourAdd*60;
         }
@@ -33,7 +33,7 @@ public class GameTime //time object for in game events, to be set in game standa
         minutes = 0;
     }
 
-    public GameTime(int s, int m = 0, int h = 0)
+    public GameTime(float s, int m = 0, int h = 0)
     {
         seconds = s;
         hours = h;
@@ -50,8 +50,28 @@ public class GameTime //time object for in game events, to be set in game standa
 
     public static GameTime operator -(GameTime gt1,GameTime gt2)=> new GameTime(Mathf.Abs(gt1.seconds - gt2.seconds), Mathf.Abs(gt1.minutes - gt2.minutes), 
         Mathf.Abs(gt1.hours - gt2.hours));
+
+    public static bool operator >=(GameTime gt1, GameTime gt2)
+    {
+        if (gt1 != null && gt2 != null)
+        {
+            return (gt1.hours >= gt2.hours) && (gt1.minutes >= gt2.minutes) && (gt1.seconds >= gt2.seconds);
+            
+        }
+
+        return false;
+    }
     
-    
+    public static bool operator<=(GameTime gt1, GameTime gt2)
+    {
+        if (gt1 != null && gt2 != null)
+        {
+            return  (gt1.hours <= gt2.hours) && (gt1.minutes <= gt2.minutes) && (gt1.seconds <= gt2.seconds);
+            
+        }
+        return false;
+
+    }
 
 };
 
@@ -69,6 +89,8 @@ public class TimeManager : MonoBehaviour
 
     private float totalTimeOfWorkDay;
     private GameTime currentTime;
+
+    private bool timePaused=true;
     
     
     public static TimeManager main;
@@ -81,21 +103,41 @@ public class TimeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         totalTimeOfWorkDay = ConvertGameTimeToRealTime((endTime - startTime).seconds);
         currentTime = startTime;
+        timePaused = false;
+        StartCoroutine(Clock());
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        LogTime();
     }
 
+    void LogTime()
+    {
+        if (timePaused)
+        {
+            Debug.Log("paused");
+        }
+        else
+        {
+            Debug.Log(currentTime.hours + " " + currentTime.minutes + " " + currentTime.seconds);
+        }
+    }
+    
     IEnumerator Clock()
     {
-        yield return new WaitForSeconds(1f);
-        currentTime += new GameTime((int)ConvertRealTimeToGameTime(1), 0,0 );
+        while (!timePaused)
+        {
+            currentTime += new GameTime(ConvertRealTimeToGameTime(Time.deltaTime), 0,0 );
+            if (currentTime >= endTime)
+            {
+                timePaused = true;
+            }
+            yield return new WaitForEndOfFrame();
+        }
     }
 
     
