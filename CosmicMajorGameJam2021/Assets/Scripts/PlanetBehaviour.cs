@@ -21,7 +21,10 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
     private float speedBoost;
 
     private const float screenRatio = 16f / 9f;
+    //components
+    private Slider distanceSliderComp;
 
+    private Slider speedSliderComp;
     //property window
     [SerializeField] private GameObject planetPropertyWindow;
     bool playerInPropertyWindow = false;
@@ -52,23 +55,25 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
     {
         if (!gameCamera)
         {
-            gameCamera = FindObjectOfType<Camera>();
+            gameCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         }
         if (distanceSlider)
         {
-            distanceSlider.GetComponent<Slider>().minValue = -changableDistanceOffset;
-            distanceSlider.GetComponent<Slider>().maxValue = changableDistanceOffset;
-            distanceSlider.GetComponent<Slider>().value = 0;
+            distanceSliderComp = distanceSlider.GetComponent<Slider>();
+            distanceSliderComp.minValue = -changableDistanceOffset;
+            distanceSliderComp.maxValue = changableDistanceOffset;
+            distanceSliderComp.value = 0;
         }
         if (speedSlider)
         {
-            speedSlider.GetComponent<Slider>().minValue = -Mathf.Abs(travelingSpeed) / 2f;
-            speedSlider.GetComponent<Slider>().maxValue = Mathf.Abs(travelingSpeed);
-            speedSlider.GetComponent<Slider>().value = 0;
+            speedSliderComp = speedSlider.GetComponent<Slider>();
+            speedSliderComp.minValue = -Mathf.Abs(travelingSpeed) / 2f;
+            speedSliderComp.maxValue = Mathf.Abs(travelingSpeed);
+            speedSliderComp.value = 0;
         }
         if (planetPropertyWindow)
         {
-            planetPropertyWindow.transform.SetParent(FindObjectOfType<Canvas>().transform);
+            planetPropertyWindow.transform.SetParent(GameObject.FindWithTag("Canvas").transform);
             planetPropertyWindow.SetActive(false);
         }
 
@@ -100,7 +105,7 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Planet")
+        if (other.CompareTag("Planet"))
         {
             other.GetComponent<PlanetBehaviour>().CanMove = false;
         }
