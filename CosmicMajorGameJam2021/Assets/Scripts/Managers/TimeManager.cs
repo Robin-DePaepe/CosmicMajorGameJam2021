@@ -153,12 +153,14 @@ public class TimeManager : MonoBehaviour
 
     public void BeginTheDay()
     {
+        //play music
+        //play begin day sound effects
         
     }
 
     public void EndOfDay()
     {
-        
+        SatisfactionManager.main.CheckSatisfactionCondition();
     }
 
     public void ScheduleModDownLoad(/*the modifier to add, the time taken to add it*/)

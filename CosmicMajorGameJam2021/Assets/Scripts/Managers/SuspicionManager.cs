@@ -46,6 +46,7 @@ public class SuspicionManager : MonoBehaviour
         if (suspicion >= suspicionLossValue)
         {
             //insert what happens when we lose here
+            GameManager.main.Loss();
         }
     }
 }
