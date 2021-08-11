@@ -10,7 +10,7 @@ public class WindowManager : MonoBehaviour
 
     #region Components
     
-    private Canvas canvasComponent;
+    internal Canvas canvasComponent;
     
     [Header("Window Types")]
     public GameObject normal;
@@ -25,13 +25,14 @@ public class WindowManager : MonoBehaviour
     public GameObject minimisedTemplate;
     public GameObject canvas;
     public RectTransform taskBar; //for getting the position of the taskbar to set the edges of the screen
-    Camera main;
+    internal Camera main;
 
     #endregion
 
     #region Variables
     [Header("Variables")]
     public float offset; //offset between the window's border and edge of screen
+    internal IDictionary<GameObject, WindowEntry> windows;
 
     #endregion
 
@@ -39,21 +40,23 @@ public class WindowManager : MonoBehaviour
 
     void Start()
     {
+        windows = new Dictionary<GameObject, WindowEntry>();
+        
         main = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
         
         //just creating test windows, can change if needed
-        CreateWindow(Vector3.zero, "Example 1", normal); 
-        CreateWindow(new Vector3(1000,1000,0), "Hazardous", hazardous, true);
+        CreateWindow(Vector3.zero, normal); 
+        CreateWindow(new Vector3(1000,1000,0), hazardous, true);
     }
 
     #endregion
 
     #region Window Functions
 
-    public void CreateWindow(Vector3 position, string windowName, GameObject windowTemplate, bool onTop = false) 
+    public GameObject CreateWindow(Vector3 position, GameObject windowTemplate, bool onTop = false , Sprite Icon = null, bool check = true) 
     {
-        //creates a window with the location and name specified
+        //creates a window with the location and name specified, and returns it (if needed)
         //the location is then checked for remaining within the screen
         //the name is only for displaying at the taskbar, this can be changed to an icon
         
@@ -66,28 +69,21 @@ public class WindowManager : MonoBehaviour
         
         RectTransform windowRect = window.GetComponent<RectTransform>();
         
-        windowRect.localPosition = position;
+        windowRect.position = position;
 
-        for (int i = 0; i < 2; i++)
+        if (check)
         {
-            //checks if withinScreen two times
-            //as there is the chance that the window is outside in both x and y and the function can only return one at a time
-            //if withinScreen doesn't return null then sets the position of the window to be the correct position
-            
-            Vector3? within = withinScreen(windowRect);
-            if (within != null)
-            {
-                Vector3 correctedPosition = (Vector3) within;
-                correctedPosition.z = 0;
-                windowRect.position = correctedPosition;
-            }
+            CorrectPosition(windowRect);
         }
 
         window.transform.SetAsLastSibling();
         
         Window script = window.GetComponent<Window>();
         script.manager = this;
-        script.windowName = windowName;
+        script.Icon = Icon;
+        windows.Add(window,new WindowEntry(windowRect, script));
+        
+        return window;
     }
     
     public void MinimiseWindow(Window windowScript)
@@ -100,10 +96,27 @@ public class WindowManager : MonoBehaviour
         MinimisedWindow buttonScript = minimised.GetComponent<MinimisedWindow>();
         buttonScript.window = windowScript;
     }
-
+    
     #endregion
 
     #region Other Functions
+
+    public void CorrectPosition(RectTransform rect)
+    {
+        
+        for (int i = 0; i < 2; i++)
+        {
+            Vector3? within = withinScreen(rect);
+
+            if (within != null)
+            {
+                Vector3 correctedPosition = (Vector3) within;
+                correctedPosition.z = 0;
+                rect.position = correctedPosition;
+            }
+        }
+        
+    }
 
     public Vector3? withinScreen(RectTransform rect)
     {
@@ -162,5 +175,17 @@ public class WindowManager : MonoBehaviour
     }
 
     #endregion
+    
+}
 
+public class WindowEntry
+{
+    internal RectTransform rect;
+    internal Window script;
+
+    public WindowEntry(RectTransform rect, Window script)
+    {
+        this.rect = rect;
+        this.script = script;
+    }
 }

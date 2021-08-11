@@ -7,9 +7,9 @@ public class Window : MonoBehaviour
     //base class for all windows
     //handles universal things like components required
     protected RectTransform rect;
-    public WindowManager manager;
-    internal string windowName;
-    private void Start()
+    internal WindowManager manager;
+    internal Sprite Icon;
+    protected virtual void Start()
     {
         rect = GetComponent<RectTransform>();
     }

@@ -3,17 +3,26 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MinimisedWindow : MonoBehaviour
 {
-    private TextMeshProUGUI text;
+    private Image image;
     internal Window window;
     
     private void Start()
     {
-        text = GetComponentInChildren<TextMeshProUGUI>();
-        text.text = window.windowName;
+        image = GetComponentInChildren<Image>();
+        image.sprite = window.Icon;
         //sets the text of the button to be the name of the window, this can be changed to the windows icon
+    }
+
+    private void Update()
+    {
+        if (window.gameObject.activeSelf)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void OnButtonClick()

@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 public class WindowDraggable : Window, IPointerDownHandler, IPointerUpHandler
 {
     private bool pointerDown;
-    private Vector2 oldPos;
+    private Vector3 offset;
     public GameObject conjoinedWindow;
     public override void Minimise()
     {
@@ -23,7 +23,7 @@ public class WindowDraggable : Window, IPointerDownHandler, IPointerUpHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         pointerDown = true;
-        oldPos = Input.mousePosition;
+        offset = rect.position - getMouseWorldPos();
         transform.SetAsLastSibling();
     }
 
@@ -32,34 +32,33 @@ public class WindowDraggable : Window, IPointerDownHandler, IPointerUpHandler
         pointerDown = false;
     }
 
-    private void Update()
+    protected virtual void Update()
     {
-        Vector2 mousePos = Input.mousePosition;
+        Vector3 mousePos = getMouseWorldPos();
 
         if (pointerDown)
         {
 
-            Vector2 change = mousePos - oldPos; //the change is calculated between the previous and current mouse position
-
-            rect.localPosition += (Vector3)change; //this difference is added to the window's position
+            rect.position = mousePos + offset;
 
             Vector3? correctedPosition = manager.withinScreen(rect);
             
             if (correctedPosition != null) //checks if the corrected position is not null (meaning that it is out of bounds)
             {
-                Vector3 position = (Vector3)correctedPosition;
-                position.z = 0;
-                rect.position = position;
+                manager.CorrectPosition(rect);
                 //sets the window position to the corrected position
                 
                 pointerDown = false;
                 //lifts pointer (to prevent mouse from drifting around and then the window potentially being dragged from out of the window
             }
 
-            oldPos = mousePos;
         }
     }
 
+    Vector3 getMouseWorldPos()
+    {
+        return manager.main.ScreenToWorldPoint(Input.mousePosition);
+    }
     public void ConjoinedClicked()
     {
         conjoinedWindow.SetActive(!conjoinedWindow.activeSelf);
