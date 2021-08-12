@@ -17,7 +17,9 @@ public class PlanetAnimatorExample : MonoBehaviour
             animator.Play(clips[index]);
         } else if (Input.GetMouseButtonDown(1))
         {
-            index = (index - 1) % clips.Length;
+            index = index - 1;
+            if (index < 0)
+                index = clips.Length - 1;
             animator.Play(clips[index]);
         }
     }
