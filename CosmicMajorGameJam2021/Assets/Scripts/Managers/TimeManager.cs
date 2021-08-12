@@ -91,7 +91,7 @@ public class TimeManager : MonoBehaviour
     private GameTime currentTime;
 
     private bool timePaused=true;
-    
+    public bool debug;
     
     public static TimeManager main;
 
@@ -112,7 +112,10 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LogTime();
+        if (debug)
+        {
+            LogTime();
+        }
     }
 
     void LogTime()

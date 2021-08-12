@@ -83,7 +83,10 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
         if (canMove)
         {
             currentAngle += (travelingSpeed + speedBoost) * TimeManager.main.ConvertRealTimeToGameTime(Time.deltaTime);
-
+            if (currentAngle >= 360)
+            {
+                currentAngle -= 360;
+            }
             Vector3 centralPos = new Vector3(0, 0, 0);
             Vector3 dir = new Vector3(1, 0, 0);
 
@@ -101,7 +104,7 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Planet"))
         {
@@ -111,23 +114,23 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData pointerEventData)
     {
-        planetPropertyWindow.SetActive(true);
-        playerInPropertyWindow = true;
+        //planetPropertyWindow.SetActive(true);
+        //playerInPropertyWindow = true;
     }
 
     public void ClosePropertyWindow()
     {
-        planetPropertyWindow.SetActive(false);
-        playerInPropertyWindow = false;
+        //planetPropertyWindow.SetActive(false);
+        //playerInPropertyWindow = false;
     }
 
     public void OnSpeedChanged(float speed)
     {
-        speedBoost = speed * Mathf.Sign(travelingSpeed);
+        //speedBoost = speed * Mathf.Sign(travelingSpeed);
     }
 
     public void OnDistanceChanged(float distance)
     {
-        offsetDistanceToSun = distance;
+        //offsetDistanceToSun = distance;
     }
 }

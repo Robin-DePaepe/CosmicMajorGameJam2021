@@ -217,9 +217,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4570201807235008344}
   - component: {fileID: 4570201807235008345}
-  - component: {fileID: 4570201805763663738}
+  - component: {fileID: 4026489856094693224}
   m_Layer: 5
-  m_Name: Planet Shortcut
+  m_Name: Planet Stat Shortcut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -254,7 +254,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4570201807235008347}
   m_CullTransparentMesh: 0
---- !u!114 &4570201805763663738
+--- !u!114 &4026489856094693224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,11 +263,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4570201807235008347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b643ab9ef4c569b4385585053f8e16d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 7479c4f9b45826f4aa4cfa945e2fe9d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 0}
   Icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  windowTemplate: {fileID: 4938609599567031088, guid: 363a979d66f1a0240b03e8be7c154e97,
+  windowTemplate: {fileID: 2825705621825878261, guid: b079b6672023da74ebfc9f2057ff7c75,
     type: 3}
-  appName: Example Planet
+  appName: 

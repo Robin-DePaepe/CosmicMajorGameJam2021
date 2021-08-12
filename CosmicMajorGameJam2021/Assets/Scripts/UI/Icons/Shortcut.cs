@@ -42,6 +42,11 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
         {
             Set();
         }
+
+        if (!manager)
+        {
+            manager = GameObject.FindWithTag("Canvas").GetComponent<WindowManager>();
+        }
     }
 
     #endregion

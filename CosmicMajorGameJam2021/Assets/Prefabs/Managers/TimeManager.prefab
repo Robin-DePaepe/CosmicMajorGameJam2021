@@ -43,4 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10b202ead1d2ce44bb2b31dc018a7f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rate: 0
+  rate: 64
+  startTime:
+    hours: 9
+    minutes: 0
+    seconds: 0
+  endTime:
+    hours: 17
+    minutes: 0
+    seconds: 0
+  debug: 0

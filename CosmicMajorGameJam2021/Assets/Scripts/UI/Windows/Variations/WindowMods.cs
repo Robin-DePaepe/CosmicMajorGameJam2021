@@ -34,4 +34,10 @@ public class WindowMods : WindowDraggable
         shortcut.manager = manager;
         shortcut.currentFolderScript = this;
     }
+
+    public virtual void AddMod(GameObject modObject, Mod mod)
+    {
+        mods.Add(mod);
+        modObject.transform.SetAsFirstSibling();
+    }
 }

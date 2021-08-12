@@ -16,6 +16,7 @@ public class WindowManager : MonoBehaviour
     public GameObject normal;
     public GameObject hazardous;
     public GameObject conjoined;
+    public GameObject planetStat;
     [Header("Window Parents")]
     public GameObject windowParent;
     public GameObject onTopParent;
@@ -45,9 +46,6 @@ public class WindowManager : MonoBehaviour
         main = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
         
-        //just creating test windows, can change if needed
-        CreateWindow(Vector3.zero, normal); 
-        CreateWindow(new Vector3(1000,1000,0), hazardous, true);
     }
 
     #endregion

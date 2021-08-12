@@ -9,10 +9,15 @@ public class Mod
     public string description;
     public Sprite icon;
 
-    public Mod(string modName, string description, Sprite icon)
+    public Mod(string modName, string description)
     {
         this.modName = modName;
         this.description = description;
         this.icon = icon;
+    }
+
+    public virtual void ChangeStats(Stats stat)
+    {
+        
     }
 }

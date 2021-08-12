@@ -63,11 +63,10 @@ public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHa
                 WindowMods toPlaceScript = (WindowMods)entryWindow.script;
                 
                 transform.SetParent(toPlaceScript.modParent.transform);
-                transform.SetAsFirstSibling();
                 
                 currentFolderScript.mods.Remove(mod);
+                toPlaceScript.AddMod(gameObject, mod);
                 currentFolderScript = toPlaceScript;
-                toPlaceScript.mods.Add(mod);
                 
                 placed = true;
             }
