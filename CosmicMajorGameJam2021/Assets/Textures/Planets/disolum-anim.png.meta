@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: ad72a927c78d4754c86ff4b45d4bd19b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1498088293890856974
+    second: disolum-anim_0
+  - first:
+      213: 7330511880394321810
+    second: disolum-anim_1
+  - first:
+      213: 2077327075046820014
+    second: disolum-anim_2
+  - first:
+      213: 6592241417104959403
+    second: disolum-anim_3
+  - first:
+      213: -4301164163526257737
+    second: disolum-anim_4
+  - first:
+      213: 8743276499873467913
+    second: disolum-anim_5
+  - first:
+      213: -8338264840824393837
+    second: disolum-anim_6
+  - first:
+      213: 3854075864397897127
+    second: disolum-anim_7
+  - first:
+      213: 7892962080391267279
+    second: disolum-anim_8
+  - first:
+      213: -588707160609670485
+    second: disolum-anim_9
+  - first:
+      213: 8811319077040795272
+    second: disolum-anim_10
+  - first:
+      213: -9022289542031812250
+    second: disolum-anim_11
+  - first:
+      213: 2048911889240250675
+    second: disolum-anim_12
+  - first:
+      213: -3034629681686454008
+    second: disolum-anim_13
+  - first:
+      213: -8204631824693806281
+    second: disolum-anim_14
+  - first:
+      213: -5224080733216631941
+    second: disolum-anim_15
+  - first:
+      213: 4991437165332326322
+    second: disolum-anim_16
+  - first:
+      213: 8830465519079599587
+    second: disolum-anim_17
+  - first:
+      213: -7262782802561067027
+    second: disolum-anim_18
+  - first:
+      213: 6622036356951777803
+    second: disolum-anim_19
+  - first:
+      213: 1602508012137552908
+    second: disolum-anim_20
+  - first:
+      213: -3451467158038924305
+    second: disolum-anim_21
+  - first:
+      213: 32899838885595363
+    second: disolum-anim_22
+  - first:
+      213: 4737490682918817282
+    second: disolum-anim_23
+  - first:
+      213: 716742235991737165
+    second: disolum-anim_24
+  - first:
+      213: 6508540530678529066
+    second: disolum-anim_25
+  - first:
+      213: -2145516896339736606
+    second: disolum-anim_26
+  - first:
+      213: -7779864299826159841
+    second: disolum-anim_27
+  - first:
+      213: 8746377451025648630
+    second: disolum-anim_28
+  - first:
+      213: -281958434831773536
+    second: disolum-anim_29
+  - first:
+      213: 8652745686723421049
+    second: disolum-anim_30
+  - first:
+      213: -4677011081758215035
+    second: disolum-anim_31
+  - first:
+      213: 114983367927524812
+    second: disolum-anim_32
+  - first:
+      213: 5295628635276578350
+    second: disolum-anim_33
+  - first:
+      213: -4040684084415881121
+    second: disolum-anim_34
+  - first:
+      213: 1547709746000495655
+    second: disolum-anim_35
+  - first:
+      213: 2568371276425035717
+    second: disolum-anim_36
+  - first:
+      213: 4798738356142130539
+    second: disolum-anim_37
+  - first:
+      213: 2983696707461328849
+    second: disolum-anim_38
+  - first:
+      213: 8647608531642514621
+    second: disolum-anim_39
+  - first:
+      213: -2177890896398974052
+    second: disolum-anim_40
+  - first:
+      213: -7992884671869767964
+    second: disolum-anim_41
+  - first:
+      213: -3211642043408404451
+    second: disolum-anim_42
+  - first:
+      213: 6069385585853405209
+    second: disolum-anim_43
+  - first:
+      213: 6606142033201397065
+    second: disolum-anim_44
+  - first:
+      213: 3466915474368194557
+    second: disolum-anim_45
+  - first:
+      213: 8120978320144831197
+    second: disolum-anim_46
+  - first:
+      213: 5313687193605829404
+    second: disolum-anim_47
+  - first:
+      213: 8441395061476085465
+    second: disolum-anim_48
+  - first:
+      213: -1501418470759670659
+    second: disolum-anim_49
+  - first:
+      213: 2870633808478097772
+    second: disolum-anim_50
+  - first:
+      213: 1102422988941227485
+    second: disolum-anim_51
+  - first:
+      213: -3321008809110763800
+    second: disolum-anim_52
+  - first:
+      213: 7722412754484275328
+    second: disolum-anim_53
+  - first:
+      213: 7821630430349557297
+    second: disolum-anim_54
+  - first:
+      213: 8795511806073686620
+    second: disolum-anim_55
+  - first:
+      213: -4705254981026209518
+    second: disolum-anim_56
+  - first:
+      213: 7653592783737128593
+    second: disolum-anim_57
+  - first:
+      213: -5692014928800746085
+    second: disolum-anim_58
+  - first:
+      213: -7212820855290940202
+    second: disolum-anim_59
+  - first:
+      213: 1278931419548190971
+    second: disolum-anim_60
+  - first:
+      213: 5915588295205153796
+    second: disolum-anim_61
+  - first:
+      213: -688379971363311223
+    second: disolum-anim_62
+  - first:
+      213: -9062080465294222175
+    second: disolum-anim_63
+  - first:
+      213: -4796414673369252118
+    second: disolum-anim_64
+  - first:
+      213: 757141126812716354
+    second: disolum-anim_65
+  - first:
+      213: 8500175847707317651
+    second: disolum-anim_66
+  - first:
+      213: -9116706584318182995
+    second: disolum-anim_67
+  - first:
+      213: -7699165606462126115
+    second: disolum-anim_68
+  - first:
+      213: 1412465943411845786
+    second: disolum-anim_69
+  - first:
+      213: -4505627774270957045
+    second: disolum-anim_70
+  - first:
+      213: 3078188970728543288
+    second: disolum-anim_71
+  - first:
+      213: -5298521426011080612
+    second: disolum-anim_72
+  - first:
+      213: 4961115209381245176
+    second: disolum-anim_73
+  - first:
+      213: 779135564426538641
+    second: disolum-anim_74
+  - first:
+      213: 1220092845345269597
+    second: disolum-anim_75
+  - first:
+      213: -1501942985942006912
+    second: disolum-anim_76
+  - first:
+      213: -836481904451583446
+    second: disolum-anim_77
+  - first:
+      213: -2886340399340604093
+    second: disolum-anim_78
+  - first:
+      213: -652810371891201802
+    second: disolum-anim_79
+  - first:
+      213: 4389035791736176119
+    second: disolum-anim_80
+  - first:
+      213: -954804750987365136
+    second: disolum-anim_81
+  - first:
+      213: -3282367442421316489
+    second: disolum-anim_82
+  - first:
+      213: -3790217976718041754
+    second: disolum-anim_83
+  - first:
+      213: -3231403171032374321
+    second: disolum-anim_84
+  - first:
+      213: -2112980676390944343
+    second: disolum-anim_85
+  - first:
+      213: 8308085261184740565
+    second: disolum-anim_86
+  - first:
+      213: 7888857794645931897
+    second: disolum-anim_87
+  - first:
+      213: -7045462775281436409
+    second: disolum-anim_88
+  - first:
+      213: -8933807747887511848
+    second: disolum-anim_89
+  - first:
+      213: -7002123217326905147
+    second: disolum-anim_90
+  - first:
+      213: -322255766270268270
+    second: disolum-anim_91
+  - first:
+      213: -3508201442829269903
+    second: disolum-anim_92
+  - first:
+      213: -8337338097673374989
+    second: disolum-anim_93
+  - first:
+      213: 790136386191151202
+    second: disolum-anim_94
+  - first:
+      213: 8996637978585951953
+    second: disolum-anim_95
+  - first:
+      213: -6060954336522726393
+    second: disolum-anim_96
+  - first:
+      213: 3269802721173668298
+    second: disolum-anim_97
+  - first:
+      213: -4228316850267254493
+    second: disolum-anim_98
+  - first:
+      213: -437315003933064955
+    second: disolum-anim_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: disolum-anim_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7e67842a8b53be0800000000000000
+      internalID: -1498088293890856974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f2fac67b53bb560800000000000000
+      internalID: 7330511880394321810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea88776f7f524dc10800000000000000
+      internalID: 2077327075046820014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7a82444a85c7b50800000000000000
+      internalID: 6592241417104959403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b390685bf13f44c0800000000000000
+      internalID: -4301164163526257737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e8afb17ab565970800000000000000
+      internalID: 8743276499873467913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f68872e48884c80800000000000000
+      internalID: -8338264840824393837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7add7d2349d6c7530800000000000000
+      internalID: 3854075864397897127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc38953813f698d60800000000000000
+      internalID: 7892962080391267279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab12fd4fd74d7f0800000000000000
+      internalID: -588707160609670485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea3a52408184a70800000000000000
+      internalID: 8811319077040795272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669d872b6736ac280800000000000000
+      internalID: -9022289542031812250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3395d36f1823f6c10800000000000000
+      internalID: 2048911889240250675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801e836f164d2e5d0800000000000000
+      internalID: -3034629681686454008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bb24053da432e80800000000000000
+      internalID: -8204631824693806281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7319a260465087b0800000000000000
+      internalID: -5224080733216631941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7e056f7a5254540800000000000000
+      internalID: 4991437165332326322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_17
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed23129a9d1c8a70800000000000000
+      internalID: 8830465519079599587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7188c5589653b90800000000000000
+      internalID: -7262782802561067027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0225d94bf236eb50800000000000000
+      internalID: 6622036356951777803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c1d2deb804d3610800000000000000
+      internalID: 1602508012137552908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3b92b08ece910d0800000000000000
+      internalID: -3451467158038924305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e881f9aa32e47000800000000000000
+      internalID: 32899838885595363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e49120da2feb140800000000000000
+      internalID: 4737490682918817282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d438ec3244162f900800000000000000
+      internalID: 716742235991737165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c7351012bf25a50800000000000000
+      internalID: 6508540530678529066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7421e00c79932e0800000000000000
+      internalID: -2145516896339736606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f5e1883ae580490800000000000000
+      internalID: -7779864299826159841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbcedf83ff516970800000000000000
+      internalID: 8746377451025648630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_29
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a05d622c48461cf0800000000000000
+      internalID: -281958434831773536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97361fc9b5ab41870800000000000000
+      internalID: 8652745686723421049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5847c35733be71fb0800000000000000
+      internalID: -4677011081758215035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccde56093c0889100800000000000000
+      internalID: 114983367927524812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e0c04bf2add7940800000000000000
+      internalID: 5295628635276578350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_34
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5021d2db3b9ce7c0800000000000000
+      internalID: -4040684084415881121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72405c950d19a7510800000000000000
+      internalID: 1547709746000495655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf71ae6110b4a320800000000000000
+      internalID: 2568371276425035717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65c4ef2c1b889240800000000000000
+      internalID: 4798738356142130539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df2cbdd858386920800000000000000
+      internalID: 2983696707461328849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_39
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc703d742a720870800000000000000
+      internalID: 8647608531642514621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c930598c4c396c1e0800000000000000
+      internalID: -2177890896398974052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea9823db1931190800000000000000
+      internalID: -7992884671869767964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10bee8d394fd63d0800000000000000
+      internalID: -3211642043408404451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9181ba9880aca3450800000000000000
+      internalID: 6069385585853405209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dfeb8ad2bbdab50800000000000000
+      internalID: 6606142033201397065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df765046145fc1030800000000000000
+      internalID: 3466915474368194557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_46
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd291e061c283b070800000000000000
+      internalID: 8120978320144831197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_47
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13fa6679520eb940800000000000000
+      internalID: 5313687193605829404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_48
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dec400851cd52570800000000000000
+      internalID: 8441395061476085465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_49
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cd82f0bd3e92be0800000000000000
+      internalID: -1501418470759670659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6150925d3a86d720800000000000000
+      internalID: 2870633808478097772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f0181ed79c4f00800000000000000
+      internalID: 1102422988941227485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_52
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e68205651869e1d0800000000000000
+      internalID: -3321008809110763800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0882bff2c758b2b60800000000000000
+      internalID: 7722412754484275328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13efe558f630c8c60800000000000000
+      internalID: 7821630430349557297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ac6c2136fef0a70800000000000000
+      internalID: 8795511806073686620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_56
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211ab46368393beb0800000000000000
+      internalID: -4705254981026209518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196052a1616073a60800000000000000
+      internalID: 7653592783737128593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b957c907496e101b0800000000000000
+      internalID: -5692014928800746085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_59
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4bad3b5a9e6eb90800000000000000
+      internalID: -7212820855290940202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8814a995dafb110800000000000000
+      internalID: 1278931419548190971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c692d5634681250800000000000000
+      internalID: 5915588295205153796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981756030126276f0800000000000000
+      internalID: -688379971363311223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac912c64d50d3280800000000000000
+      internalID: -9062080465294222175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_64
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeeba5e5446bf6db0800000000000000
+      internalID: -4796414673369252118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_65
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dc284e7d7e18a00800000000000000
+      internalID: 757141126812716354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_66
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39513fac5e0b6f570800000000000000
+      internalID: 8500175847707317651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_67
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9ff38f9a3fa7180800000000000000
+      internalID: -9116706584318182995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_68
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd78bef3ca1172590800000000000000
+      internalID: -7699165606462126115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_69
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a666eba461a9310800000000000000
+      internalID: 1412465943411845786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a1270496bc871c0800000000000000
+      internalID: -4505627774270957045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834dcc75f8ce7ba20800000000000000
+      internalID: 3078188970728543288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5830d7f5ded776b0800000000000000
+      internalID: -5298521426011080612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0f4f07ffb69d440800000000000000
+      internalID: 4961115209381245176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_74
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e6485faab00da00800000000000000
+      internalID: 779135564426538641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57eccf7af3aee010800000000000000
+      internalID: 1220092845345269597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083890adfc6082be0800000000000000
+      internalID: -1501942985942006912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_77
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a220f18c3283464f0800000000000000
+      internalID: -836481904451583446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_78
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345b17403b8a1f7d0800000000000000
+      internalID: -2886340399340604093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8fbbdec60c0f6f0800000000000000
+      internalID: -652810371891201802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdf8e86cccf8ec30800000000000000
+      internalID: 4389035791736176119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4fa83432adfb2f0800000000000000
+      internalID: -954804750987365136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7748b2ca330b272d0800000000000000
+      internalID: -3282367442421316489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_83
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ddb64e4d0766bc0800000000000000
+      internalID: -3790217976718041754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_84
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc36b88cfefb723d0800000000000000
+      internalID: -3231403171032374321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_85
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a10476154f2da2e0800000000000000
+      internalID: -2112980676390944343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_86
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2394e68f3c4370800000000000000
+      internalID: 8308085261184740565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_87
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97731750e5ada7d60800000000000000
+      internalID: 7888857794645931897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_88
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709bc113fec793e90800000000000000
+      internalID: -7045462775281436409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_89
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d64887cf2db40480800000000000000
+      internalID: -8933807747887511848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8e6bd580673de90800000000000000
+      internalID: -7002123217326905147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca3a4861e178bf0800000000000000
+      internalID: -322255766270268270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17406afff5d505fc0800000000000000
+      internalID: -3508201442829269903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f8db5c23db4c80800000000000000
+      internalID: -8337338097673374989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_94
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260d80f5bd027fa00800000000000000
+      internalID: 790136386191151202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de6766439a7adc70800000000000000
+      internalID: 8996637978585951953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_96
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70413bba42a23eba0800000000000000
+      internalID: -6060954336522726393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_97
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac18921304ca06d20800000000000000
+      internalID: 3269802721173668298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_98
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321950e2a300255c0800000000000000
+      internalID: -4228316850267254493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disolum-anim_99
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5010f9722585ee9f0800000000000000
+      internalID: -437315003933064955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 63010b190b182cc4da3d3a1fde9fba56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

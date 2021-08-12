@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: ebe49f16517d5ec4eafdec0fd24b1f97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2995088639337103335
+    second: esvita-anim_0
+  - first:
+      213: 945940617778934150
+    second: esvita-anim_1
+  - first:
+      213: -7195832268327775162
+    second: esvita-anim_2
+  - first:
+      213: 2312604405772469166
+    second: esvita-anim_3
+  - first:
+      213: 7896442688150695089
+    second: esvita-anim_4
+  - first:
+      213: -6642836553984615957
+    second: esvita-anim_5
+  - first:
+      213: -5903519127151931514
+    second: esvita-anim_6
+  - first:
+      213: 5904521445963339526
+    second: esvita-anim_7
+  - first:
+      213: -5675525203880550908
+    second: esvita-anim_8
+  - first:
+      213: -370999817328473558
+    second: esvita-anim_9
+  - first:
+      213: 8714606606620948036
+    second: esvita-anim_10
+  - first:
+      213: 6768150244263022609
+    second: esvita-anim_11
+  - first:
+      213: -8538888336759721225
+    second: esvita-anim_12
+  - first:
+      213: 7514876146672752219
+    second: esvita-anim_13
+  - first:
+      213: -3864156918513115051
+    second: esvita-anim_14
+  - first:
+      213: -2236273635543509112
+    second: esvita-anim_15
+  - first:
+      213: -5841787943467189517
+    second: esvita-anim_16
+  - first:
+      213: -4489910506891081803
+    second: esvita-anim_17
+  - first:
+      213: 637532614344640639
+    second: esvita-anim_18
+  - first:
+      213: -7265285089910069430
+    second: esvita-anim_19
+  - first:
+      213: 954869371200447641
+    second: esvita-anim_20
+  - first:
+      213: 8179863941989491641
+    second: esvita-anim_21
+  - first:
+      213: -1044561620696592438
+    second: esvita-anim_22
+  - first:
+      213: 1604520003897326855
+    second: esvita-anim_23
+  - first:
+      213: 5994759449009639763
+    second: esvita-anim_24
+  - first:
+      213: 5166683346631880492
+    second: esvita-anim_25
+  - first:
+      213: -6016450866225457095
+    second: esvita-anim_26
+  - first:
+      213: -7893120314891491327
+    second: esvita-anim_27
+  - first:
+      213: -8437207923525809398
+    second: esvita-anim_28
+  - first:
+      213: -2390115362087749126
+    second: esvita-anim_29
+  - first:
+      213: 5407968684353188507
+    second: esvita-anim_30
+  - first:
+      213: 980110751622491143
+    second: esvita-anim_31
+  - first:
+      213: 2618495500835971774
+    second: esvita-anim_32
+  - first:
+      213: 2421782647171065183
+    second: esvita-anim_33
+  - first:
+      213: -6978318366197475814
+    second: esvita-anim_34
+  - first:
+      213: -7410119446646023058
+    second: esvita-anim_35
+  - first:
+      213: -3985302062175998368
+    second: esvita-anim_36
+  - first:
+      213: 2085154075225732351
+    second: esvita-anim_37
+  - first:
+      213: -8182833581887500553
+    second: esvita-anim_38
+  - first:
+      213: -2700757799441391752
+    second: esvita-anim_39
+  - first:
+      213: -6282534995919207765
+    second: esvita-anim_40
+  - first:
+      213: -9201071110184207281
+    second: esvita-anim_41
+  - first:
+      213: -3712018707258367025
+    second: esvita-anim_42
+  - first:
+      213: -8201844545085494239
+    second: esvita-anim_43
+  - first:
+      213: 1945538185904635774
+    second: esvita-anim_44
+  - first:
+      213: 690775049866268535
+    second: esvita-anim_45
+  - first:
+      213: -7329990646394824253
+    second: esvita-anim_46
+  - first:
+      213: 448489648761068285
+    second: esvita-anim_47
+  - first:
+      213: 7615480773869596163
+    second: esvita-anim_48
+  - first:
+      213: -7164222982638357909
+    second: esvita-anim_49
+  - first:
+      213: -6760708540690579240
+    second: esvita-anim_50
+  - first:
+      213: -4335687099152038971
+    second: esvita-anim_51
+  - first:
+      213: 3692974982243771503
+    second: esvita-anim_52
+  - first:
+      213: -9111814654215371182
+    second: esvita-anim_53
+  - first:
+      213: -1984856087717350980
+    second: esvita-anim_54
+  - first:
+      213: 4405906389045208603
+    second: esvita-anim_55
+  - first:
+      213: 4247003692150020503
+    second: esvita-anim_56
+  - first:
+      213: 1993749574619595075
+    second: esvita-anim_57
+  - first:
+      213: 1632821983729118789
+    second: esvita-anim_58
+  - first:
+      213: 8859320277774112874
+    second: esvita-anim_59
+  - first:
+      213: -8424653723828002050
+    second: esvita-anim_60
+  - first:
+      213: -8164737244636307862
+    second: esvita-anim_61
+  - first:
+      213: -5839052682203972136
+    second: esvita-anim_62
+  - first:
+      213: -4613432206001649339
+    second: esvita-anim_63
+  - first:
+      213: 1793986509683232300
+    second: esvita-anim_64
+  - first:
+      213: 7008415971219467634
+    second: esvita-anim_65
+  - first:
+      213: -1767799761172320657
+    second: esvita-anim_66
+  - first:
+      213: -5191181405646567825
+    second: esvita-anim_67
+  - first:
+      213: -3095332086279378107
+    second: esvita-anim_68
+  - first:
+      213: -7144540559788419061
+    second: esvita-anim_69
+  - first:
+      213: 3019748067537069786
+    second: esvita-anim_70
+  - first:
+      213: -2459998500990260006
+    second: esvita-anim_71
+  - first:
+      213: 7863814648816921187
+    second: esvita-anim_72
+  - first:
+      213: -5476615846430456401
+    second: esvita-anim_73
+  - first:
+      213: -8063135153238216322
+    second: esvita-anim_74
+  - first:
+      213: -427425810842855367
+    second: esvita-anim_75
+  - first:
+      213: 376630319098189898
+    second: esvita-anim_76
+  - first:
+      213: 4289877310344989459
+    second: esvita-anim_77
+  - first:
+      213: -7530329485962182674
+    second: esvita-anim_78
+  - first:
+      213: -5660786343281843460
+    second: esvita-anim_79
+  - first:
+      213: -978510406402251680
+    second: esvita-anim_80
+  - first:
+      213: 6456130307970708165
+    second: esvita-anim_81
+  - first:
+      213: -5250138901841419082
+    second: esvita-anim_82
+  - first:
+      213: 7600041903807094225
+    second: esvita-anim_83
+  - first:
+      213: 3837122131438660978
+    second: esvita-anim_84
+  - first:
+      213: -1726879641192192144
+    second: esvita-anim_85
+  - first:
+      213: 3359317186057671932
+    second: esvita-anim_86
+  - first:
+      213: 7624346089446549521
+    second: esvita-anim_87
+  - first:
+      213: 6902679603811531713
+    second: esvita-anim_88
+  - first:
+      213: 1229702734675400970
+    second: esvita-anim_89
+  - first:
+      213: 3939575147734565060
+    second: esvita-anim_90
+  - first:
+      213: 4639276330510647459
+    second: esvita-anim_91
+  - first:
+      213: 358080704703388333
+    second: esvita-anim_92
+  - first:
+      213: 5964967822797656493
+    second: esvita-anim_93
+  - first:
+      213: 8871740665097932055
+    second: esvita-anim_94
+  - first:
+      213: -7284782840694681309
+    second: esvita-anim_95
+  - first:
+      213: -1181677487271663218
+    second: esvita-anim_96
+  - first:
+      213: -8731275921819068579
+    second: esvita-anim_97
+  - first:
+      213: 4042748686577312223
+    second: esvita-anim_98
+  - first:
+      213: 9130209053153634043
+    second: esvita-anim_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: esvita-anim_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910018d40ce4f66d0800000000000000
+      internalID: -2995088639337103335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681b355eaf7a02d00800000000000000
+      internalID: 945940617778934150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64497075da4432c90800000000000000
+      internalID: -7195832268327775162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea342105475081020800000000000000
+      internalID: 2312604405772469166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bce378a9ccc59d60800000000000000
+      internalID: 7896442688150695089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be954c27957efc3a0800000000000000
+      internalID: -6642836553984615957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f826dc1ac721ea0800000000000000
+      internalID: -5903519127151931514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607125bb8f211f150800000000000000
+      internalID: 5904521445963339526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e5ce4b5eb7c31b0800000000000000
+      internalID: -5675525203880550908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ac66cb1a1f9daf0800000000000000
+      internalID: -370999817328473558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446f9e8698080f870800000000000000
+      internalID: 8714606606620948036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11055c7b9cc4ded50800000000000000
+      internalID: 6768150244263022609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2f5b67c46cf7980800000000000000
+      internalID: -8538888336759721225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b565c753a043a4860800000000000000
+      internalID: 7514876146672752219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55068ab71c1cf5ac0800000000000000
+      internalID: -3864156918513115051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8879bdc0af827f0e0800000000000000
+      internalID: -2236273635543509112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa7a7801dccdeea0800000000000000
+      internalID: -5841787943467189517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_17
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7867bbe22a0b1c0800000000000000
+      internalID: -4489910506891081803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f780db2f888f8d800800000000000000
+      internalID: 637532614344640639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47e7ff24b58c2b90800000000000000
+      internalID: -7265285089910069430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ad4d42a0604d00800000000000000
+      internalID: 954869371200447641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b36f4d9ae6b48170800000000000000
+      internalID: 8179863941989491641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf8f548db8f081f0800000000000000
+      internalID: -1044561620696592438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dfe434176644610800000000000000
+      internalID: 1604520003897326855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351d22015f9a13350800000000000000
+      internalID: 5994759449009639763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f6be6212fb3b740800000000000000
+      internalID: 5166683346631880492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9385a0e40d5418ca0800000000000000
+      internalID: -6016450866225457095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1082975a4e0067290800000000000000
+      internalID: -7893120314891491327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b0226881409ea80800000000000000
+      internalID: -8437207923525809398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_29
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af93e86ddba94ded0800000000000000
+      internalID: -2390115362087749126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92fe43add6fc0b40800000000000000
+      internalID: 5407968684353188507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ceff6298d0a9d00800000000000000
+      internalID: 980110751622491143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2694dd8c3c65420800000000000000
+      internalID: 2618495500835971774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5526d78c76eb9120800000000000000
+      internalID: 2421782647171065183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_34
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16173d2b68082f90800000000000000
+      internalID: -6978318366197475814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c137faf97f92990800000000000000
+      internalID: -7410119446646023058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e2e55b3ec51b8c0800000000000000
+      internalID: -3985302062175998368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4b9c37594ffec10800000000000000
+      internalID: 2085154075225732351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe4577363cb07e80800000000000000
+      internalID: -8182833581887500553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_39
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f1ee3371bf48ad0800000000000000
+      internalID: -2700757799441391752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2864f15b3ffc8a0800000000000000
+      internalID: -6282534995919207765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c7c5c139a3f4080800000000000000
+      internalID: -9201071110184207281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3a24227a24c7cc0800000000000000
+      internalID: -3712018707258367025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c243b67d13d2e80800000000000000
+      internalID: -8201844545085494239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fbdc31ca0fffa10800000000000000
+      internalID: 1945538185904635774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f4bfa7f30269900800000000000000
+      internalID: 690775049866268535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_46
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c953b2d754a64a90800000000000000
+      internalID: -7329990646394824253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_47
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfad7d795fa593600800000000000000
+      internalID: 448489648761068285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_48
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e60505a6f9fa960800000000000000
+      internalID: 7615480773869596163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_49
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62b62ca721939c90800000000000000
+      internalID: -7164222982638357909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0403ae6632d22a0800000000000000
+      internalID: -6760708540690579240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c38cc50e8b84d3c0800000000000000
+      internalID: -4335687099152038971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_52
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f646b0d1e25104330800000000000000
+      internalID: 3692974982243771503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2564b4439d45c8180800000000000000
+      internalID: -9111814654215371182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1f55987ef5474e0800000000000000
+      internalID: -1984856087717350980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16e9a0748ce42d30800000000000000
+      internalID: 4405906389045208603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_56
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799df5e3b5360fa30800000000000000
+      internalID: 4247003692150020503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341894ebca83bab10800000000000000
+      internalID: 1993749574619595075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e6f9171f2f8a610800000000000000
+      internalID: 1632821983729118789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_59
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68142c9ad0a2fa70800000000000000
+      internalID: 8859320277774112874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef26f8be21e951b80800000000000000
+      internalID: -8424653723828002050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e1d011cb601be80800000000000000
+      internalID: -8164737244636307862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddb07ca58487fea0800000000000000
+      internalID: -5839052682203972136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549cce50adbc9ffb0800000000000000
+      internalID: -4613432206001649339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_64
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e0381c93585e810800000000000000
+      internalID: 1793986509683232300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_65
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de5b29135e24160800000000000000
+      internalID: 7008415971219467634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_66
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ead41cb738777e0800000000000000
+      internalID: -1767799761172320657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_67
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66c2dff30835f7b0800000000000000
+      internalID: -5191181405646567825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_68
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54be2770edb2b05d0800000000000000
+      internalID: -3095332086279378107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_69
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08d07ad63e79dc90800000000000000
+      internalID: -7144540559788419061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad628bc3edc48e920800000000000000
+      internalID: 3019748067537069786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6b70a5645cddd0800000000000000
+      internalID: -2459998500990260006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aee3242c1e12d60800000000000000
+      internalID: 7863814648816921187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5cc3e67e62ff3b0800000000000000
+      internalID: -5476615846430456401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_74
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7175476c4df91090800000000000000
+      internalID: -8063135153238216322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938d0e85d7a711af0800000000000000
+      internalID: -427425810842855367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a485d7d974f0a3500800000000000000
+      internalID: 376630319098189898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_77
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b0f1d5fa4b88b30800000000000000
+      internalID: 4289877310344989459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_78
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeff29bda35ee7790800000000000000
+      internalID: -7530329485962182674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2ad4b10d8d071b0800000000000000
+      internalID: -5660786343281843460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064ee5148f1ab62f0800000000000000
+      internalID: -978510406402251680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c23a3e1f48c89950800000000000000
+      internalID: 6456130307970708165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b468463c72c327b0800000000000000
+      internalID: -5250138901841419082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_83
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd518248d5c87960800000000000000
+      internalID: 7600041903807094225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_84
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27de034af32304530800000000000000
+      internalID: 3837122131438660978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_85
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077a2e0ad14e808e0800000000000000
+      internalID: -1726879641192192144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_86
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf415daae21be9e20800000000000000
+      internalID: 3359317186057671932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_87
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a9127f5e1fc960800000000000000
+      internalID: 7624346089446549521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_88
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb3587178e3bcf50800000000000000
+      internalID: 6902679603811531713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_89
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0957a73f18c01110800000000000000
+      internalID: 1229702734675400970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c00dae59be2ca630800000000000000
+      internalID: 3939575147734565060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a007fe1e35026040800000000000000
+      internalID: 4639276330510647459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa54c4f08828f400800000000000000
+      internalID: 358080704703388333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da15d7e81a2d7c250800000000000000
+      internalID: 5964967822797656493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_94
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dcc826121ce1b70800000000000000
+      internalID: 8871740665097932055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32158825a9047ea90800000000000000
+      internalID: -7284782840694681309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_96
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89a81c0696d99fe0800000000000000
+      internalID: -1181677487271663218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_97
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d579d043fc644d680800000000000000
+      internalID: -8731275921819068579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_98
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd12e93d28aba1830800000000000000
+      internalID: 4042748686577312223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esvita-anim_99
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6274a82c405be70800000000000000
+      internalID: 9130209053153634043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 56970540d461cfd41b2512793573b96a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

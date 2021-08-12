@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: 60de47ba087ed584b913c2d2e0844e51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2443206183434240356
+    second: aquonda-anim_0
+  - first:
+      213: -5963969679420057691
+    second: aquonda-anim_1
+  - first:
+      213: -6761566282387515513
+    second: aquonda-anim_2
+  - first:
+      213: -5145069830820362698
+    second: aquonda-anim_3
+  - first:
+      213: 7402086697792730008
+    second: aquonda-anim_4
+  - first:
+      213: 15543421193508468
+    second: aquonda-anim_5
+  - first:
+      213: -644578626712605875
+    second: aquonda-anim_6
+  - first:
+      213: -4075594437547383342
+    second: aquonda-anim_7
+  - first:
+      213: 6295377014793982745
+    second: aquonda-anim_8
+  - first:
+      213: -1539517054747729421
+    second: aquonda-anim_9
+  - first:
+      213: 2419458890396947223
+    second: aquonda-anim_10
+  - first:
+      213: -3300204867060803848
+    second: aquonda-anim_11
+  - first:
+      213: -3622648693813587433
+    second: aquonda-anim_12
+  - first:
+      213: 8265807124261312040
+    second: aquonda-anim_13
+  - first:
+      213: 8366783080102383928
+    second: aquonda-anim_14
+  - first:
+      213: 2648628223280595785
+    second: aquonda-anim_15
+  - first:
+      213: -5363493633452986375
+    second: aquonda-anim_16
+  - first:
+      213: 4166267999665091627
+    second: aquonda-anim_17
+  - first:
+      213: -5187110298495398563
+    second: aquonda-anim_18
+  - first:
+      213: 2959407383080913164
+    second: aquonda-anim_19
+  - first:
+      213: 3164556486192686151
+    second: aquonda-anim_20
+  - first:
+      213: -5912304820382610581
+    second: aquonda-anim_21
+  - first:
+      213: 5143567148263889602
+    second: aquonda-anim_22
+  - first:
+      213: -2696527145226452996
+    second: aquonda-anim_23
+  - first:
+      213: 8638284869595587703
+    second: aquonda-anim_24
+  - first:
+      213: 5264003318307443448
+    second: aquonda-anim_25
+  - first:
+      213: 8725764901728769642
+    second: aquonda-anim_26
+  - first:
+      213: -5675386417397591285
+    second: aquonda-anim_27
+  - first:
+      213: 2396018547688954148
+    second: aquonda-anim_28
+  - first:
+      213: -6658544300038939644
+    second: aquonda-anim_29
+  - first:
+      213: -8322527361718900671
+    second: aquonda-anim_30
+  - first:
+      213: 1166602040319672477
+    second: aquonda-anim_31
+  - first:
+      213: 519990673037009021
+    second: aquonda-anim_32
+  - first:
+      213: -2435943201663052404
+    second: aquonda-anim_33
+  - first:
+      213: 4046192627143327510
+    second: aquonda-anim_34
+  - first:
+      213: -4012634922886897664
+    second: aquonda-anim_35
+  - first:
+      213: 4610357960548535192
+    second: aquonda-anim_36
+  - first:
+      213: 7321285943096944948
+    second: aquonda-anim_37
+  - first:
+      213: -6112661984918134268
+    second: aquonda-anim_38
+  - first:
+      213: -972087831046315703
+    second: aquonda-anim_39
+  - first:
+      213: 263210779487705256
+    second: aquonda-anim_40
+  - first:
+      213: 8093713294073798246
+    second: aquonda-anim_41
+  - first:
+      213: -1391618924574211206
+    second: aquonda-anim_42
+  - first:
+      213: -4580693772682938271
+    second: aquonda-anim_43
+  - first:
+      213: -4826711469666518645
+    second: aquonda-anim_44
+  - first:
+      213: -8967070405654912384
+    second: aquonda-anim_45
+  - first:
+      213: -3989538311328997569
+    second: aquonda-anim_46
+  - first:
+      213: -5730648002200437888
+    second: aquonda-anim_47
+  - first:
+      213: 7724311113149542887
+    second: aquonda-anim_48
+  - first:
+      213: -4832658163649481274
+    second: aquonda-anim_49
+  - first:
+      213: 4815112674449936654
+    second: aquonda-anim_50
+  - first:
+      213: -7289320526201138284
+    second: aquonda-anim_51
+  - first:
+      213: -8197736831704811105
+    second: aquonda-anim_52
+  - first:
+      213: -3802856943314577203
+    second: aquonda-anim_53
+  - first:
+      213: 4204949125513962663
+    second: aquonda-anim_54
+  - first:
+      213: -2643338860026687254
+    second: aquonda-anim_55
+  - first:
+      213: -2139166982052951037
+    second: aquonda-anim_56
+  - first:
+      213: 2393350504058115000
+    second: aquonda-anim_57
+  - first:
+      213: -5614929162177800856
+    second: aquonda-anim_58
+  - first:
+      213: -2887581846419792990
+    second: aquonda-anim_59
+  - first:
+      213: 2535527176886665392
+    second: aquonda-anim_60
+  - first:
+      213: -2059641356224812122
+    second: aquonda-anim_61
+  - first:
+      213: -3535042694584747880
+    second: aquonda-anim_62
+  - first:
+      213: 3123609007864365231
+    second: aquonda-anim_63
+  - first:
+      213: -8419028333186765407
+    second: aquonda-anim_64
+  - first:
+      213: 1310983929851141959
+    second: aquonda-anim_65
+  - first:
+      213: 7481007969608569236
+    second: aquonda-anim_66
+  - first:
+      213: -155884168209625294
+    second: aquonda-anim_67
+  - first:
+      213: -6603240394034506645
+    second: aquonda-anim_68
+  - first:
+      213: 1534493110608363276
+    second: aquonda-anim_69
+  - first:
+      213: -6492333601262285183
+    second: aquonda-anim_70
+  - first:
+      213: 5407648653948689049
+    second: aquonda-anim_71
+  - first:
+      213: -9128726943333830125
+    second: aquonda-anim_72
+  - first:
+      213: 8475283230500493060
+    second: aquonda-anim_73
+  - first:
+      213: -5669570370734627299
+    second: aquonda-anim_74
+  - first:
+      213: -4501846442349527070
+    second: aquonda-anim_75
+  - first:
+      213: 1869042621842366276
+    second: aquonda-anim_76
+  - first:
+      213: -2259258464534155442
+    second: aquonda-anim_77
+  - first:
+      213: 5530852584245565517
+    second: aquonda-anim_78
+  - first:
+      213: 6632966972440463962
+    second: aquonda-anim_79
+  - first:
+      213: 3860480528797957106
+    second: aquonda-anim_80
+  - first:
+      213: -4812887305306828980
+    second: aquonda-anim_81
+  - first:
+      213: 7566141113772381124
+    second: aquonda-anim_82
+  - first:
+      213: 2550200544299004865
+    second: aquonda-anim_83
+  - first:
+      213: -1116377826589585916
+    second: aquonda-anim_84
+  - first:
+      213: -9009797757327086137
+    second: aquonda-anim_85
+  - first:
+      213: 2057292592778659432
+    second: aquonda-anim_86
+  - first:
+      213: -8532162115000123152
+    second: aquonda-anim_87
+  - first:
+      213: 3631472353806943627
+    second: aquonda-anim_88
+  - first:
+      213: -6897426277233648659
+    second: aquonda-anim_89
+  - first:
+      213: 8729867319285410191
+    second: aquonda-anim_90
+  - first:
+      213: -1416560100163466014
+    second: aquonda-anim_91
+  - first:
+      213: -409704966954243046
+    second: aquonda-anim_92
+  - first:
+      213: 136662060270094888
+    second: aquonda-anim_93
+  - first:
+      213: 5358736367887952767
+    second: aquonda-anim_94
+  - first:
+      213: -2006969224122994282
+    second: aquonda-anim_95
+  - first:
+      213: 8780009285751578137
+    second: aquonda-anim_96
+  - first:
+      213: 287574560647546756
+    second: aquonda-anim_97
+  - first:
+      213: 6334550100469765452
+    second: aquonda-anim_98
+  - first:
+      213: 6384063721768671851
+    second: aquonda-anim_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aquonda-anim_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461c2a4441308e120800000000000000
+      internalID: 2443206183434240356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a797fecc29bb3da0800000000000000
+      internalID: -5963969679420057691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787980d5a471a22a0800000000000000
+      internalID: -6761566282387515513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6368f55af3a0998b0800000000000000
+      internalID: -5145069830820362698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893749a32ae79b660800000000000000
+      internalID: 7402086697792730008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47655d2c8a8373000800000000000000
+      internalID: 15543421193508468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b6cf4772ffd07f0800000000000000
+      internalID: -644578626712605875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d52e65d3749077c0800000000000000
+      internalID: -4075594437547383342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91354f56a0cad5750800000000000000
+      internalID: 6295377014793982745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f12b1a356982aae0800000000000000
+      internalID: -1539517054747729421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71355ceba05a39120800000000000000
+      internalID: 2419458890396947223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f653dc98215332d0800000000000000
+      internalID: -3300204867060803848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7125533e434c9bdc0800000000000000
+      internalID: -3622648693813587433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8261d7f09cb06b270800000000000000
+      internalID: 8265807124261312040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831504ad1e8cc1470800000000000000
+      internalID: 8366783080102383928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943c6b60651d1c420800000000000000
+      internalID: 2648628223280595785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff27f615fa0195b0800000000000000
+      internalID: -5363493633452986375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_17
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247d1ffbae81d930800000000000000
+      internalID: 4166267999665091627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d496f7aaea308b0800000000000000
+      internalID: -5187110298495398563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09c436d55de11920800000000000000
+      internalID: 2959407383080913164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7446c2f8b53caeb20800000000000000
+      internalID: 3164556486192686151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bc341371643fda0800000000000000
+      internalID: -5912304820382610581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca53aec11f916740800000000000000
+      internalID: 5143567148263889602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff349529d2049ad0800000000000000
+      internalID: -2696527145226452996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77460e0425a51e770800000000000000
+      internalID: 8638284869595587703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2513cc02f7d0940800000000000000
+      internalID: 5264003318307443448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a665d1172f4281970800000000000000
+      internalID: 8725764901728769642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0390f37f1afc31b0800000000000000
+      internalID: -5675386417397591285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4295f3aac2e504120800000000000000
+      internalID: 2396018547688954148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_29
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c1af2dc391893a0800000000000000
+      internalID: -6658544300038939644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148a64b8571708c80800000000000000
+      internalID: -8322527361718900671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90008fef5a903010800000000000000
+      internalID: 1166602040319672477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7023e813c0673700800000000000000
+      internalID: 519990673037009021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8598d3709ac13ed0800000000000000
+      internalID: -2435943201663052404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_34
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fbea9b1c6f62830800000000000000
+      internalID: 4046192627143327510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000eff72cc14058c0800000000000000
+      internalID: -4012634922886897664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bc3ed63284bff30800000000000000
+      internalID: 4610357960548535192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439aa5186ce6a9560800000000000000
+      internalID: 7321285943096944948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402abec9f467b2ba0800000000000000
+      internalID: -6112661984918134268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_39
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941210c94437282f0800000000000000
+      internalID: -972087831046315703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a81b643fcc17a300800000000000000
+      internalID: 263210779487705256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e102fcb55a25070800000000000000
+      internalID: 8093713294073798246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730b0216f9fface0800000000000000
+      internalID: -1391618924574211206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168b366884b1e60c0800000000000000
+      internalID: -4580693772682938271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b893939cd73140db0800000000000000
+      internalID: -4826711469666518645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0826503c9f09e8380800000000000000
+      internalID: -8967070405654912384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_46
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f5c671b0052a8c0800000000000000
+      internalID: -3989538311328997569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_47
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b7a081106a870b0800000000000000
+      internalID: -5730648002200437888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_48
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e171e14804423b60800000000000000
+      internalID: 7724311113149542887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_49
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f7c23103feecb0800000000000000
+      internalID: -4832658163649481274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d1124777b2d240800000000000000
+      internalID: 4815112674449936654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49351d51a9127da90800000000000000
+      internalID: -7289320526201138284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_52
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f993918f8c9cb3e80800000000000000
+      internalID: -8197736831704811105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc85b1a22c9893bc0800000000000000
+      internalID: -3802856943314577203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a469dc63fafa5a30800000000000000
+      internalID: 4204949125513962663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae09f13df49f05bd0800000000000000
+      internalID: -2643338860026687254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_56
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c4d7fa6f62052e0800000000000000
+      internalID: -2139166982052951037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3d2695a93e63120800000000000000
+      internalID: 2393350504058115000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86519691da3c312b0800000000000000
+      internalID: -5614929162177800856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_59
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab18481c9f3de7d0800000000000000
+      internalID: -2887581846419792990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0cda89880003320800000000000000
+      internalID: 2535527176886665392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab2485591faa63e0800000000000000
+      internalID: -2059641356224812122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898bf63166101fec0800000000000000
+      internalID: -3535042694584747880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa047f2d7d9495b20800000000000000
+      internalID: 3123609007864365231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_64
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad247e365a992b80800000000000000
+      internalID: -8419028333186765407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_65
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fd50530fc813210800000000000000
+      internalID: 1310983929851141959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_66
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491926ebc11e1d760800000000000000
+      internalID: 7481007969608569236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_67
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f02c7cc2036ddf0800000000000000
+      internalID: -155884168209625294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_68
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64101bd8d39c54a0800000000000000
+      internalID: -6603240394034506645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_69
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f7810aa5d9b4510800000000000000
+      internalID: 1534493110608363276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ecd6dccf896e5a0800000000000000
+      internalID: -6492333601262285183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a1bb0ccc3db0b40800000000000000
+      internalID: 5407648653948689049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312bc0b063f305180800000000000000
+      internalID: -9128726943333830125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4079ec4b1314e9570800000000000000
+      internalID: 8475283230500493060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_74
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16684759c3a151b0800000000000000
+      internalID: -5669570370734627299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef7662338a3681c0800000000000000
+      internalID: -4501846442349527070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f9af8ac5c20f910800000000000000
+      internalID: 1869042621842366276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_77
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fa5a5856085a0e0800000000000000
+      internalID: -2259258464534155442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_78
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4812052f1981cc40800000000000000
+      internalID: 5530852584245565517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a463781580d0c50800000000000000
+      internalID: 6632966972440463962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb7055569e239530800000000000000
+      internalID: 3860480528797957106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f033fde70353db0800000000000000
+      internalID: -4812887305306828980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c391ee7145500960800000000000000
+      internalID: 7566141113772381124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_83
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c333fc22e1246320800000000000000
+      internalID: 2550200544299004865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_84
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e41031844d180f0800000000000000
+      internalID: -1116377826589585916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_85
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd6868fca4c6f280800000000000000
+      internalID: -9009797757327086137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_86
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8664d9f86b8fc8c10800000000000000
+      internalID: 2057292592778659432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_87
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f04f5103cba79980800000000000000
+      internalID: -8532162115000123152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_88
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85805c8dd4956230800000000000000
+      internalID: 3631472353806943627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_89
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb1b01585b6740a0800000000000000
+      internalID: -6897426277233648659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f896c46f218b62970800000000000000
+      internalID: 8729867319285410191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecc3ca181e575ce0800000000000000
+      internalID: -1416560100163466014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1caaf5d08f605af0800000000000000
+      internalID: -409704966954243046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0ca47b6585e100800000000000000
+      internalID: 136662060270094888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_94
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bade4b55e0e5a40800000000000000
+      internalID: 5358736367887952767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f101cf10d524e0800000000000000
+      internalID: -2006969224122994282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_96
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9ad94debd8d970800000000000000
+      internalID: 8780009285751578137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_97
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48706dd0a8badf300800000000000000
+      internalID: 287574560647546756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_98
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c455a6621c7d8e750800000000000000
+      internalID: 6334550100469765452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aquonda-anim_99
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ada777120c89850800000000000000
+      internalID: 6384063721768671851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 137d8b3e013591d44b640f2934603ea1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

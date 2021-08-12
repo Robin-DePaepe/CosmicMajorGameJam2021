@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: 5fef496b4cc6dc54ea039efb66d5e87d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 859440452190610237
+    second: solmont-anim_0
+  - first:
+      213: -8019850189854502158
+    second: solmont-anim_1
+  - first:
+      213: -4736104386989504685
+    second: solmont-anim_2
+  - first:
+      213: -6473631371353996501
+    second: solmont-anim_3
+  - first:
+      213: -6642028625333694518
+    second: solmont-anim_4
+  - first:
+      213: 8811872796155956927
+    second: solmont-anim_5
+  - first:
+      213: -2751513101943446471
+    second: solmont-anim_6
+  - first:
+      213: -163523853877362400
+    second: solmont-anim_7
+  - first:
+      213: 1627186868056883846
+    second: solmont-anim_8
+  - first:
+      213: 6701041176737961595
+    second: solmont-anim_9
+  - first:
+      213: 2835771535270660679
+    second: solmont-anim_10
+  - first:
+      213: 8997237415983078874
+    second: solmont-anim_11
+  - first:
+      213: 106592215668022885
+    second: solmont-anim_12
+  - first:
+      213: 1180540387006529020
+    second: solmont-anim_13
+  - first:
+      213: -3054759969942259380
+    second: solmont-anim_14
+  - first:
+      213: 982442558599497369
+    second: solmont-anim_15
+  - first:
+      213: -1260657910437803426
+    second: solmont-anim_16
+  - first:
+      213: 3643453925602761617
+    second: solmont-anim_17
+  - first:
+      213: 3528679364377886997
+    second: solmont-anim_18
+  - first:
+      213: -7860647432068722620
+    second: solmont-anim_19
+  - first:
+      213: -5194410875986147761
+    second: solmont-anim_20
+  - first:
+      213: -4858138984508997740
+    second: solmont-anim_21
+  - first:
+      213: -1913379020366270959
+    second: solmont-anim_22
+  - first:
+      213: -4321094975167126579
+    second: solmont-anim_23
+  - first:
+      213: 9160838266567079217
+    second: solmont-anim_24
+  - first:
+      213: 1922639849020767471
+    second: solmont-anim_25
+  - first:
+      213: 7725822244749615482
+    second: solmont-anim_26
+  - first:
+      213: 1016518258366688010
+    second: solmont-anim_27
+  - first:
+      213: 7368230677357370182
+    second: solmont-anim_28
+  - first:
+      213: 2879029609277448234
+    second: solmont-anim_29
+  - first:
+      213: 4061612135025126790
+    second: solmont-anim_30
+  - first:
+      213: 4403069834651185616
+    second: solmont-anim_31
+  - first:
+      213: 9080590474087488069
+    second: solmont-anim_32
+  - first:
+      213: -8193286919219414197
+    second: solmont-anim_33
+  - first:
+      213: 3110523791803250613
+    second: solmont-anim_34
+  - first:
+      213: 8517416595854481588
+    second: solmont-anim_35
+  - first:
+      213: 2372652464210421826
+    second: solmont-anim_36
+  - first:
+      213: -6780740506916515774
+    second: solmont-anim_37
+  - first:
+      213: 2211481248568189887
+    second: solmont-anim_38
+  - first:
+      213: -1486456293549536532
+    second: solmont-anim_39
+  - first:
+      213: 4843165078163133184
+    second: solmont-anim_40
+  - first:
+      213: 1432570655800232994
+    second: solmont-anim_41
+  - first:
+      213: 8077075891187516718
+    second: solmont-anim_42
+  - first:
+      213: 8818784568792554986
+    second: solmont-anim_43
+  - first:
+      213: 2828426681179482177
+    second: solmont-anim_44
+  - first:
+      213: -7941437743715228784
+    second: solmont-anim_45
+  - first:
+      213: 8141347817007934592
+    second: solmont-anim_46
+  - first:
+      213: 4635910041595280680
+    second: solmont-anim_47
+  - first:
+      213: -8609775532528634429
+    second: solmont-anim_48
+  - first:
+      213: 8270188791551482525
+    second: solmont-anim_49
+  - first:
+      213: -2399473991435253407
+    second: solmont-anim_50
+  - first:
+      213: -7945029701576740933
+    second: solmont-anim_51
+  - first:
+      213: 7526000644498324342
+    second: solmont-anim_52
+  - first:
+      213: -7688757584255494313
+    second: solmont-anim_53
+  - first:
+      213: -3850111764358157571
+    second: solmont-anim_54
+  - first:
+      213: 27032269091803170
+    second: solmont-anim_55
+  - first:
+      213: -5392934602051254752
+    second: solmont-anim_56
+  - first:
+      213: -7452984224826635367
+    second: solmont-anim_57
+  - first:
+      213: 7842419837364100318
+    second: solmont-anim_58
+  - first:
+      213: -7351818384504582968
+    second: solmont-anim_59
+  - first:
+      213: 6558558805992358293
+    second: solmont-anim_60
+  - first:
+      213: 1602498548670344062
+    second: solmont-anim_61
+  - first:
+      213: -3639471190070750340
+    second: solmont-anim_62
+  - first:
+      213: -8166780047935439563
+    second: solmont-anim_63
+  - first:
+      213: -8232772586874633204
+    second: solmont-anim_64
+  - first:
+      213: 6192281951715885009
+    second: solmont-anim_65
+  - first:
+      213: -7778651322792837436
+    second: solmont-anim_66
+  - first:
+      213: -155366605592055192
+    second: solmont-anim_67
+  - first:
+      213: 6967831188340606161
+    second: solmont-anim_68
+  - first:
+      213: 1678109880221509188
+    second: solmont-anim_69
+  - first:
+      213: -8641037546587216536
+    second: solmont-anim_70
+  - first:
+      213: 8253779644030284789
+    second: solmont-anim_71
+  - first:
+      213: -8734334781472243155
+    second: solmont-anim_72
+  - first:
+      213: -3542420153257418574
+    second: solmont-anim_73
+  - first:
+      213: -3985868508112905706
+    second: solmont-anim_74
+  - first:
+      213: 1148902058878833950
+    second: solmont-anim_75
+  - first:
+      213: -6932221092252750194
+    second: solmont-anim_76
+  - first:
+      213: -8804034236349373431
+    second: solmont-anim_77
+  - first:
+      213: -2480808542190515736
+    second: solmont-anim_78
+  - first:
+      213: -4010125135478037183
+    second: solmont-anim_79
+  - first:
+      213: -2033573052754422795
+    second: solmont-anim_80
+  - first:
+      213: 2723263009451042209
+    second: solmont-anim_81
+  - first:
+      213: -2754582601725128647
+    second: solmont-anim_82
+  - first:
+      213: -4614777611676839421
+    second: solmont-anim_83
+  - first:
+      213: 3957119354157168819
+    second: solmont-anim_84
+  - first:
+      213: -985164628532059923
+    second: solmont-anim_85
+  - first:
+      213: -6680113104440754267
+    second: solmont-anim_86
+  - first:
+      213: -1841804475193523154
+    second: solmont-anim_87
+  - first:
+      213: -5555245855265094519
+    second: solmont-anim_88
+  - first:
+      213: -8916769132323725235
+    second: solmont-anim_89
+  - first:
+      213: 4019494180938515783
+    second: solmont-anim_90
+  - first:
+      213: 5311339107337283261
+    second: solmont-anim_91
+  - first:
+      213: -1413454376254924537
+    second: solmont-anim_92
+  - first:
+      213: 2794317550258475287
+    second: solmont-anim_93
+  - first:
+      213: -4530660086032895106
+    second: solmont-anim_94
+  - first:
+      213: -7333739894732045293
+    second: solmont-anim_95
+  - first:
+      213: 5914761829076197923
+    second: solmont-anim_96
+  - first:
+      213: -2137447095276874250
+    second: solmont-anim_97
+  - first:
+      213: -1454065576903478792
+    second: solmont-anim_98
+  - first:
+      213: -2573634373516967140
+    second: solmont-anim_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: solmont-anim_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d332c6aa9885deb00800000000000000
+      internalID: 859440452190610237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f29fd94eb4c3b090800000000000000
+      internalID: -8019850189854502158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357425a272af54eb0800000000000000
+      internalID: -4736104386989504685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23ce97019a0926a0800000000000000
+      internalID: -6473631371353996501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf420ff726c2d3a0800000000000000
+      internalID: -6642028625333694518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbecdccee9f0a4a70800000000000000
+      internalID: 8811872796155956927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e3d37969a0d9d0800000000000000
+      internalID: -2751513101943446471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214659dbeb0bbdf0800000000000000
+      internalID: -163523853877362400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68206b5d5dde49610800000000000000
+      internalID: 1627186868056883846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b765bb45271eefc50800000000000000
+      internalID: 6701041176737961595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ac8ffcf2faa5720800000000000000
+      internalID: 2835771535270660679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add568ba2cb9cdc70800000000000000
+      internalID: 8997237415983078874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ed6be2e01ba7100800000000000000
+      internalID: 106592215668022885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdb68a2a3f126010800000000000000
+      internalID: 1180540387006529020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49328dfdff4b95d0800000000000000
+      internalID: -3054759969942259380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9968c854d4652ad00800000000000000
+      internalID: 982442558599497369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a81194f4e318ee0800000000000000
+      internalID: -1260657910437803426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_17
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b1e0f9a06209230800000000000000
+      internalID: 3643453925602761617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511cef7af2368f030800000000000000
+      internalID: 3528679364377886997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44015fadece59e290800000000000000
+      internalID: -7860647432068722620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f468b6754deb9e7b0800000000000000
+      internalID: -5194410875986147761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f3dd6455c649cb0800000000000000
+      internalID: -4858138984508997740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e22622bef4275e0800000000000000
+      internalID: -1913379020366270959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc32074a3036804c0800000000000000
+      internalID: -4321094975167126579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13539830ed5d12f70800000000000000
+      internalID: 9160838266567079217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecb4ef81c69eaa10800000000000000
+      internalID: 1922639849020767471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71ac100662a73b60800000000000000
+      internalID: 7725822244749615482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b25a168f56b1e00800000000000000
+      internalID: 1016518258366688010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b950333c6314660800000000000000
+      internalID: 7368230677357370182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_29
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2060d60d2e54f720800000000000000
+      internalID: 2879029609277448234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68da69ba7bebd5830800000000000000
+      internalID: 4061612135025126790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d13f97afa8da1d30800000000000000
+      internalID: 4403069834651185616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ad7c6dcecb40e70800000000000000
+      internalID: 9080590474087488069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b7215f4f89b4e80800000000000000
+      internalID: -8193286919219414197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_34
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b775db88ecca2b20800000000000000
+      internalID: 3110523791803250613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b85ce74441f33670800000000000000
+      internalID: 8517416595854481588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248a7b868da5de020800000000000000
+      internalID: 2372652464210421826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24093235f68f5e1a0800000000000000
+      internalID: -6780740506916515774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb328588a72c0be10800000000000000
+      internalID: 2211481248568189887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_39
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea06d860eb0f5be0800000000000000
+      internalID: -1486456293549536532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0039d787af0663340800000000000000
+      internalID: 4843165078163133184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c0f9edb6381e310800000000000000
+      internalID: 1432570655800232994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e258a169ab9871070800000000000000
+      internalID: 8077075891187516718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed939567dd926a70800000000000000
+      internalID: 8818784568792554986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148a0f4b417904720800000000000000
+      internalID: 2828426681179482177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09369f792785ac190800000000000000
+      internalID: -7941437743715228784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_46
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ce8a174b0ebf070800000000000000
+      internalID: 8141347817007934592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_47
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82df3f7ee9f065040800000000000000
+      internalID: 4635910041595280680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_48
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5f7cb05cee38880800000000000000
+      internalID: -8609775532528634429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_49
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ad7d973ec95c270800000000000000
+      internalID: 8270188791551482525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16986b42e1b53bed0800000000000000
+      internalID: -2399473991435253407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf279bb4959db190800000000000000
+      internalID: -7945029701576740933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_52
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bfea236b9b17860800000000000000
+      internalID: 7526000644498324342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7575c52c6bb0c4590800000000000000
+      internalID: -7688757584255494313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa21e3cfb7a19ac0800000000000000
+      internalID: -3850111764358157571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22090bc94b9006000800000000000000
+      internalID: 27032269091803170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_56
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02682db6d827825b0800000000000000
+      internalID: -5392934602051254752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b4e9ac55ea19890800000000000000
+      internalID: -7452984224826635367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc50998a4fd5dc60800000000000000
+      internalID: 7842419837364100318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_59
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc0b62812819f990800000000000000
+      internalID: -7351818384504582968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5914fad3c7ea40b50800000000000000
+      internalID: 6558558805992358293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b239a80f73d3610800000000000000
+      internalID: 1602498548670344062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7390914c300e7dc0800000000000000
+      internalID: -3639471190070750340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d7f0cd0d4c9ae80800000000000000
+      internalID: -8166780047935439563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_64
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0483ca83f05fbd80800000000000000
+      internalID: -8232772586874633204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_65
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df761180a76fe550800000000000000
+      internalID: 6192281951715885009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_66
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce7f41c5ddac0490800000000000000
+      internalID: -7778651322792837436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_67
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8623ab735e608ddf0800000000000000
+      internalID: -155366605592055192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_68
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d40ee37c85b2b060800000000000000
+      internalID: 6967831188340606161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_69
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4462da88b08d94710800000000000000
+      internalID: 1678109880221509188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8652bd0322ed41880800000000000000
+      internalID: -8641037546587216536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f376c81bd05b8270800000000000000
+      internalID: 8253779644030284789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d220201fac869c680800000000000000
+      internalID: -8734334781472243155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b028ef93abc6dec0800000000000000
+      internalID: -3542420153257418574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_74
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a938cb5b95fa8c0800000000000000
+      internalID: -3985868508112905706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15103dd558b1ff00800000000000000
+      internalID: 1148902058878833950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eedc325adcbcf90800000000000000
+      internalID: -6932221092252750194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_77
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904a4000289c1d580800000000000000
+      internalID: -8804034236349373431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_78
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9caf656c5629dd0800000000000000
+      internalID: -2480808542190515736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14567f29f6c2958c0800000000000000
+      internalID: -4010125135478037183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f314c5351c47c3e0800000000000000
+      internalID: -2033573052754422795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a56a445749fac520800000000000000
+      internalID: 2723263009451042209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930d3b7d7b1c5c9d0800000000000000
+      internalID: -2754582601725128647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_83
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302939a563405ffb0800000000000000
+      internalID: -4614777611676839421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_84
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b87c5e36138ae630800000000000000
+      internalID: 3957119354157168819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_85
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0211f6dfdf352f0800000000000000
+      internalID: -985164628532059923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_86
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af706636887b43a0800000000000000
+      internalID: -6680113104440754267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_87
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e248d5e86989076e0800000000000000
+      internalID: -1841804475193523154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_88
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98486fcd35dc7e2b0800000000000000
+      internalID: -5555245855265094519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_89
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d402dab97b5414480800000000000000
+      internalID: -8916769132323725235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745079f49ac18c730800000000000000
+      internalID: 4019494180938515783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6aa7607caa5b940800000000000000
+      internalID: 5311339107337283261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099a1dcbb6626ce0800000000000000
+      internalID: -1413454376254924537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711dbccc10967c620800000000000000
+      internalID: 2794317550258475287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_94
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73f7fdf7acdf11c0800000000000000
+      internalID: -4530660086032895106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314c26beb62593a90800000000000000
+      internalID: -7333739894732045293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_96
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3226029bb84751250800000000000000
+      internalID: 5914761829076197923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_97
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d4d701334652e0800000000000000
+      internalID: -2137447095276874250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_98
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f17b80df0f12dbe0800000000000000
+      internalID: -1454065576903478792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solmont-anim_99
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1349c84c2d984cd0800000000000000
+      internalID: -2573634373516967140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

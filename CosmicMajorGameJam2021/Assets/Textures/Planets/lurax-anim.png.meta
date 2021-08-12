@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: df3478c97299132449ed825b82097fc8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4194827800055282255
+    second: lurax-anim_0
+  - first:
+      213: -6827362982165380993
+    second: lurax-anim_1
+  - first:
+      213: 5845789926832310076
+    second: lurax-anim_2
+  - first:
+      213: -5234454942741668853
+    second: lurax-anim_3
+  - first:
+      213: 8667302282837831381
+    second: lurax-anim_4
+  - first:
+      213: -5690765591060791697
+    second: lurax-anim_5
+  - first:
+      213: 8348074703608200847
+    second: lurax-anim_6
+  - first:
+      213: -8280406119265468878
+    second: lurax-anim_7
+  - first:
+      213: 9158258896325856731
+    second: lurax-anim_8
+  - first:
+      213: -4874920452310182544
+    second: lurax-anim_9
+  - first:
+      213: -2447466721413257765
+    second: lurax-anim_10
+  - first:
+      213: 9110398907211785078
+    second: lurax-anim_11
+  - first:
+      213: -238354525337807719
+    second: lurax-anim_12
+  - first:
+      213: -3722702962492926564
+    second: lurax-anim_13
+  - first:
+      213: -7601560927870141188
+    second: lurax-anim_14
+  - first:
+      213: 6824336567362857652
+    second: lurax-anim_15
+  - first:
+      213: 134852947924813188
+    second: lurax-anim_16
+  - first:
+      213: 2445908240583030720
+    second: lurax-anim_17
+  - first:
+      213: 239397597370371721
+    second: lurax-anim_18
+  - first:
+      213: 3997801452499914216
+    second: lurax-anim_19
+  - first:
+      213: 3824318767285100006
+    second: lurax-anim_20
+  - first:
+      213: -3671315510154548643
+    second: lurax-anim_21
+  - first:
+      213: 7111135114029019120
+    second: lurax-anim_22
+  - first:
+      213: -6529372439957049600
+    second: lurax-anim_23
+  - first:
+      213: -8078710142425966438
+    second: lurax-anim_24
+  - first:
+      213: 8556651069460807442
+    second: lurax-anim_25
+  - first:
+      213: 5462918383617817627
+    second: lurax-anim_26
+  - first:
+      213: 4110400806159880588
+    second: lurax-anim_27
+  - first:
+      213: -6924491614922575134
+    second: lurax-anim_28
+  - first:
+      213: -2354944922352145242
+    second: lurax-anim_29
+  - first:
+      213: 8584146932474900935
+    second: lurax-anim_30
+  - first:
+      213: 1157209537501098158
+    second: lurax-anim_31
+  - first:
+      213: -1803977893894783354
+    second: lurax-anim_32
+  - first:
+      213: 8050183117726048867
+    second: lurax-anim_33
+  - first:
+      213: -1545568568562028022
+    second: lurax-anim_34
+  - first:
+      213: 6575635135444078702
+    second: lurax-anim_35
+  - first:
+      213: 4183432714425102930
+    second: lurax-anim_36
+  - first:
+      213: 2493635605590364343
+    second: lurax-anim_37
+  - first:
+      213: -7166959035015255621
+    second: lurax-anim_38
+  - first:
+      213: 2724160311616420149
+    second: lurax-anim_39
+  - first:
+      213: -7304121222373188236
+    second: lurax-anim_40
+  - first:
+      213: 106304978651088369
+    second: lurax-anim_41
+  - first:
+      213: 8920775076907631282
+    second: lurax-anim_42
+  - first:
+      213: 1986553120540736458
+    second: lurax-anim_43
+  - first:
+      213: -1586092695103302714
+    second: lurax-anim_44
+  - first:
+      213: -4967435430176449933
+    second: lurax-anim_45
+  - first:
+      213: -1572169202527503084
+    second: lurax-anim_46
+  - first:
+      213: 1323781262782356348
+    second: lurax-anim_47
+  - first:
+      213: 3653315679539063187
+    second: lurax-anim_48
+  - first:
+      213: -3679878502425889839
+    second: lurax-anim_49
+  - first:
+      213: -7115972481513362735
+    second: lurax-anim_50
+  - first:
+      213: 4092607858350032120
+    second: lurax-anim_51
+  - first:
+      213: -5033886706039167868
+    second: lurax-anim_52
+  - first:
+      213: -2480678527649871495
+    second: lurax-anim_53
+  - first:
+      213: 2306918910424329750
+    second: lurax-anim_54
+  - first:
+      213: 2479092050751353636
+    second: lurax-anim_55
+  - first:
+      213: 1184573801931373698
+    second: lurax-anim_56
+  - first:
+      213: -4018804831566525309
+    second: lurax-anim_57
+  - first:
+      213: -6470313285275471839
+    second: lurax-anim_58
+  - first:
+      213: 6429753850187681263
+    second: lurax-anim_59
+  - first:
+      213: -1653935215849412010
+    second: lurax-anim_60
+  - first:
+      213: -1092955069505517739
+    second: lurax-anim_61
+  - first:
+      213: 2715845534544786974
+    second: lurax-anim_62
+  - first:
+      213: -8067380221463067319
+    second: lurax-anim_63
+  - first:
+      213: -6616929277481290646
+    second: lurax-anim_64
+  - first:
+      213: -4469944802938107086
+    second: lurax-anim_65
+  - first:
+      213: 4690424196260200052
+    second: lurax-anim_66
+  - first:
+      213: -566440644833928293
+    second: lurax-anim_67
+  - first:
+      213: 2343462201649774595
+    second: lurax-anim_68
+  - first:
+      213: -7988291159105629141
+    second: lurax-anim_69
+  - first:
+      213: -2144521020905121464
+    second: lurax-anim_70
+  - first:
+      213: 8857672552806121370
+    second: lurax-anim_71
+  - first:
+      213: -6580043522324592560
+    second: lurax-anim_72
+  - first:
+      213: 4802791229284393420
+    second: lurax-anim_73
+  - first:
+      213: 3996567988523390618
+    second: lurax-anim_74
+  - first:
+      213: 5405116335651441617
+    second: lurax-anim_75
+  - first:
+      213: -3025483469582181468
+    second: lurax-anim_76
+  - first:
+      213: 3665187900483057405
+    second: lurax-anim_77
+  - first:
+      213: -823395841284823206
+    second: lurax-anim_78
+  - first:
+      213: 5433529887148298926
+    second: lurax-anim_79
+  - first:
+      213: 6515182353131933333
+    second: lurax-anim_80
+  - first:
+      213: 4041100363501757195
+    second: lurax-anim_81
+  - first:
+      213: 1344813577331823395
+    second: lurax-anim_82
+  - first:
+      213: -2591740402445188032
+    second: lurax-anim_83
+  - first:
+      213: 3816341467797210429
+    second: lurax-anim_84
+  - first:
+      213: -3402166728437648128
+    second: lurax-anim_85
+  - first:
+      213: -8725028915762598156
+    second: lurax-anim_86
+  - first:
+      213: -8083114845224138836
+    second: lurax-anim_87
+  - first:
+      213: -681223876909750173
+    second: lurax-anim_88
+  - first:
+      213: 6477850662862833550
+    second: lurax-anim_89
+  - first:
+      213: 6361922665636668524
+    second: lurax-anim_90
+  - first:
+      213: 4217645826874886816
+    second: lurax-anim_91
+  - first:
+      213: 3378574248708279881
+    second: lurax-anim_92
+  - first:
+      213: 2990184760662754417
+    second: lurax-anim_93
+  - first:
+      213: -6278176138272661773
+    second: lurax-anim_94
+  - first:
+      213: 7436642897650163632
+    second: lurax-anim_95
+  - first:
+      213: -1942457495154812055
+    second: lurax-anim_96
+  - first:
+      213: -2176429981115422126
+    second: lurax-anim_97
+  - first:
+      213: -5588682872275378135
+    second: lurax-anim_98
+  - first:
+      213: 4368370058388589356
+    second: lurax-anim_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lurax-anim_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b585cb475af8c5c0800000000000000
+      internalID: -4194827800055282255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7081676a855041a0800000000000000
+      internalID: -6827362982165380993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37856457fa602150800000000000000
+      internalID: 5845789926832310076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c581186fa7b57b0800000000000000
+      internalID: -5234454942741668853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de2b714181784870800000000000000
+      internalID: 8667302282837831381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_5
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e3ecc88d65601b0800000000000000
+      internalID: -5690765591060791697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ebdf286b15ad370800000000000000
+      internalID: 8348074703608200847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ef5398186161d80800000000000000
+      internalID: -8280406119265468878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_8
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd409491fba81f70800000000000000
+      internalID: 9158258896325856731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_9
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1158
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075d3c35dadc85cb0800000000000000
+      internalID: -4874920452310182544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5a29eebf9d80ed0800000000000000
+      internalID: -2447466721413257765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67327728983ae6e70800000000000000
+      internalID: 9110398907211785078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99412a272d131bcf0800000000000000
+      internalID: -238354525337807719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_13
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95905c116d465cc0800000000000000
+      internalID: -3722702962492926564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcbfc36c94d18690800000000000000
+      internalID: -7601560927870141188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba2f5d73f9e4be50800000000000000
+      internalID: 6824336567362857652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_16
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48509f9aa081fd100800000000000000
+      internalID: 134852947924813188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_17
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7f629f59c91f120800000000000000
+      internalID: 2445908240583030720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_18
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ec75fa8d2825300800000000000000
+      internalID: 239397597370371721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_19
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1030
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed4cc26d3b0b7730800000000000000
+      internalID: 3997801452499914216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed53ef18a5b21530800000000000000
+      internalID: 3824318767285100006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a2bd6befddc0dc0800000000000000
+      internalID: -3671315510154548643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffa185b5b3dfa260800000000000000
+      internalID: 7111135114029019120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_23
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f62262c520365a0800000000000000
+      internalID: -6529372439957049600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_24
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98da55ade7a2ef80800000000000000
+      internalID: -8078710142425966438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_25
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f7d2600d45fb670800000000000000
+      internalID: 8556651069460807442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cbd7c735f20db40800000000000000
+      internalID: 5462918383617817627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8193af51c31b0930800000000000000
+      internalID: 4110400806159880588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e27e52509347ef90800000000000000
+      internalID: -6924491614922575134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_29
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 902
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac2795f11e815fd0800000000000000
+      internalID: -2354944922352145242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1fce18724012770800000000000000
+      internalID: 8584146932474900935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0727571fb3f0010800000000000000
+      internalID: 1157209537501098158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e7eb3d9abf6f6e0800000000000000
+      internalID: -1803977893894783354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_33
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36268e4d4eef7bf60800000000000000
+      internalID: 8050183117726048867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_34
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02f9de53990d8ae0800000000000000
+      internalID: -1545568568562028022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_35
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60d8b40159514b50800000000000000
+      internalID: 6575635135444078702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2527e0593e98e0a30800000000000000
+      internalID: 4183432714425102930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_37
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0da761f5c2b9220800000000000000
+      internalID: 2493635605590364343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9a326dab8d98c90800000000000000
+      internalID: -7166959035015255621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_39
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 774
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5393d15ce592ec520800000000000000
+      internalID: 2724160311616420149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_40
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ddd08727c82aa90800000000000000
+      internalID: -7304121222373188236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_41
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f58a5a90dba97100800000000000000
+      internalID: 106304978651088369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2cc3c0ba5fccb70800000000000000
+      internalID: 8920775076907631282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb3645b987a19b10800000000000000
+      internalID: 1986553120540736458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39687e8111df9e0800000000000000
+      internalID: -1586092695103302714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_45
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a94ab7bcf101bb0800000000000000
+      internalID: -4967435430176449933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_46
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df984a0788e2ae0800000000000000
+      internalID: -1572169202527503084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_47
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bd5787b040f5210800000000000000
+      internalID: 1323781262782356348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_48
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3996a43214f23b230800000000000000
+      internalID: 3653315679539063187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_49
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 646
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3fe46bff17eecc0800000000000000
+      internalID: -3679878502425889839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dae0f7eabcfe3d90800000000000000
+      internalID: -7115972481513362735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_51
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f40de1e92ddbc830800000000000000
+      internalID: 4092607858350032120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_52
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48469f626ba042ab0800000000000000
+      internalID: -5033886706039167868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9798d75b50cd29dd0800000000000000
+      internalID: -2480678527649871495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_54
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e2975c682d30020800000000000000
+      internalID: 2306918910424329750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423778ad511876220800000000000000
+      internalID: 2479092050751353636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_56
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c7a52c893707010800000000000000
+      internalID: 1184573801931373698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_57
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c8ad85c465a38c0800000000000000
+      internalID: -4018804831566525309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_58
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203aa52954d436a0800000000000000
+      internalID: -6470313285275471839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_59
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 518
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed03a97f031b3950800000000000000
+      internalID: 6429753850187681263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a69c12faa0c09e0800000000000000
+      internalID: -1653935215849412010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55749aea72b05d0f0800000000000000
+      internalID: -1092955069505517739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e167f5fdf1f90b520800000000000000
+      internalID: 2715845534544786974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_63
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9458eaf6e68ea0090800000000000000
+      internalID: -8067380221463067319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_64
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6478df41e1fb24a0800000000000000
+      internalID: -6616929277481290646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_65
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b454f62e097f1c0800000000000000
+      internalID: -4469944802938107086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_66
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e7cff94fbb71140800000000000000
+      internalID: 4690424196260200052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_67
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b94521c399328f0800000000000000
+      internalID: -566440644833928293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_68
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300c3e9c476a58020800000000000000
+      internalID: 2343462201649774595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_69
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 390
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b249d1bb383e32190800000000000000
+      internalID: -7988291159105629141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849979f5e712d32e0800000000000000
+      internalID: -2144521020905121464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_71
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f7cbeb146ccea70800000000000000
+      internalID: 8857672552806121370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0588b3d674dfea4a0800000000000000
+      internalID: -6580043522324592560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_73
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1abdf3d21f6a240800000000000000
+      internalID: 4802791229284393420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_74
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9652ac2969a67730800000000000000
+      internalID: 3996567988523390618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_75
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db4a247ba4d20b40800000000000000
+      internalID: 5405116335651441617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abdcb960d25306d0800000000000000
+      internalID: -3025483469582181468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_77
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df63a5bf9fc5dd230800000000000000
+      internalID: 3665187900483057405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_78
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a572faa48d5b294f0800000000000000
+      internalID: -823395841284823206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_79
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 262
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea251ffe4a6c76b40800000000000000
+      internalID: 5433529887148298926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e825dc4d39a6a50800000000000000
+      internalID: 6515182353131933333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b036934be5fd41830800000000000000
+      internalID: 4041100363501757195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_82
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3235cfdc2dcb9a210800000000000000
+      internalID: 1344813577331823395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_83
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0440a3ae5d9480cd0800000000000000
+      internalID: -2591740402445188032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_84
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3545a9585e56f430800000000000000
+      internalID: 3816341467797210429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_85
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00532dcc26319c0d0800000000000000
+      internalID: -3402166728437648128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_86
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe65f4ad687ae680800000000000000
+      internalID: -8725028915762598156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_87
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca78abbdfd103df80800000000000000
+      internalID: -8083114845224138836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_88
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368a7444e7ecb86f0800000000000000
+      internalID: -681223876909750173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_89
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 134
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87c7f35bd2f5e950800000000000000
+      internalID: 6477850662862833550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_90
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64a7cd15f61a4850800000000000000
+      internalID: 6361922665636668524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_91
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa49439886188a30800000000000000
+      internalID: 4217645826874886816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_92
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e0a85f06b13ee20800000000000000
+      internalID: 3378574248708279881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_93
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174071872354f7920800000000000000
+      internalID: 2990184760662754417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_94
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe9ce0c0107fd8a0800000000000000
+      internalID: -6278176138272661773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_95
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf9edb7053443760800000000000000
+      internalID: 7436642897650163632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_96
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b900223310b05e0800000000000000
+      internalID: -1942457495154812055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_97
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25aea11a674cbc1e0800000000000000
+      internalID: -2176429981115422126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_98
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92067bba9820172b0800000000000000
+      internalID: -5588682872275378135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lurax-anim_99
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 6
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b44b96c619f9c30800000000000000
+      internalID: 4368370058388589356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: aad0939a28a2168448f34c1aee251629
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
