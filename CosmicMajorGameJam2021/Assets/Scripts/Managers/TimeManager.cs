@@ -88,8 +88,6 @@ public class TimeManager : MonoBehaviour
     [Tooltip("in seconds")]
     [SerializeField] private GameTime endTime;
 
-    [Header("Pop up")] 
-    [SerializeField]private GameObject popUp;
 
     [SerializeField] private RectTransform popUpPos;
     private float totalTimeOfWorkDay;
@@ -171,17 +169,17 @@ public class TimeManager : MonoBehaviour
         SatisfactionManager.main.CheckSatisfactionCondition();
     }
 
-    public void ScheduleModDownLoad(/*the modifier to add, the time taken to add it*/)
+    public void ScheduleModDownLoad(string mod, float time)//time is in game time
     {
-        //convert the time, from real time seconds to in-game hours
-        //invoke a add to modifier function, send the modifier as argument
+        //convert time
+        time = ConvertGameTimeToRealTime(time);
         
+        //invoke a add to modifier function, send the modifier as argument
+
+        //create pop up to notify player of download
+        WindowManager w;
+        w.CreateWindow(popUpPos.position, w.popUpTemplate, true);
     }
     
-    public void SetPopUpDetails(string notificationText,float timeForPop, float timeToLast)//time is given in real time
-    {
-       GameObject PO= Instantiate(popUp, popUpPos);
-       PO.GetComponent<WindowsConjoinedPopUp>().SetPop(notificationText, timeForPop,timeToLast);
-
-    }
+    
 }
