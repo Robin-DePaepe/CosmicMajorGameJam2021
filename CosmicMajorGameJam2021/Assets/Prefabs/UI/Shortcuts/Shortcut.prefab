@@ -61,7 +61,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 0}
   Icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  windowTemplate: {fileID: 3227039899671554561, guid: 6a42867acaba3e649afab7a2a9614a16,
+  windowTemplate: {fileID: 5980008682075358897, guid: 24f29355909778a4d94cd930c12896b5,
     type: 3}
   appName: Example
 --- !u!1 &6985010165506995167
@@ -204,7 +204,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Application
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 77cf6de64defe9340baff133429cc4a6, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

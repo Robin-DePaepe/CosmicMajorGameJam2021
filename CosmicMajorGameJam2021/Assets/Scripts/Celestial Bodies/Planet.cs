@@ -10,11 +10,16 @@ public class Planet : MonoBehaviour
     public string planetName = "Planet";
     internal PlanetBehaviour behaviour;
     public List<Mod> mods;
+
+    private void Awake()
+    {
+        behaviour = GetComponent<PlanetBehaviour>();
+    }
+
     void Start()
     {
         mods = new List<Mod>();
         
-        behaviour = GetComponent<PlanetBehaviour>();
         baseStats = new Stats(
             new Stat(50,70,1),
             new Stat(50,70,1),

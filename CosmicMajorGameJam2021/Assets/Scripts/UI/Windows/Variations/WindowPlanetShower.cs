@@ -20,7 +20,7 @@ public class WindowPlanetShower : WindowConjoined
         animator.Play(planet.planetName.ToLower());
         slider.minValue = planet.behaviour.getMin();
         slider.maxValue = planet.behaviour.getMax();
-        slider.value = planet.behaviour.offsetDistanceToSun + planet.behaviour.startDistanceToSun;
+        slider.value = planet.behaviour.offsetDistanceToSun;
         slider.onValueChanged.AddListener(delegate(float value){ planet.behaviour.SetDistance(value); });
     }
     public override void Close()
@@ -29,6 +29,9 @@ public class WindowPlanetShower : WindowConjoined
     }
     void Update()
     {
-        
+        if (!planet)
+        {
+            Destroy(gameObject);
+        }
     }
 }

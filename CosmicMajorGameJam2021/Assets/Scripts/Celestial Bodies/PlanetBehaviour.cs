@@ -4,51 +4,56 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlanetBehaviour : MonoBehaviour
 {
-    #region variable setup
+    #region Components and Constants
+    public const float travelingSpeed = 3f;
+    const float screenRatio = 16f / 9f;
 
-    //movement
-    [SerializeField] bool canMove = true;
-
-    public float startDistanceToSun;
-
-    [SerializeField] private float travelingSpeed;
-    [SerializeField] private float currentAngle;
-    public float offsetDistanceToSun = 0;
-    private const float screenRatio = 16f / 9f;
-    public float maxDistance = 50;
-    public float minDistance = 5;
-    [SerializeField] CircleCollider2D innerCol;
-    //property window
+    [Header("Components")]
+    public Sprite unCorruptSprite;
+    public Sprite corruptSprite;
     static Camera gameCamera;
+    CircleCollider2D col;
+    private SpriteRenderer sprite;
     #endregion
 
-    #region properties
+    #region Variables
+    
+    [Header("Variables")]
+    public float startDistanceToSun;
+    public float currentAngle;
+    public float offsetDistanceToSun = 0;
+    public float maxDistance = 50;
+    public float minDistance = 5;
 
     private float lastDistance;
     internal bool frozen;
-    bool CanMove;
-    public bool corrupted;
-    
+    bool corrupted;
+    internal bool fromCollision;
+    private bool startCol;
     
     #endregion
 
-    private void Start()
+    #region Unity Events
+
+    private void Awake()
     {
         if (!gameCamera)
         {
             gameCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         }
 
-        innerCol = GetComponent<CircleCollider2D>();
+        sprite = GetComponent<SpriteRenderer>();
+        col = GetComponent<CircleCollider2D>();
+        StartCoroutine(waitTillStartCol());
     }
+
+
     private void Update()
     {
-
-        canMove = !corrupted;
         
         if (!frozen)
         {
-            if (!canMove)
+            if (corrupted)
             {
                 Vector3 oldPos = transform.position;
                 transform.position = getNextPos();
@@ -66,6 +71,11 @@ public class PlanetBehaviour : MonoBehaviour
         }
 
     }
+
+
+    #endregion
+
+    #region Movement
 
     void nextAngle()
     {
@@ -95,7 +105,7 @@ public class PlanetBehaviour : MonoBehaviour
         List<Collider2D> colliders = new List<Collider2D>();
         ContactFilter2D filter = new ContactFilter2D();
         filter.NoFilter();
-        for (int i = 0; i < innerCol.OverlapCollider(filter, colliders); i++)
+        for (int i = 0; i < col.OverlapCollider(filter, colliders); i++)
         {
             if (colliders[i].gameObject != gameObject)
             {
@@ -110,6 +120,14 @@ public class PlanetBehaviour : MonoBehaviour
 
         return false;
     }
+    IEnumerator waitTillStartCol()
+    {
+        yield return new WaitForSeconds(0.3f);
+        startCol = true;
+    }
+    #endregion
+
+    #region Get/Set
 
     public void SetDistance(float offset)
     {
@@ -126,12 +144,21 @@ public class PlanetBehaviour : MonoBehaviour
     {
         return maxDistance - startDistanceToSun;
     }
-    
+
+    #endregion
+
+    #region Triggers
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Planet"))
+        if (other.CompareTag("Planet") && startCol)
         {
-            other.GetComponent<PlanetBehaviour>().corrupted = true;
+            PlanetBehaviour otherPlanet = PlanetManager.main.planets[other.gameObject].behaviour;
+
+            if (!otherPlanet.corrupted)
+            {
+                otherPlanet.Corrupt(true);
+            }
             lastDistance = Vector3.Distance(other.transform.position, transform.position);
         }
     }
@@ -140,8 +167,52 @@ public class PlanetBehaviour : MonoBehaviour
     {
         if (other.CompareTag("Planet"))
         {
-            other.GetComponent<PlanetBehaviour>().corrupted = false;
+            PlanetBehaviour otherPlanet = PlanetManager.main.planets[other.gameObject].behaviour;
+
+            if (otherPlanet.fromCollision)
+            {
+                otherPlanet.UnCorrupt(true);
+            }
         }
     }
+
+    #endregion
+
+    #region Corrupt
+
+    public void Corrupt(bool collision = false)
+    {
+        corrupted = true;
+        SatisfactionManager.main.ReduceSatisfaction(PlanetManager.main.corruptPenalty);
+        sprite.sprite = corruptSprite;
+        
+        PlanetManager.main.unCorrupt.Remove(gameObject);
+        PlanetManager.main.corrupt.Add(gameObject);
+        
+        if (collision)
+        {
+            fromCollision = true;
+        }
+    }
+
+    public void UnCorrupt(bool collision = false)
+    {
+        corrupted = false;
+
+        sprite.sprite = unCorruptSprite;
+        
+        PlanetManager.main.corrupt.Remove(gameObject);
+        PlanetManager.main.unCorrupt.Add(gameObject);
+        
+        if (collision)
+        {
+            fromCollision = false;
+            startCol = false;
+
+            StartCoroutine(waitTillStartCol());
+        }
+    }
+
+    #endregion
 
 }

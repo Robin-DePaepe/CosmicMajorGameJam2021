@@ -93,7 +93,7 @@ public class TimeManager : MonoBehaviour
 
     [SerializeField] private RectTransform popUpPos;
     private float totalTimeOfWorkDay;
-    private GameTime currentTime;
+    public GameTime currentTime;
 
     private bool timePaused=true;
     public bool debug;

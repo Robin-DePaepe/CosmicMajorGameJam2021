@@ -1,52 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4455025596383054884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8295381878988186642}
-  - component: {fileID: 1966111031556355761}
-  m_Layer: 0
-  m_Name: InnerCol
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8295381878988186642
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4455025596383054884}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5281285406131719129}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &1966111031556355761
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4455025596383054884}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 3.38
 --- !u!1 &5281285406131719141
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +16,7 @@ GameObject:
   - component: {fileID: 5281285406131719142}
   - component: {fileID: 5281285406131719143}
   m_Layer: 0
-  m_Name: P_Planet (1)
+  m_Name: planet
   m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,8 +32,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8295381878988186642}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -101,8 +53,12 @@ MonoBehaviour:
   travelingSpeed: 0.5
   currentAngle: 0
   offsetDistanceToSun: 0
-  innerCol: {fileID: 1966111031556355761}
+  maxDistance: 50
+  minDistance: 5
+  unCorruptSprite: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
+  corruptSprite: {fileID: 21300000, guid: 52a9d0a42c3f46f449ded492770d2fe9, type: 3}
   corrupted: 0
+  fromCollision: 0
 --- !u!212 &5281285406131719131
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -168,7 +124,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 5.42
+  m_Radius: 3.93
 --- !u!50 &3655933349095764658
 Rigidbody2D:
   serializedVersion: 4
@@ -223,64 +179,64 @@ MonoBehaviour:
     list: []
     temperature:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     waterLevels:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     vegetation:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     airQuality:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     population:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
   stats:
     list: []
     temperature:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     waterLevels:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     vegetation:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     airQuality:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
     population:
       barProgress: 0
-      greenPosition: 0
-      greenExtent: 0
+      greenMin: 0
+      greenMax: 0
       statName: 
       description: 
   planetName: Planet1

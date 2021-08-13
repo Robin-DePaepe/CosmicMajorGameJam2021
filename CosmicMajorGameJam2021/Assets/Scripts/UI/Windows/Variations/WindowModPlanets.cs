@@ -12,6 +12,10 @@ public class WindowModPlanets : WindowMods
     protected override void Update()
     {
         base.Update();
+        if (!planet)
+        {
+            Destroy(gameObject);
+        }
     }
 
     protected override void Awake()

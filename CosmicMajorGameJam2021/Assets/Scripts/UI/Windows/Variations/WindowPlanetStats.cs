@@ -41,6 +41,10 @@ public class WindowPlanetStats : WindowDraggable
     protected override void Update()
     {
         base.Update();
+        if (!planet)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void CreateStats()

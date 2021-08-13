@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8139948859868826294}
   - component: {fileID: 8139948859868826295}
+  - component: {fileID: 6818253583702291474}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: Mod + Planet Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,34 +44,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744898d2042c7474b84d5ff977d485a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modInspector:
-  - modName: Mod1
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod2
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod3
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod4
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod5
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod6
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod7
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod8
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod9
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  - modName: Mod10
-    description: Description
-    icon: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
+--- !u!114 &6818253583702291474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139948859868826280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf67baccdd120f43b33bdb5b5ca04a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetTemplate: {fileID: 5281285406131719141, guid: 59db8ab7af830ef49a7744db11bd3d81,
+    type: 3}
+  planetParent: {fileID: 0}
+  blackHoleTemplate: {fileID: 3507489208988997998, guid: 10ac4fc08790e6346b74eb6b38132ca0,
+    type: 3}
+  maxDistance: 50
+  minDistance: 5
+  corruptPenalty: 10
+  destroyPenalty: 20
+  corrupt: []
+  unCorrupt: []
+  blackHoles: []
