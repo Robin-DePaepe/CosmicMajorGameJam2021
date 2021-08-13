@@ -174,12 +174,21 @@ public class TimeManager : MonoBehaviour
         //convert time
         time = ConvertGameTimeToRealTime(time);
         
-        //invoke a add to modifier function, send the modifier as argument
-
+        
         //create pop up to notify player of download
-        WindowManager w;
-        w.CreateWindow(popUpPos.position, w.popUpTemplate, true);
+        GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
+        window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
+        StartCoroutine(ScheduleAddMod(mod, time));
     }
+
+    IEnumerator ScheduleAddMod(string mod,float time)
+    {
+        yield return new WaitForSeconds(time);
+        //add modifier to list
+        ModManager.main.AddMod(mod);
+        
+    }
+    
     
     
 }
