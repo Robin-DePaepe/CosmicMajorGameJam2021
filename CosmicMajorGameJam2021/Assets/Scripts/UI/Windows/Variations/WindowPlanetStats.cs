@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -7,11 +8,14 @@ public class WindowPlanetStats : WindowDraggable
 {
     public GameObject statTemplate;
     public GameObject statParent;
+    public WindowPlanetShower planetShower;
     public TextMeshProUGUI planetNameText;
     internal Planet planet;
+
     protected override void Start()
     {
         base.Start();
+        planetShower.planet = planet;
         planetNameText.text = planet.planetName;
         CreateStats();
     }
@@ -19,6 +23,14 @@ public class WindowPlanetStats : WindowDraggable
     public override void Minimise()
     {
         base.Minimise();
+    }
+
+    private void OnEnable()
+    {
+        if (!planetShower.gameObject.activeSelf && planet != null)
+        {
+            planetShower.gameObject.SetActive(true);
+        }
     }
 
     public override void Close()

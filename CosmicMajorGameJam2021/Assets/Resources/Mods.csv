@@ -1,0 +1,20 @@
+Name,Temperature Change,Water Levels,Vegetation,Population,Air Quality,Sus points,Description,Obtained From
+Food Abundance,,,,10,,0,Population +10,Packed-In Folder x2
+Heat Wave,10,,,,,0,Temperature +10,Packed-In Folder x2
+Plant Infestation,,,10,,,0,Vegetation +10,Packed-In Folder x2
+Wind Power,,,,,10,0,Air Quality +10,Packed-In Folder x2
+World Peace,,,,10,,0,Population +10,Packed-In Folder x2
+Democracy,,,,10,,5,Population +10,HelpHelp.com
+Drought,,-20,,,,5,Water Level -20,PlanetaryAidCommitee.com
+Idol Worship,,10,-10,-10,,5,"Water Level +10, Vegetation +10, Population -10",PlanetaryAidCommitee.com
+Monarchy,,,,10,,5,Population +10,PlanetaryAidCommitee.com
+Solar Flares,20,,,-10,,5,"Temperature +20, Population -10",PlanetaryAidCommitee.com
+Communist Regime,,,,-20,-10,10,Population -20,CosmicWorkers.com
+Natural Energy Deposits,,,,,20,10,Air Quality +20,CosmicWorkers.com
+Pandemic,-10,,30,,,10,"Population -10, Vegetation +30",HelpHelp.com
+Severe Flooding,,10,,-10,,10,"Water Level +10, Population -10",CosmicWorkers.com
+Global Warming,30,,,,,15,Temperature +30,HelpHelp.com
+GMOs,,,30,,,15,Vegetation +30,HelpHelp.com
+Hydro Power,,,,,30,15,Air Quality +30,Armstrong.com
+Solar Power,,,,,30,15,Air Quality +30,Armstrong.com
+Torrential Downpours,,30,,,,15,Water Level +30,Armstrong.com

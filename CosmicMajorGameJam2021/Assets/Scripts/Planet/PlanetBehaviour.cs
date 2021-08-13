@@ -1,54 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
-public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
+public class PlanetBehaviour : MonoBehaviour
 {
     #region variable setup
 
     //movement
     [SerializeField] bool canMove = true;
 
-    [SerializeField] private GameObject distanceSlider;
-    [SerializeField] private float startDistanceToSun;
-    [SerializeField] private float changableDistanceOffset;
-    private float offsetDistanceToSun = 0;
+    public float startDistanceToSun;
 
-    [SerializeField] private GameObject speedSlider;
     [SerializeField] private float travelingSpeed;
     [SerializeField] private float currentAngle;
-    private float speedBoost;
-
+    public float offsetDistanceToSun = 0;
     private const float screenRatio = 16f / 9f;
-    //components
-    private Slider distanceSliderComp;
-
-    private Slider speedSliderComp;
+    public float maxDistance = 50;
+    public float minDistance = 5;
+    [SerializeField] CircleCollider2D innerCol;
     //property window
-    [SerializeField] private GameObject planetPropertyWindow;
-    bool playerInPropertyWindow = false;
-
     static Camera gameCamera;
     #endregion
 
     #region properties
-    public float OffsetDistanceToSun
-    {
-        get { return offsetDistanceToSun; }
-        set { offsetDistanceToSun = value; }
-    }
-    public float TravelingSpeed
-    {
-        get { return travelingSpeed; }
-        set { travelingSpeed = value; }
-    }
 
-    public bool CanMove
-    {
-        get { return canMove; }
-        set { canMove = value; }
-    }
+    private float lastDistance;
+    internal bool frozen;
+    bool CanMove;
+    public bool corrupted;
+    
+    
     #endregion
 
     private void Start()
@@ -57,80 +38,110 @@ public class PlanetBehaviour : MonoBehaviour, IPointerClickHandler
         {
             gameCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         }
-        if (distanceSlider)
-        {
-            distanceSliderComp = distanceSlider.GetComponent<Slider>();
-            distanceSliderComp.minValue = -changableDistanceOffset;
-            distanceSliderComp.maxValue = changableDistanceOffset;
-            distanceSliderComp.value = 0;
-        }
-        if (speedSlider)
-        {
-            speedSliderComp = speedSlider.GetComponent<Slider>();
-            speedSliderComp.minValue = -Mathf.Abs(travelingSpeed) / 2f;
-            speedSliderComp.maxValue = Mathf.Abs(travelingSpeed);
-            speedSliderComp.value = 0;
-        }
-        if (planetPropertyWindow)
-        {
-            planetPropertyWindow.transform.SetParent(GameObject.FindWithTag("Canvas").transform);
-            planetPropertyWindow.SetActive(false);
-        }        
+
+        innerCol = GetComponent<CircleCollider2D>();
     }
     private void Update()
     {
-        //if we can move then we will calculate the new position of the planet and teleport to it
-        if (canMove)
+
+        canMove = !corrupted;
+        
+        if (!frozen)
         {
-            currentAngle += (travelingSpeed + speedBoost) * TimeManager.main.ConvertRealTimeToGameTime(Time.deltaTime);
-            if (currentAngle >= 360)
+            if (!canMove)
             {
-                currentAngle -= 360;
+                Vector3 oldPos = transform.position;
+                transform.position = getNextPos();
+
+                if (!CheckFarther())
+                {
+                    transform.position = oldPos;
+                }
             }
-            Vector3 centralPos = new Vector3(0, 0, 0);
-            Vector3 dir = new Vector3(1, 0, 0);
-
-            dir = Quaternion.Euler(0f, 0f, currentAngle) * dir;
-
-            centralPos += (startDistanceToSun + offsetDistanceToSun) * dir;
-            centralPos.x *= screenRatio;
-
-            transform.position = centralPos;
+            else
+            {
+                nextAngle();
+                transform.position = getNextPos();
+            }
         }
 
-        if (playerInPropertyWindow)
+    }
+
+    void nextAngle()
+    {
+        currentAngle += travelingSpeed * TimeManager.main.ConvertRealTimeToGameTime(Time.deltaTime);
+        
+        if (currentAngle >= 360)
         {
-            planetPropertyWindow.transform.position = gameCamera.WorldToScreenPoint(transform.position);
+            currentAngle -= 360;
         }
     }
 
+    Vector3 getNextPos()
+    {
+        Vector3 centralPos = new Vector3(0, 0, 0);
+        Vector3 dir = new Vector3(1, 0, 0);
+
+        dir = Quaternion.Euler(0f, 0f, currentAngle) * dir;
+
+        centralPos += (startDistanceToSun + offsetDistanceToSun) * dir;
+        centralPos.x *= screenRatio;
+
+        return centralPos;
+    }
+
+    bool CheckFarther()
+    {
+        List<Collider2D> colliders = new List<Collider2D>();
+        ContactFilter2D filter = new ContactFilter2D();
+        filter.NoFilter();
+        for (int i = 0; i < innerCol.OverlapCollider(filter, colliders); i++)
+        {
+            if (colliders[i].gameObject != gameObject)
+            {
+                float currentDistance = Vector3.Distance(colliders[i].transform.position, transform.position);
+
+                if (currentDistance > lastDistance)
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public void SetDistance(float offset)
+    {
+        offsetDistanceToSun = offset;
+        transform.position = getNextPos();
+    }
+
+    public float getMin()
+    {
+        return minDistance - startDistanceToSun;
+    }
+
+    public float getMax()
+    {
+        return maxDistance - startDistanceToSun;
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Planet"))
         {
-            other.GetComponent<PlanetBehaviour>().CanMove = false;
+            other.GetComponent<PlanetBehaviour>().corrupted = true;
+            lastDistance = Vector3.Distance(other.transform.position, transform.position);
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Planet"))
+        {
+            other.GetComponent<PlanetBehaviour>().corrupted = false;
         }
     }
 
-    public void OnPointerClick(PointerEventData pointerEventData)
-    {
-        //planetPropertyWindow.SetActive(true);
-        //playerInPropertyWindow = true;
-    }
-
-    public void ClosePropertyWindow()
-    {
-        //planetPropertyWindow.SetActive(false);
-        //playerInPropertyWindow = false;
-    }
-
-    public void OnSpeedChanged(float speed)
-    {
-        //speedBoost = speed * Mathf.Sign(travelingSpeed);
-    }
-
-    public void OnDistanceChanged(float distance)
-    {
-        //offsetDistanceToSun = distance;
-    }
 }

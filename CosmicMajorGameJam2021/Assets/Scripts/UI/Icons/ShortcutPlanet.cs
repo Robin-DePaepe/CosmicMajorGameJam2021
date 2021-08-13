@@ -46,7 +46,7 @@ public class ShortcutPlanet : Shortcut
     {
         if (window)
         {
-            planetBehaviour.CanMove = !window.activeSelf;
+            planetBehaviour.frozen = window.activeSelf;
         }
     }
 

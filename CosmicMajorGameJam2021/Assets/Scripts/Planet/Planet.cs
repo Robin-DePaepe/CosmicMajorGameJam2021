@@ -8,19 +8,19 @@ public class Planet : MonoBehaviour
     public Stats baseStats;
     public Stats stats;
     public string planetName = "Planet";
-    private PlanetBehaviour planetBehaviour;
+    internal PlanetBehaviour behaviour;
     public List<Mod> mods;
     void Start()
     {
         mods = new List<Mod>();
         
-        planetBehaviour = GetComponent<PlanetBehaviour>();
+        behaviour = GetComponent<PlanetBehaviour>();
         baseStats = new Stats(
-            new Stat(50,20,1),
-            new Stat(50,20,1),
-            new Stat(50,20,1),
-            new Stat(50,20,1),
-            new Stat(50,20,1)
+            new Stat(50,70,1),
+            new Stat(50,70,1),
+            new Stat(50,70,1),
+            new Stat(50,70,1),
+            new Stat(50,70,1)
             );
         
         stats = new Stats(baseStats);
@@ -44,7 +44,7 @@ public class Planet : MonoBehaviour
         {
             yield return new WaitForEndOfFrame();
 
-            if (planetBehaviour.CanMove)
+            if (behaviour.gameObject.activeSelf)
             {
                 timeSinceLast += Time.deltaTime;
                 
@@ -57,7 +57,7 @@ public class Planet : MonoBehaviour
                     }
                     SatisfactionManager.main.AddSatisfaction(pointsProduced);
                     timeSinceLast = 0;
-                    Debug.Log("Points Produced: " + pointsProduced);
+                    SatisfactionManager.main.AddSatisfaction(pointsProduced);
                 }
             }
 

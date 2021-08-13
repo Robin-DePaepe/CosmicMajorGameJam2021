@@ -1,23 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [System.Serializable]
 public class Mod
 {
-    public string modName;
-    public string description;
-    public Sprite icon;
-
-    public Mod(string modName, string description)
+    internal string modName;
+    internal string description;
+    internal Sprite icon;
+    internal List<int> changes;
+    private int susPoints;
+    public Mod(modData data)
     {
-        this.modName = modName;
-        this.description = description;
-        //this.icon = icon;
+        modName = data.modName;
+        susPoints = data.susPoints;
+
+        description = data.description;
+        icon = Resources.Load<Sprite>("ModIcon");
+        changes = data.changes.ToList();
+
+    }
+
+    public void AddSuspicion()
+    {
+        SuspicionManager.main.AddSuspicion(susPoints);
     }
 
     public virtual void ChangeStats(Stats stat)
     {
-        
+        for (int i = 0; i < stat.list.Count; i++)
+        {
+            stat.list[i].barProgress += changes[i];
+        }
     }
 }

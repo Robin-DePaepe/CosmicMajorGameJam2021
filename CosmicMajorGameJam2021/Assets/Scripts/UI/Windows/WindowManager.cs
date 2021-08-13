@@ -17,6 +17,7 @@ public class WindowManager : MonoBehaviour
     public GameObject hazardous;
     public GameObject conjoined;
     public GameObject planetStat;
+    public GameObject popUpTemplate;
     [Header("Window Parents")]
     public GameObject windowParent;
     public GameObject onTopParent;
@@ -46,12 +47,23 @@ public class WindowManager : MonoBehaviour
         main = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
         
+        CreatePopUp(new Vector3(0,0,0), "Test", 2f, 2f);
+    }
+
+    #endregion
+
+    #region Specific Windows
+
+    public void CreatePopUp(Vector3 position, string popUpText,float timeTillPop,float timeLasted)
+    {
+        GameObject window = CreateWindow(position, popUpTemplate);
+        window.GetComponent<WindowsConjoinedPopUp>().SetPop(popUpText, timeTillPop,timeLasted);
     }
 
     #endregion
 
     #region Window Functions
-
+    
     public GameObject CreateWindow(Vector3 position, GameObject windowTemplate, bool onTop = false , Sprite Icon = null, bool check = true) 
     {
         //creates a window with the location and name specified, and returns it (if needed)

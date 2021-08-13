@@ -178,10 +178,10 @@ public class TimeManager : MonoBehaviour
         
     }
     
-    public void SetPopUpDetails(string notificationText,float timeForPop)//time is given in real time
+    public void SetPopUpDetails(string notificationText,float timeForPop, float timeToLast)//time is given in real time
     {
        GameObject PO= Instantiate(popUp, popUpPos);
-       PO.GetComponent<WindowsConjoinedPopUp>().SetPop(notificationText,timeForPop);
-       
+       PO.GetComponent<WindowsConjoinedPopUp>().SetPop(notificationText, timeForPop,timeToLast);
+
     }
 }

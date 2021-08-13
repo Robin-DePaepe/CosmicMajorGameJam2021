@@ -305,10 +305,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd94f0be9d9c3b6439720f0904787794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popupUIText: {fileID: 0}
-  header: {fileID: 0}
-  body: {fileID: 0}
-  image: {fileID: 0}
+  lifeTime: 0
+  popupUIText: {fileID: 6244070184977404015}
+  header: {fileID: 6643826361763242277}
+  body: {fileID: 908700632755622387}
+  image: {fileID: 6643826361764740547}
 --- !u!114 &6643826361764740547
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -27,7 +27,7 @@ public class StatBar : MonoBehaviour
         statNameText.text = stat.statName;
         statDescriptionText.text = stat.description;
         SetProgress(stat.barProgress);
-        SetGreenZone(stat.greenPosition, stat.greenExtent, stat.CalculateBuffer());
+        SetGreenZone(stat.greenMin, stat.greenMax, stat.CalculateBuffer());
     }
 
     void SetProgress(int progress)
@@ -36,20 +36,20 @@ public class StatBar : MonoBehaviour
         progressRect.sizeDelta = new Vector2(holderRect.rect.width * progressPercent, progressRect.sizeDelta.y);
     }
 
-    void SetGreenZone(int position, int extent, int buffer)
+    void SetGreenZone(int min, int max, int buffer)
     {
         float width = holderRect.rect.width;
-        float greenPos = position / 100f * width;
-        float greenWidth = extent / 100f * width;
+        float greenPos = min / 100f * width;
+        float greenWidth = (max-min) / 100f * width;
         greenZoneRect.sizeDelta = new Vector2(greenWidth, greenZoneRect.sizeDelta.y);
         greenZoneRect.localPosition = new Vector3(greenPos - (width/2), greenZoneRect.localPosition.y);
 
         float bufferWidth = buffer / 100f * width;
-        float bufferLeftPos = (position - buffer) / 100f * width;
+        float bufferLeftPos = (min - buffer) / 100f * width;
         bufferLeftRect.sizeDelta = new Vector2(bufferWidth, bufferLeftRect.sizeDelta.y);
         bufferLeftRect.localPosition = new Vector3(bufferLeftPos - (width / 2), bufferLeftRect.localPosition.y);
         
-        float bufferRightPos = (position + extent) / 100f * width;
+        float bufferRightPos = max / 100f * width;
         bufferRightRect.sizeDelta = new Vector2(bufferWidth, bufferRightRect.sizeDelta.y);
         bufferRightRect.localPosition = new Vector3(bufferRightPos - (width / 2), bufferRightRect.localPosition.y);
         
