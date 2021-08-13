@@ -13,7 +13,7 @@ public class Mod
     {
         this.modName = modName;
         this.description = description;
-        this.icon = icon;
+        //this.icon = icon;
     }
 
     public virtual void ChangeStats(Stats stat)
