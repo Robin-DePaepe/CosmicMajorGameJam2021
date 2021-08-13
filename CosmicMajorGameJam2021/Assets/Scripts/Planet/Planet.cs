@@ -55,7 +55,7 @@ public class Planet : MonoBehaviour
                     {
                         pointsProduced += stats.list[i].PointsProduced();
                     }
-
+                    SatisfactionManager.main.AddSatisfaction(pointsProduced);
                     timeSinceLast = 0;
                     Debug.Log("Points Produced: " + pointsProduced);
                 }

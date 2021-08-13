@@ -52,4 +52,6 @@ MonoBehaviour:
     hours: 17
     minutes: 0
     seconds: 0
+  popUp: {fileID: 6643826361764740556, guid: 9d85f04c24f8cf942b00123505c12984, type: 3}
+  popUpPos: {fileID: 0}
   debug: 0

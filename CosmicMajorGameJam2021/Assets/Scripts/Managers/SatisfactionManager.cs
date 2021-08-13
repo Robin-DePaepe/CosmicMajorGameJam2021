@@ -34,11 +34,12 @@ public class SatisfactionManager : MonoBehaviour
 
     public void AddSatisfaction(int addition)
     {
-        satisfaction += addition;
+        satisfaction =Mathf.Min(satisfaction+addition,100);
+        
     }
     public void ReduceSatisfaction(int reduction)
     {
-        satisfaction -= reduction;
+        satisfaction =Mathf.Max(satisfaction-reduction,0);
     }
     public void CheckSatisfactionCondition()
     {

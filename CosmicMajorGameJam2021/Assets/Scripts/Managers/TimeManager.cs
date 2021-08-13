@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [Serializable]
 public class GameTime //time object for in game events, to be set in game standard time
@@ -87,6 +88,10 @@ public class TimeManager : MonoBehaviour
     [Tooltip("in seconds")]
     [SerializeField] private GameTime endTime;
 
+    [Header("Pop up")] 
+    [SerializeField]private GameObject popUp;
+
+    [SerializeField] private RectTransform popUpPos;
     private float totalTimeOfWorkDay;
     private GameTime currentTime;
 
@@ -168,8 +173,15 @@ public class TimeManager : MonoBehaviour
 
     public void ScheduleModDownLoad(/*the modifier to add, the time taken to add it*/)
     {
-        //convert the time, from in-game hours, to real time seconds
+        //convert the time, from real time seconds to in-game hours
         //invoke a add to modifier function, send the modifier as argument
         
+    }
+    
+    public void SetPopUpDetails(string notificationText,float timeForPop)//time is given in real time
+    {
+       GameObject PO= Instantiate(popUp, popUpPos);
+       PO.GetComponent<WindowsConjoinedPopUp>().SetPop(notificationText,timeForPop);
+       
     }
 }

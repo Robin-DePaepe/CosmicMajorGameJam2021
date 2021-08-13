@@ -32,13 +32,13 @@ public class SuspicionManager : MonoBehaviour
 
     public void AddSuspicion(int addition)
     {
-        suspicion += addition;
+        suspicion =Mathf.Min(suspicion+addition,100);
         CheckForLossCondition();
     }
 
     public void ReduceSuspicion(int reduction)
     {
-        suspicion -= reduction;
+        suspicion =Mathf.Max(suspicion-reduction,0);
     }
 
     public void CheckForLossCondition()

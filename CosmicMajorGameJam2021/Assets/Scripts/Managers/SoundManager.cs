@@ -80,6 +80,7 @@ public class SoundManager : MonoBehaviour
 			case SoundEffects.notice:source.PlayOneShot(notice[Random.Range(0,notice.Length)]); break;
 			case SoundEffects.shutdown:source.PlayOneShot(shutDown); break;
 			case SoundEffects.bossemail:source.PlayOneShot(mailBoss); break;
+			default: break;
 		}
 	}
 	

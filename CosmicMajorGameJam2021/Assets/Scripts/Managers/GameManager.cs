@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
     public void Loss()
     {
         //play loss sound effect
+        SoundManager.main.PlaySoundEffect(SoundEffects.shutdown);
         //play loss visual effects
         SceneManager.LoadScene("EndScene");
     }
