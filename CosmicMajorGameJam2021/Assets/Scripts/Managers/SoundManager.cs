@@ -11,7 +11,8 @@ public enum SoundEffects
 	error,
 	notice,
 	chime,
-	foldercorruption
+	foldercorruption,
+	daystart
 };
 
 public class SoundManager : MonoBehaviour
@@ -27,10 +28,7 @@ public class SoundManager : MonoBehaviour
 	private float musicVolume = 0.3f;
 	private float sfxVolume = 0.8f;
 
-	[Space]
-	[Header("Sounds")]
-	
-	public AudioClip mailNormal;
+	[Space] [Header("Sounds")] public AudioClip mailNormal;
 	public AudioClip mailBoss;
 	public AudioClip folderCorrupt;
 	public AudioClip shutDown;
@@ -38,18 +36,40 @@ public class SoundManager : MonoBehaviour
 	public AudioClip[] notice;
 	public AudioClip[] chime;
 	public AudioClip[] click;
-	
+	public AudioClip dayStart;
+
 
 	private AudioSource source;
+
 	#region Properties
-	public float MusicVolume { get => musicVolume; set => musicVolume = value; }
-	public float SfxVolume { get => sfxVolume; set => sfxVolume = value; }
-	public AudioMixer MusicMixer { get => musicMixer; }
-	public AudioMixer SfxMixer { get => sfxMixer; }
+
+	public float MusicVolume
+	{
+		get => musicVolume;
+		set => musicVolume = value;
+	}
+
+	public float SfxVolume
+	{
+		get => sfxVolume;
+		set => sfxVolume = value;
+	}
+
+	public AudioMixer MusicMixer
+	{
+		get => musicMixer;
+	}
+
+	public AudioMixer SfxMixer
+	{
+		get => sfxMixer;
+	}
+
 	#endregion
+
 	private void Awake()
 	{
-			main = this;		
+		main = this;
 	}
 
 	private void Start()
@@ -72,16 +92,39 @@ public class SoundManager : MonoBehaviour
 		switch (effect)
 		{
 			case SoundEffects.chime:
-				source.PlayOneShot(chime[Random.Range(0, chime.Length)]);break;
-			case SoundEffects.click:source.PlayOneShot(click[Random.Range(0,click.Length)]);break;
-			case SoundEffects.email:source.PlayOneShot(mailNormal);break;
-			case SoundEffects.error:source.PlayOneShot(error[Random.Range(0,error.Length)]);break;
-			case SoundEffects.foldercorruption:source.PlayOneShot(folderCorrupt);break;
-			case SoundEffects.notice:source.PlayOneShot(notice[Random.Range(0,notice.Length)]); break;
-			case SoundEffects.shutdown:source.PlayOneShot(shutDown); break;
-			case SoundEffects.bossemail:source.PlayOneShot(mailBoss); break;
+				source.PlayOneShot(chime[Random.Range(0, chime.Length)]);
+				break;
+			case SoundEffects.click:
+				source.PlayOneShot(click[Random.Range(0, click.Length)]);
+				break;
+			case SoundEffects.email:
+				source.PlayOneShot(mailNormal);
+				break;
+			case SoundEffects.error:
+				source.PlayOneShot(error[Random.Range(0, error.Length)]);
+				break;
+			case SoundEffects.foldercorruption:
+				source.PlayOneShot(folderCorrupt);
+				break;
+			case SoundEffects.notice:
+				source.PlayOneShot(notice[Random.Range(0, notice.Length)]);
+				break;
+			case SoundEffects.shutdown:
+				source.PlayOneShot(shutDown);
+				break;
+			case SoundEffects.bossemail:
+				source.PlayOneShot(mailBoss);
+				break;
+			case SoundEffects.daystart:
+				source.PlayOneShot(dayStart);
+				break;
 			default: break;
 		}
 	}
-	
+
+	public void PlayMusic()
+	{
+		
+	}
+
 }

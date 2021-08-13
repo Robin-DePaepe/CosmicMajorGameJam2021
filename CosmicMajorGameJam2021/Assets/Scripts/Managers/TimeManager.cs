@@ -161,7 +161,7 @@ public class TimeManager : MonoBehaviour
     {
         //play music
         //play begin day sound effects
-        
+        SoundManager.main.PlaySoundEffect(SoundEffects.daystart);
     }
 
     public void EndOfDay()
