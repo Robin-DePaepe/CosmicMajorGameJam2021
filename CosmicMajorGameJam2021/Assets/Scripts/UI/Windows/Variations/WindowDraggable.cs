@@ -57,7 +57,7 @@ public class WindowDraggable : Window, IPointerDownHandler, IPointerUpHandler
 
     Vector3 getMouseWorldPos()
     {
-        return manager.main.ScreenToWorldPoint(Input.mousePosition);
+        return manager.mainCamera.ScreenToWorldPoint(Input.mousePosition);
     }
     public void ConjoinedClicked()
     {

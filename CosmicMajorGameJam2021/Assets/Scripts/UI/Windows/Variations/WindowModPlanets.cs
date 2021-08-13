@@ -50,7 +50,7 @@ public class WindowModPlanets : WindowMods
         base.AddMod(modObject, mod);
         shortcut.transform.SetAsFirstSibling();
     }
-    protected override void CreateMod(Mod mod)
+    public override void CreateMod(Mod mod)
     {
         base.CreateMod(mod);
     }

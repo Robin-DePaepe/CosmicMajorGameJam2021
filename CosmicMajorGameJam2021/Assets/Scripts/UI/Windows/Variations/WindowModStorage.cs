@@ -12,19 +12,20 @@ public class WindowModStorage : WindowMods
     protected override void Awake()
     {
         base.Awake();
-        mods = ModManager.mods;
+        mods = ModManager.main.mods;
+        ModManager.main.modWindow = this;
     }
 
     protected override void Start()
     {
         base.Start();
-        for (int i = 0; i < ModManager.mods.Count; i++)
+        for (int i = 0; i < ModManager.main.mods.Count; i++)
         {
-            CreateMod(ModManager.mods[i]);
+            CreateMod(ModManager.main.mods[i]);
         }
     }
-
-    protected override void CreateMod(Mod mod)
+    
+    public override void CreateMod(Mod mod)
     {
         base.CreateMod(mod);
     }

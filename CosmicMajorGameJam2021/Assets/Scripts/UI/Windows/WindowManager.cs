@@ -11,7 +11,7 @@ public class WindowManager : MonoBehaviour
     #region Components
     
     internal Canvas canvasComponent;
-    
+    public static WindowManager main;
     [Header("Window Types")]
     public GameObject normal;
     public GameObject hazardous;
@@ -27,7 +27,7 @@ public class WindowManager : MonoBehaviour
     public GameObject minimisedTemplate;
     public GameObject canvas;
     public RectTransform taskBar; //for getting the position of the taskbar to set the edges of the screen
-    internal Camera main;
+    internal Camera mainCamera;
 
     #endregion
 
@@ -40,11 +40,16 @@ public class WindowManager : MonoBehaviour
 
     #region Unity Functions
 
+    private void Awake()
+    {
+        main = this;
+    }
+
     void Start()
     {
         windows = new Dictionary<GameObject, WindowEntry>();
         
-        main = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
+        mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
         
         CreatePopUp(new Vector3(0,0,0), "Test", 2f, 2f);
@@ -142,7 +147,7 @@ public class WindowManager : MonoBehaviour
 
         Vector2 size = rect.sizeDelta * (canvasComponent.scaleFactor);
         Vector2 extents = size * 0.5f;
-        Vector2 pos = RectTransformUtility.WorldToScreenPoint(main, rect.position);
+        Vector2 pos = RectTransformUtility.WorldToScreenPoint(mainCamera, rect.position);
         //get size and extent of screen in Screen coordinates (pixels)
 
         Vector2 topRight = extents + pos;
@@ -154,7 +159,7 @@ public class WindowManager : MonoBehaviour
             Vector3 correctedPosition = new Vector3(pos.x, heightMax - extents.y); //extents are added or subtracted to get the centred position
             Vector3 offsetVector = new Vector3(0, -offset, 0); //offset added to prevent window from being locked
             
-            return main.ScreenToWorldPoint(correctedPosition + offsetVector); //returns world point
+            return mainCamera.ScreenToWorldPoint(correctedPosition + offsetVector); //returns world point
         }
 
         if (topRight.x >= widthMax)
@@ -162,7 +167,7 @@ public class WindowManager : MonoBehaviour
             Vector3 correctedPosition = new Vector3(widthMax - extents.x, pos.y);
             Vector3 offsetVector = new Vector3(-offset, 0, 0);
             
-            return main.ScreenToWorldPoint(correctedPosition + offsetVector);        
+            return mainCamera.ScreenToWorldPoint(correctedPosition + offsetVector);        
         }
 
         if (bottomLeft.x <= widthMin)
@@ -170,7 +175,7 @@ public class WindowManager : MonoBehaviour
             Vector3 correctedPosition = new Vector3(widthMin + extents.x, pos.y);
             Vector3 offsetVector = new Vector3(offset, 0, 0);
             
-            return main.ScreenToWorldPoint(correctedPosition + offsetVector);        
+            return mainCamera.ScreenToWorldPoint(correctedPosition + offsetVector);        
         }
 
         if (bottomLeft.y <= heightMin)
@@ -178,7 +183,7 @@ public class WindowManager : MonoBehaviour
             Vector3 correctedPosition = new Vector3(pos.x, heightMin + extents.y);
             Vector3 offsetVector = new Vector3(0, offset, 0);
             
-            return main.ScreenToWorldPoint(correctedPosition + offsetVector);
+            return mainCamera.ScreenToWorldPoint(correctedPosition + offsetVector);
         }
 
         return null;

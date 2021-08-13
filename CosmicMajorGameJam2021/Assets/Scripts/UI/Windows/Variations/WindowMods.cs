@@ -23,7 +23,7 @@ public class WindowMods : WindowDraggable
         base.Start();
     }
 
-    protected virtual void CreateMod(Mod mod)
+    public virtual void CreateMod(Mod mod)
     {
         GameObject modObject = Instantiate(modTemplate, modParent.transform);
         ShortcutMod shortcut = modObject.GetComponent<ShortcutMod>();

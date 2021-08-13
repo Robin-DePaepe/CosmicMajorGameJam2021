@@ -5,8 +5,9 @@ using UnityEngine;
 public class ModManager : MonoBehaviour
 {
     public static ModManager main;
-    public static List<Mod> mods;
-    public static Dictionary<string, Mod> allMods;
+    public List<Mod> mods;
+    public Dictionary<string, Mod> allMods;
+    public WindowModStorage modWindow;
     public List<modData> modData;
     private TextAsset sheet;
     void Start()
@@ -31,6 +32,7 @@ public class ModManager : MonoBehaviour
                 mods.Add(mod);
             }
         }
+        
     }
 
     void Reader(int lineIndex, List<string> line)
@@ -38,6 +40,18 @@ public class ModManager : MonoBehaviour
         if (lineIndex > 0)
         {
             modData.Add(new modData(line));
+        }
+    }
+    public void AddMod(string modString)
+    {
+        Mod mod = allMods[modString];
+        
+        mods.Add(mod);
+        mod.AddSuspicion();
+
+        if (modWindow)
+        {
+            modWindow.CreateMod(mod);
         }
     }
 }
