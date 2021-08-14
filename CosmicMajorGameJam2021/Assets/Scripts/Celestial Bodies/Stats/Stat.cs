@@ -37,6 +37,7 @@ public class Stat
         {
             PointProduction = 1;
         }
+        barProgress = Random.Range(0,101);
     }
 
     public Stat(Stat stat)

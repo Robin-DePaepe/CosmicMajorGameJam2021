@@ -43,4 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8acb26f527a04cd47a75ebb016fcb962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  suspicionLossValue: 0
+  suspicionLossValue: 500
+  suspicionDecay: 10
+  suspicionRate: 1

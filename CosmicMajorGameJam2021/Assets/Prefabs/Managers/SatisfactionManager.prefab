@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9abbf408b99a8464d8424925148afa85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredSatisfaction: 0
+  requiredSatisfaction: 1000
