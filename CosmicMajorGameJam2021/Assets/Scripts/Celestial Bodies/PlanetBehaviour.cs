@@ -193,6 +193,7 @@ public class PlanetBehaviour : MonoBehaviour
         {
             fromCollision = true;
         }
+        SoundManager.main.PlaySoundEffect(SoundEffects.foldercorruption);
     }
 
     public void UnCorrupt(bool collision = false)

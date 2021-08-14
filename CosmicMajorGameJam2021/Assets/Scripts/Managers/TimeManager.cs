@@ -114,7 +114,7 @@ public class TimeManager : MonoBehaviour
         currentTime = startTime;
         timePaused = false;
         StartCoroutine(Clock());
-        
+        Invoke(nameof(BeginTheDay),Time.deltaTime);
         
         
     }
@@ -171,9 +171,10 @@ public class TimeManager : MonoBehaviour
 
     public void BeginTheDay()
     {
-        //play music
         //play begin day sound effects
         SoundManager.main.PlaySoundEffect(SoundEffects.daystart);
+        //play music
+        SoundManager.main.PlayMainGameMusic();
     }
 
     public void EndOfDay()
@@ -196,12 +197,6 @@ public class TimeManager : MonoBehaviour
     {
         //convert time
         time = ConvertGameTimeToRealTime(time);
-        
-        
-        //create pop up to notify player of download
-        GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
-        //set details
-        window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
         //set time
         StartCoroutine(ScheduleAddMod(mod, time));
     }
@@ -217,8 +212,14 @@ public class TimeManager : MonoBehaviour
             }
             timer += Time.deltaTime;
         }
+        //play notification sound
+        SoundManager.main.PlaySoundEffect(SoundEffects.notice);
         //add modifier to list
         ModManager.main.AddMod(mod);
+        //create pop up to notify player of download
+        GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
+        //set details
+        window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
         
     }
 
