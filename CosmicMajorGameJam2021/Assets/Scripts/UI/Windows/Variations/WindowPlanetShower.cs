@@ -27,6 +27,15 @@ public class WindowPlanetShower : WindowConjoined
     {
         base.Close();
     }
+
+    private void OnEnable()
+    {
+        if (planet)
+        {
+            animator.Play(planet.planetName.ToLower());
+        }
+    }
+
     void Update()
     {
         if (!planet)

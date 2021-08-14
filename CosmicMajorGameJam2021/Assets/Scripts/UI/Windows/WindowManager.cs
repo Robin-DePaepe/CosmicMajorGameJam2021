@@ -61,7 +61,7 @@ public class WindowManager : MonoBehaviour
 
     public void CreatePopUp(Vector3 position, string popUpText,float timeTillPop,float timeLasted)
     {
-        GameObject window = CreateWindow(position, popUpTemplate);
+        GameObject window = CreateWindow(position, popUpTemplate, onTop:true);
         window.GetComponent<WindowsConjoinedPopUp>().SetPop(popUpText, timeTillPop,timeLasted);
     }
 

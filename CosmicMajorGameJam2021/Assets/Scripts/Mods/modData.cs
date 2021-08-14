@@ -8,6 +8,7 @@ public class modData
     public int susPoints;
     public string description;
     public bool start;
+    public string website;
 
     public modData(List<string> line)
     {
@@ -52,6 +53,10 @@ public class modData
         if (line[8].Contains("x2"))
         {
             start = true;
+        }
+        else
+        {
+            website = line[8];
         }
     }
 }

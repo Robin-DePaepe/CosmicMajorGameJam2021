@@ -9,12 +9,14 @@ public class Planet : MonoBehaviour
     public Stats stats;
     public string planetName = "Planet";
     internal PlanetBehaviour behaviour;
+    internal ShortcutPlanet shortcut;
     public List<Mod> mods;
     public Color halfGood;
     public Color bad;
     private void Awake()
     {
         behaviour = GetComponent<PlanetBehaviour>();
+        shortcut = GetComponent<ShortcutPlanet>();
     }
 
     void Start()
@@ -44,15 +46,15 @@ public class Planet : MonoBehaviour
         stats.calculatePoints();
         if (stats.pointsProduced == stats.maxProduction)
         {
-            behaviour.sprite.color = Color.white;
+            shortcut.sprite.color = Color.white;
         }
-        else if (stats.pointsProduced > 0)
+        else if (stats.pointsProduced >= 0)
         {
-            behaviour.sprite.color = halfGood;
+            shortcut.sprite.color = halfGood;
         }
         else
         {
-            behaviour.sprite.color = bad;
+            shortcut.sprite.color = bad;
         }
     }
 

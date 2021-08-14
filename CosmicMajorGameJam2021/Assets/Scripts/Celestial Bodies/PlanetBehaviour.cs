@@ -1,7 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
+
 public class PlanetBehaviour : MonoBehaviour
 {
     #region Components and Constants
@@ -9,11 +12,9 @@ public class PlanetBehaviour : MonoBehaviour
     const float screenRatio = 16f / 9f;
 
     [Header("Components")]
-    public Sprite unCorruptSprite;
-    public Sprite corruptSprite;
     static Camera gameCamera;
-    CircleCollider2D col;
-    internal SpriteRenderer sprite;
+    BoxCollider2D col;
+    private ShortcutPlanet shortcut;
     #endregion
 
     #region Variables
@@ -42,11 +43,10 @@ public class PlanetBehaviour : MonoBehaviour
             gameCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         }
 
-        sprite = GetComponent<SpriteRenderer>();
-        col = GetComponent<CircleCollider2D>();
+        shortcut = GetComponent<ShortcutPlanet>();
+        col = GetComponent<BoxCollider2D>();
         StartCoroutine(waitTillStartCol());
     }
-
 
     private void Update()
     {
@@ -184,22 +184,19 @@ public class PlanetBehaviour : MonoBehaviour
     {
         corrupted = true;
         SatisfactionManager.main.ReduceSatisfaction(PlanetManager.main.corruptPenalty);
-        sprite.sprite = corruptSprite;
         
         PlanetManager.main.unCorrupt.Remove(gameObject);
         PlanetManager.main.corrupt.Add(gameObject);
-        
-        if (collision)
-        {
-            fromCollision = true;
-        }
+
+        fromCollision = collision;
+        shortcut.SetCorrupted(collision);
     }
 
     public void UnCorrupt(bool collision = false)
     {
         corrupted = false;
-
-        sprite.sprite = unCorruptSprite;
+        
+        shortcut.SetPair(shortcut.unCorruptSprite);
         
         PlanetManager.main.corrupt.Remove(gameObject);
         PlanetManager.main.unCorrupt.Add(gameObject);

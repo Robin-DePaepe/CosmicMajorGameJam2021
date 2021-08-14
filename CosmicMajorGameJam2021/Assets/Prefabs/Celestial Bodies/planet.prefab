@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5281285406131719129}
   - component: {fileID: 5281285406131719128}
   - component: {fileID: 5281285406131719131}
-  - component: {fileID: 4654082817297456714}
+  - component: {fileID: 6534127344917950401}
   - component: {fileID: 3655933349095764658}
   - component: {fileID: 5281285406131719142}
   - component: {fileID: 5281285406131719143}
@@ -48,8 +48,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58225fcbd52de541999603e7b0c0a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unCorruptSprite: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  corruptSprite: {fileID: 21300000, guid: 52a9d0a42c3f46f449ded492770d2fe9, type: 3}
   startDistanceToSun: 20
   currentAngle: 0
   offsetDistanceToSun: 0
@@ -94,7 +92,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
+  m_Sprite: {fileID: 6758691949751458484, guid: abcb9a5f9ae7cb74e9c0317e213e8217,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,8 +104,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &4654082817297456714
-CircleCollider2D:
+--- !u!61 &6534127344917950401
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -119,8 +118,18 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.666667, y: 7.6666665}
+    newSize: {x: 10.24, y: 10.24}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 3.93
+  m_Size: {x: 8, y: 7}
+  m_EdgeRadius: 0
 --- !u!50 &3655933349095764658
 Rigidbody2D:
   serializedVersion: 4
@@ -159,6 +168,26 @@ MonoBehaviour:
   windowTemplate: {fileID: 4938609599567031088, guid: 363a979d66f1a0240b03e8be7c154e97,
     type: 3}
   appName: 
+  unCorruptSprite:
+    close: {fileID: 6758691949751458484, guid: abcb9a5f9ae7cb74e9c0317e213e8217, type: 3}
+    open: {fileID: 5803290577018916541, guid: abcb9a5f9ae7cb74e9c0317e213e8217, type: 3}
+  collisionSprite:
+    close: {fileID: 1656021887445268772, guid: 5c9f197e254e50f4a9baa71c63bb9d7b, type: 3}
+    open: {fileID: 2702352533217683836, guid: 5c9f197e254e50f4a9baa71c63bb9d7b, type: 3}
+  corruptSprites:
+  - close: {fileID: -5238832238235090205, guid: 60e49ce56ed33f5488a4b67652bb4b3f,
+      type: 3}
+    open: {fileID: -8615103001200761676, guid: 60e49ce56ed33f5488a4b67652bb4b3f, type: 3}
+  - close: {fileID: 8044378021598756964, guid: dd88c45a5431fea4d9bc1ab1beda8604, type: 3}
+    open: {fileID: 6258258667584528415, guid: dd88c45a5431fea4d9bc1ab1beda8604, type: 3}
+  - close: {fileID: -4430864622038573184, guid: 680655612e8fe9b479f3df84b4e6b0e7,
+      type: 3}
+    open: {fileID: 5826436885905733803, guid: 680655612e8fe9b479f3df84b4e6b0e7, type: 3}
+  - close: {fileID: 1439868227702522495, guid: 42a7891335a02544d90f3a816d464bda, type: 3}
+    open: {fileID: 408054670103828417, guid: 42a7891335a02544d90f3a816d464bda, type: 3}
+  - close: {fileID: -6940746117064615400, guid: 8acb8e0c5935c644e8518c277248fcfa,
+      type: 3}
+    open: {fileID: 2541584094649263085, guid: 8acb8e0c5935c644e8518c277248fcfa, type: 3}
 --- !u!114 &5281285406131719143
 MonoBehaviour:
   m_ObjectHideFlags: 0

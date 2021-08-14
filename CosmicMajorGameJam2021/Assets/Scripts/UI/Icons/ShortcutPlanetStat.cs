@@ -7,9 +7,11 @@ public class ShortcutPlanetStat : Shortcut
 {
     internal Planet planet;
     private WindowPlanetStats windowScript;
+    
     protected override void Start()
     {
         appName = planet.planetName + " Stats";
+        Icon = planet.shortcut.thumb;
         base.Start();
     }
 

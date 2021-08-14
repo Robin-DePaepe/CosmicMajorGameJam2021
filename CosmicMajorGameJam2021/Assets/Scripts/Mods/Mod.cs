@@ -10,6 +10,7 @@ public class Mod
     internal string description;
     internal Sprite icon;
     internal List<int> changes;
+    internal string website;
     private int susPoints;
     public Mod(modData data)
     {
@@ -20,6 +21,10 @@ public class Mod
         icon = Resources.Load<Sprite>("ModIcon");
         changes = data.changes.ToList();
 
+        if (data.start)
+        {
+            website = data.website;
+        }
     }
 
     public void AddSuspicion()
