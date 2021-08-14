@@ -23,7 +23,8 @@ public class PlanetManager : MonoBehaviour
     
     public int corruptPenalty = 10;
     public int destroyPenalty = 20;
-
+    public float speed = 0.1f;
+    
     #endregion
 
     #region Lists and Dicts
@@ -32,6 +33,7 @@ public class PlanetManager : MonoBehaviour
     public List<GameObject> corrupt;
     public List<GameObject> unCorrupt;
     public List<GameObject> blackHoles;
+    public List<PlanetData> planetData;
     
     #endregion
 
@@ -43,43 +45,47 @@ public class PlanetManager : MonoBehaviour
         planets = new Dictionary<GameObject, Planet>();
         corrupt = new List<GameObject>();
         unCorrupt = new List<GameObject>();
+        planetData = new List<PlanetData>();
+        CSVReader.LoadFromString(Resources.Load<TextAsset>("Planets").ToString(), Reader);
     }
 
     private void Start()
     {
-        createPlanet("Aferus", 30, 90);
-        createPlanet("Aquonda", 20, 0);
-        //Invoke(nameof(CorruptRandom), 3f);
-        //Invoke(nameof(createBlackHole), 10f);
-    }
-
-    void Update()
-    {
-        
+        for (int i = 0; i < planetData.Count; i++)
+        {
+            StartCoroutine(schedulePlanet(planetData[i]));
+        }
     }
 
     #endregion
 
     #region Create And Destroy
 
-    void createPlanet(string planetName, float startDistance, float startAngle)
+    void Reader(int lineIndex, List<string> line)
+    {
+        if (lineIndex > 0)
+        {
+            planetData.Add(new PlanetData(line));
+        }
+    }
+    void createPlanet(string planetName, string description, Stats stats)
     {
         GameObject planet = Instantiate(planetTemplate, planetParent.transform);
         Planet planetScript = planet.GetComponent<Planet>();
 
-        planetScript.behaviour.startDistanceToSun = startDistance;
-        planetScript.behaviour.currentAngle = startAngle;
+        planetScript.behaviour.startDistanceToSun = Random.Range(minDistance, maxDistance);
+        planetScript.behaviour.currentAngle = Random.Range(0,360);
         planetScript.behaviour.maxDistance = maxDistance;
         planetScript.behaviour.minDistance = minDistance;
-        
-        
+        planetScript.description = description;
         planetScript.planetName = planetName;
+        planetScript.behaviour.travelingSpeed = speed;
+        planetScript.baseStats = stats;
         planet.name = planetName;
         
         planets.Add(planet, planetScript);
         unCorrupt.Add(planet);
     }
-
     void createBlackHole()
     {
         Vector3 position = new Vector3(Random.Range(minDistance * 2, maxDistance / 2),
@@ -90,7 +96,6 @@ public class PlanetManager : MonoBehaviour
         
         blackHoles.Add(blackHole);
     }
-
     public void destroyAllBlackHoles()
     {
         for (int i = 0; i < blackHoles.Count; i++)
@@ -115,6 +120,24 @@ public class PlanetManager : MonoBehaviour
         Destroy(planet);
     }
 
+    IEnumerator schedulePlanet(PlanetData data)
+    {
+        float timeToWait = TimeManager.main.ConvertGameTimeToRealTime(data.hoursToSpawn * 3600);
+        float timeWaited = 0;
+
+        while (timeToWait >= timeWaited)
+        {
+            if (!TimeManager.main.timePaused)
+            {
+                timeWaited += Time.deltaTime;
+            }
+
+            yield return new WaitForEndOfFrame();
+        }
+        
+        WindowManager.main.CreatePopUp(new Vector3(1000,-1000,0), "New Planet: " + data.name,0, 5f);
+        createPlanet(data.name, data.description, data.stats);
+    }
     #endregion
 
     #region Corruption

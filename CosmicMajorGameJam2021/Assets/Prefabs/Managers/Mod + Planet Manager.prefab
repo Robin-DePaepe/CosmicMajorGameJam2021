@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 744898d2042c7474b84d5ff977d485a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mods: []
+  modWindow: {fileID: 0}
 --- !u!114 &6818253583702291474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,10 +63,11 @@ MonoBehaviour:
   planetParent: {fileID: 0}
   blackHoleTemplate: {fileID: 3507489208988997998, guid: 10ac4fc08790e6346b74eb6b38132ca0,
     type: 3}
-  maxDistance: 50
-  minDistance: 5
+  maxDistance: 70
+  minDistance: 20
   corruptPenalty: 10
   destroyPenalty: 20
+  speed: 0.15
   corrupt: []
   unCorrupt: []
   blackHoles: []

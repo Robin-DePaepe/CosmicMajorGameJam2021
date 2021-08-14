@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
@@ -17,6 +18,8 @@ public class ShortcutPlanet : Shortcut
     public SpritePair collisionSprite;
     public List<SpritePair> corruptSprites;
     public float clickTime = 0.2f;
+    public TextMeshProUGUI nameText;
+    public Canvas worldCanvas;
     SpritePair currentPair;
     internal Sprite thumb;
 
@@ -28,6 +31,7 @@ public class ShortcutPlanet : Shortcut
     {
         sprite = GetComponent<SpriteRenderer>();
         planetBehaviour = GetComponent<PlanetBehaviour>();
+        worldCanvas.worldCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         col = GetComponent<BoxCollider2D>();
         offset = new Vector3(col.bounds.extents.x, 0, 0);
         planet = GetComponent<Planet>();
@@ -36,6 +40,7 @@ public class ShortcutPlanet : Shortcut
 
     protected override void Start()
     {
+        nameText.text = planet.planetName;
         thumb = Resources.Load<Sprite>("PlanetThumbs/" + planet.planetName.ToLower());
         SetPair(unCorruptSprite);
     }

@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 public class PlanetBehaviour : MonoBehaviour
 {
     #region Components and Constants
-    public const float travelingSpeed = 3f;
+    internal float travelingSpeed = 3f;
     const float screenRatio = 16f / 9f;
 
     [Header("Components")]
@@ -51,7 +51,7 @@ public class PlanetBehaviour : MonoBehaviour
     private void Update()
     {
         
-        if (!frozen)
+        if (!frozen && !TimeManager.main.timePaused)
         {
             if (corrupted)
             {

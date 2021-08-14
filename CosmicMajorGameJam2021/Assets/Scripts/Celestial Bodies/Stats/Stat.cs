@@ -20,6 +20,25 @@ public class Stat
         barProgress = Random.Range(0,101);
     }
 
+    public Stat(int[] ranges, string difficulty)
+    {
+        greenMin = ranges[0];
+        greenMax = ranges[1];
+
+        if (difficulty == "Hard")
+        {
+            PointProduction = 3;
+        }
+        else if (difficulty == "Medium")
+        {
+            PointProduction = 2;
+        }
+        else
+        {
+            PointProduction = 1;
+        }
+    }
+
     public Stat(Stat stat)
     {
         barProgress = stat.barProgress;

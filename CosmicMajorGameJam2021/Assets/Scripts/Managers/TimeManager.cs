@@ -56,8 +56,7 @@ public class GameTime //time object for in game events, to be set in game standa
     {
         if (gt1 != null && gt2 != null)
         {
-            return (gt1.hours >= gt2.hours) && (gt1.minutes >= gt2.minutes) && (gt1.seconds >= gt2.seconds);
-            
+            return (gt1.OnlySeconds() >= gt2.OnlySeconds());
         }
 
         return false;
@@ -67,7 +66,8 @@ public class GameTime //time object for in game events, to be set in game standa
     {
         if (gt1 != null && gt2 != null)
         {
-            return  (gt1.hours <= gt2.hours) && (gt1.minutes <= gt2.minutes) && (gt1.seconds <= gt2.seconds);
+            
+            return  (gt1.OnlySeconds() <= gt2.OnlySeconds());
             
         }
         return false;
@@ -97,7 +97,7 @@ public class TimeManager : MonoBehaviour
     private float totalTimeOfWorkDay;
     public GameTime currentTime;
     private GameTime nextSusDecrease=new GameTime();
-    private bool timePaused=true;
+    public bool timePaused=true;
     public bool debug;
     
     public static TimeManager main;
@@ -154,8 +154,8 @@ public class TimeManager : MonoBehaviour
             if (!timePaused)
             {
                 currentTime += new GameTime(ConvertRealTimeToGameTime(Time.deltaTime), 0, 0);
-                yield return new WaitForEndOfFrame();
             }
+            yield return new WaitForEndOfFrame();
         }
     }
 

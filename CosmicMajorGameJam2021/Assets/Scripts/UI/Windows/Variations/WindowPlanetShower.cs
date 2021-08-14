@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +10,7 @@ public class WindowPlanetShower : WindowConjoined
     internal Planet planet;
     public Animator animator;
     public Slider slider;
+    public TextMeshProUGUI description;
     public override void Minimise()
     {
         base.Minimise();
@@ -17,6 +19,7 @@ public class WindowPlanetShower : WindowConjoined
     protected override void Start()
     {
         base.Start();
+        description.text = planet.description;
         animator.Play(planet.planetName.ToLower());
         slider.minValue = planet.behaviour.getMin();
         slider.maxValue = planet.behaviour.getMax();

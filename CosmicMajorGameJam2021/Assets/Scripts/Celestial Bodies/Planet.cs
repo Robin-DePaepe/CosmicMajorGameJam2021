@@ -8,6 +8,7 @@ public class Planet : MonoBehaviour
     public Stats baseStats;
     public Stats stats;
     public string planetName = "Planet";
+    public string description;
     internal PlanetBehaviour behaviour;
     internal ShortcutPlanet shortcut;
     public List<Mod> mods;
@@ -22,15 +23,7 @@ public class Planet : MonoBehaviour
     void Start()
     {
         mods = new List<Mod>();
-        
-        baseStats = new Stats(
-            new Stat(50,70,1),
-            new Stat(50,70,1),
-            new Stat(50,70,1),
-            new Stat(50,70,1),
-            new Stat(50,70,1)
-            );
-        
+
         stats = new Stats(baseStats);
 
         StartCoroutine(waitPoints());
@@ -38,23 +31,26 @@ public class Planet : MonoBehaviour
 
     private void Update()
     {
-        stats = new Stats(baseStats);
-        for (int i = 0; i < mods.Count; i++)
+        if (!TimeManager.main.timePaused)
         {
-            mods[i].ChangeStats(stats);
-        }
-        stats.calculatePoints();
-        if (stats.pointsProduced == stats.maxProduction)
-        {
-            shortcut.sprite.color = Color.white;
-        }
-        else if (stats.pointsProduced >= 0)
-        {
-            shortcut.sprite.color = halfGood;
-        }
-        else
-        {
-            shortcut.sprite.color = bad;
+            stats = new Stats(baseStats);
+            for (int i = 0; i < mods.Count; i++)
+            {
+                mods[i].ChangeStats(stats);
+            }
+            stats.calculatePoints();
+            if (stats.pointsProduced == stats.maxProduction)
+            {
+                shortcut.sprite.color = Color.white;
+            }
+            else if (stats.pointsProduced >= 0)
+            {
+                shortcut.sprite.color = halfGood;
+            }
+            else
+            {
+                shortcut.sprite.color = bad;
+            }
         }
     }
 
