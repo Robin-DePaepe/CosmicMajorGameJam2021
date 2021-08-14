@@ -13,7 +13,7 @@ public class PlanetBehaviour : MonoBehaviour
     public Sprite corruptSprite;
     static Camera gameCamera;
     CircleCollider2D col;
-    private SpriteRenderer sprite;
+    internal SpriteRenderer sprite;
     #endregion
 
     #region Variables

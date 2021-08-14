@@ -10,7 +10,8 @@ public class Planet : MonoBehaviour
     public string planetName = "Planet";
     internal PlanetBehaviour behaviour;
     public List<Mod> mods;
-
+    public Color halfGood;
+    public Color bad;
     private void Awake()
     {
         behaviour = GetComponent<PlanetBehaviour>();
@@ -40,6 +41,19 @@ public class Planet : MonoBehaviour
         {
             mods[i].ChangeStats(stats);
         }
+        stats.calculatePoints();
+        if (stats.pointsProduced == stats.maxProduction)
+        {
+            behaviour.sprite.color = Color.white;
+        }
+        else if (stats.pointsProduced > 0)
+        {
+            behaviour.sprite.color = halfGood;
+        }
+        else
+        {
+            behaviour.sprite.color = bad;
+        }
     }
 
     IEnumerator waitPoints()
@@ -55,14 +69,8 @@ public class Planet : MonoBehaviour
                 
                 if (timeSinceLast >= 10f)
                 {
-                    int pointsProduced = 0;
-                    for (int i = 0; i < stats.list.Count; i++)
-                    {
-                        pointsProduced += stats.list[i].PointsProduced();
-                    }
-                    SatisfactionManager.main.AddSatisfaction(pointsProduced);
+                    SatisfactionManager.main.AddSatisfaction(stats.pointsProduced);
                     timeSinceLast = 0;
-                    SatisfactionManager.main.AddSatisfaction(pointsProduced);
                 }
             }
 

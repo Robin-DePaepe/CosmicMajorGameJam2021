@@ -41,6 +41,7 @@ public class WindowPlanetStats : WindowDraggable
     protected override void Update()
     {
         base.Update();
+        planetNameText.text = planet.planetName + ": " + planet.stats.pointsProduced + "/" + planet.stats.maxProduction;
         if (!planet)
         {
             Destroy(gameObject);

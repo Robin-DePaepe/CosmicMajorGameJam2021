@@ -1,4 +1,6 @@
-﻿[System.Serializable]
+﻿using UnityEngine;
+
+[System.Serializable]
 public class Stat
 {
     public int barProgress;
@@ -6,16 +8,16 @@ public class Stat
     public int greenMax;
     public string statName = "Statistic";
     public string description = "Description";
-    int PointProduction;
+    internal int PointProduction;
     int buffer;
-
+    internal int pointsProduced;
     public Stat(int greenMin, int greenMax, int PointProduction)
     {
-        barProgress = greenMin + (greenMax-greenMin)/2;
         this.greenMin = greenMin;
         this.greenMax = greenMax;
         this.PointProduction = PointProduction;
         buffer = CalculateBuffer();
+        barProgress = Random.Range(0,101);
     }
 
     public Stat(Stat stat)
@@ -36,14 +38,18 @@ public class Stat
         buffer = CalculateBuffer();
         if (barProgress >= greenMin && barProgress <= greenMax)
         {
-            return PointProduction;
+            pointsProduced = PointProduction;
         }
-        if (barProgress >= greenMin - buffer && barProgress <= greenMax + buffer)
+        else if (barProgress >= greenMin - buffer && barProgress <= greenMax + buffer)
         {
-            return 0;
+            pointsProduced = 0;
+        }
+        else
+        {
+            pointsProduced = -PointProduction;
         }
 
-        return -1;
+        return pointsProduced;
     }
 
     public int CalculateBuffer()

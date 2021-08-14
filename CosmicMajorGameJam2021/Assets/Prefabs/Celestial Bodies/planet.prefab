@@ -48,17 +48,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58225fcbd52de541999603e7b0c0a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canMove: 1
+  unCorruptSprite: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
+  corruptSprite: {fileID: 21300000, guid: 52a9d0a42c3f46f449ded492770d2fe9, type: 3}
   startDistanceToSun: 20
-  travelingSpeed: 0.5
   currentAngle: 0
   offsetDistanceToSun: 0
   maxDistance: 50
   minDistance: 5
-  unCorruptSprite: {fileID: 21300000, guid: 3c797de2297c8c54f909904c2e723158, type: 3}
-  corruptSprite: {fileID: 21300000, guid: 52a9d0a42c3f46f449ded492770d2fe9, type: 3}
-  corrupted: 0
-  fromCollision: 0
 --- !u!212 &5281285406131719131
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -177,6 +173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseStats:
     list: []
+    pointsProduced: 0
+    maxProduction: 0
     temperature:
       barProgress: 0
       greenMin: 0
@@ -209,6 +207,8 @@ MonoBehaviour:
       description: 
   stats:
     list: []
+    pointsProduced: 0
+    maxProduction: 0
     temperature:
       barProgress: 0
       greenMin: 0
@@ -241,3 +241,5 @@ MonoBehaviour:
       description: 
   planetName: Planet1
   mods: []
+  halfGood: {r: 0.6551145, g: 0.6792453, b: 0.07369172, a: 1}
+  bad: {r: 0.6132076, g: 0.29926896, b: 0.18801177, a: 1}

@@ -1738,7 +1738,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Planet Name
+  m_text: 'Planet Name: Points/Max'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77cf6de64defe9340baff133429cc4a6, type: 2}
   m_sharedMaterial: {fileID: 8195214936298048748, guid: 77cf6de64defe9340baff133429cc4a6,
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34.25
+  m_fontSize: 20.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

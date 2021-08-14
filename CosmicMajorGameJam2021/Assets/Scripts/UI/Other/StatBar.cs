@@ -12,6 +12,7 @@ public class StatBar : MonoBehaviour
     public RectTransform bufferRightRect;
     public TextMeshProUGUI statNameText;
     public TextMeshProUGUI statDescriptionText;
+    public TextMeshProUGUI pointProductionText;
     internal Stat stat;
     internal Planet planet;
     internal int index;
@@ -28,6 +29,7 @@ public class StatBar : MonoBehaviour
         statDescriptionText.text = stat.description;
         SetProgress(stat.barProgress);
         SetGreenZone(stat.greenMin, stat.greenMax, stat.CalculateBuffer());
+        pointProductionText.text = "Satisfaction: " + stat.pointsProduced + "/" + stat.PointProduction;
     }
 
     void SetProgress(int progress)

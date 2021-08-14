@@ -4,13 +4,14 @@ using System.Collections.Generic;
 public class Stats
 {
     public List<Stat> list;
-
+    public int pointsProduced;
+    public int maxProduction;
     public Stat temperature;
     public Stat waterLevels;
     public Stat vegetation;
     public Stat airQuality;
     public Stat population;
-    
+
     public Stats(Stat temperature, Stat waterLevels, Stat vegetation, Stat population, Stat airQuality)
     {
         temperature.SetStat("Temperature", "Ambient temperature of planet");
@@ -29,6 +30,7 @@ public class Stats
         this.airQuality = airQuality;
         
         createList();
+        setMaxProduction();
     }
 
     public Stats(Stats original)
@@ -49,6 +51,17 @@ public class Stats
         population.SetStat("Population", "Population density");
 
         createList();
+        setMaxProduction();
+    }
+
+    public void calculatePoints()
+    {
+        pointsProduced = 0;
+
+        for (int i = 0; i < list.Count; i++)
+        {
+            pointsProduced += list[i].PointsProduced();
+        }
     }
 
     void createList()
@@ -59,5 +72,13 @@ public class Stats
         list.Add(vegetation);
         list.Add(population);
         list.Add(airQuality);
+    }
+
+    void setMaxProduction()
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            maxProduction += list[i].PointProduction;
+        }
     }
 }
