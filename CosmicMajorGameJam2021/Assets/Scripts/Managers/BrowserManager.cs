@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BrowserManager : MonoBehaviour
 {
@@ -9,24 +11,65 @@ public class BrowserManager : MonoBehaviour
     [SerializeField] private GameObject tabsParent;
     [SerializeField] private GameObject tabPrefab;
     [SerializeField] private GameObject addButton;
-    [SerializeField] private GameObject defaultPage;
+    [SerializeField] private GameObject searchDefaultPage;
 
     const int maxTabs = 3;
 
     List<GameObject> tabs = new List<GameObject>();
+
+    //pages
+    [SerializeField] private GameObject defaultWebPage;
+
+    static private TextAsset pagesList;
+    // key: link string, value: destination page of the link
+    static List<string> pageLookupTable = new List<string>();
     #endregion
 
     private void Start()
     {
+        if
+            (!pagesList)
+        {
+            pagesList = Resources.Load<TextAsset>("Mods");
+            CSVReader.LoadFromString(pagesList.text, Reader);
+        }
         AddNewTab();
+    }
+
+    private void Reader(int lineIndex, List<string> line)
+    {
+        if (lineIndex > 0)
+        {
+            string site = line[line.Count - 1];
+            if (!pageLookupTable.Contains(site.ToLower())) pageLookupTable.Add(site.ToLower());
+        }
     }
 
     public void AddNewTab()
     {
-        GameObject tab = Instantiate(tabPrefab, tabsParent.transform);
+        AddTab(Instantiate(searchDefaultPage, transform), "New Page");
+    }
 
+    public void AddNewSite(string siteName)
+    {
+        if (pageLookupTable.Contains(siteName.ToLower()))
+        {
+            if (tabs.Count == maxTabs) tabs[0].GetComponent<TabBehaviour>().Close();
+
+            GameObject page = Instantiate(defaultWebPage, transform);
+
+            page.GetComponent<Image>().sprite = Resources.Load<Sprite>($"SitePages/{siteName}");
+            page.GetComponentInChildren<DownloadBehaviour>().SiteAdress = siteName;
+
+            AddTab(page, siteName);
+        }
+    }
+    private void AddTab(GameObject page, string pageName)
+    {
+        GameObject tab = Instantiate(tabPrefab, tabsParent.transform);
         tabs.Add(tab);
-        tab.GetComponent<TabBehaviour>().Page = Instantiate(defaultPage, transform);
+        tab.GetComponent<TabBehaviour>().Page = page;
+        tab.GetComponent<TabBehaviour>().Title = pageName;
 
         int addButtonIndex = tabs.Count;
 
@@ -46,12 +89,15 @@ public class BrowserManager : MonoBehaviour
     {
         if (tabs.Contains(tab))
         {
-            tabs.Remove(tab);
             addButton.SetActive(true);
+            addButton.transform.SetSiblingIndex(tabs.Count);
+
+            tabs.Remove(tab);
 
             if (tabs.Count == 0) Destroy(this.gameObject);
             else tabs[0].GetComponent<TabBehaviour>().ShowPage();
 
         }
     }
+
 }

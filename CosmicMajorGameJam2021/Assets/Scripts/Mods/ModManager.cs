@@ -31,8 +31,7 @@ public class ModManager : MonoBehaviour
                 mods.Add(mod);
                 mods.Add(mod);
             }
-        }
-        
+        }        
     }
 
     void Reader(int lineIndex, List<string> line)

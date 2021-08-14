@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TabBehaviour : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class TabBehaviour : MonoBehaviour
         }
     }
 
+    [SerializeField] private Text title;
+
+    public string Title
+    { set { title.text = value; } }
     #endregion
 
     private void Awake()
