@@ -1,6 +1,8 @@
 ﻿
+using System;
 using UnityEngine;
 using UnityEngine.Audio;
+using Random = UnityEngine.Random;
 
 public enum SoundEffects
 {
@@ -27,8 +29,13 @@ public class SoundManager : MonoBehaviour
 
 	private float musicVolume = 0.3f;
 	private float sfxVolume = 0.8f;
-
-	[Space] [Header("Sounds")] public AudioClip mailNormal;
+	
+	[Space] [Header("Music")] 
+	public AudioClip MainMenuMusic;
+	public AudioClip MainGameMusic;
+	[SerializeField] private bool isInMainMenuScene;
+	[Space] [Header("Sounds")] 
+	public AudioClip mailNormal;
 	public AudioClip mailBoss;
 	public AudioClip folderCorrupt;
 	public AudioClip shutDown;
@@ -39,7 +46,8 @@ public class SoundManager : MonoBehaviour
 	public AudioClip dayStart;
 
 
-	private AudioSource source;
+	public AudioSource musicSource;
+	public AudioSource sfxSource;
 
 	#region Properties
 
@@ -74,57 +82,74 @@ public class SoundManager : MonoBehaviour
 
 	private void Start()
 	{
-		source = GetComponent<AudioSource>();
+		
 		musicVolume = defaultMusicVolume;
 		sfxVolume = defaultSfxVolume;
 
 		UpdateMixerVolumes();
+		if(isInMainMenuScene)PlayMainMenuMusic();
+		else PlayMainGameMusic();
+		
 	}
 
 	private void UpdateMixerVolumes()
 	{
-		musicMixer.SetFloat("MusicVolume", Mathf.Log10(musicVolume) * 20);
-		sfxMixer.SetFloat("SfxVolume", Mathf.Log10(sfxVolume) * 20);
+	//	musicMixer.SetFloat("MusicVolume", Mathf.Log10(musicVolume) * 20);
+//		sfxMixer.SetFloat("SfxVolume", Mathf.Log10(sfxVolume) * 20);
+	}
+
+	private void Update()
+	{
+		if (Input.GetMouseButtonDown(0)) PlaySoundEffect(SoundEffects.click);
 	}
 
 	public void PlaySoundEffect(SoundEffects effect)
 	{
+		
 		switch (effect)
 		{
 			case SoundEffects.chime:
-				source.PlayOneShot(chime[Random.Range(0, chime.Length)]);
+				sfxSource.PlayOneShot(chime[Random.Range(0, chime.Length)]);
 				break;
 			case SoundEffects.click:
-				source.PlayOneShot(click[Random.Range(0, click.Length)]);
+				sfxSource.PlayOneShot(click[Random.Range(0, click.Length)]);
 				break;
 			case SoundEffects.email:
-				source.PlayOneShot(mailNormal);
+				sfxSource.PlayOneShot(mailNormal);
 				break;
 			case SoundEffects.error:
-				source.PlayOneShot(error[Random.Range(0, error.Length)]);
+				sfxSource.PlayOneShot(error[Random.Range(0, error.Length)]);
 				break;
 			case SoundEffects.foldercorruption:
-				source.PlayOneShot(folderCorrupt);
+				sfxSource.PlayOneShot(folderCorrupt);
 				break;
 			case SoundEffects.notice:
-				source.PlayOneShot(notice[Random.Range(0, notice.Length)]);
+				sfxSource.PlayOneShot(notice[Random.Range(0, notice.Length)]);
 				break;
 			case SoundEffects.shutdown:
-				source.PlayOneShot(shutDown);
+				sfxSource.PlayOneShot(shutDown);
 				break;
 			case SoundEffects.bossemail:
-				source.PlayOneShot(mailBoss);
+				sfxSource.PlayOneShot(mailBoss);
 				break;
 			case SoundEffects.daystart:
-				source.PlayOneShot(dayStart);
+				sfxSource.PlayOneShot(dayStart);
 				break;
 			default: break;
 		}
 	}
 
-	public void PlayMusic()
+	public void PlayMainMenuMusic()
 	{
-		
+		musicSource.clip = MainMenuMusic;
+		musicSource.Play();
+		Invoke(nameof(PlayMainMenuMusic),MainMenuMusic.length);//using this here because loop will be turned off for consistency across scenes with the prefab
+	}
+	public void PlayMainGameMusic()
+	{
+		musicSource.clip = MainGameMusic;
+		musicSource.Play();
+		Invoke(nameof(PlayMainMenuMusic),MainGameMusic.length);//doing this instead of loop because we may want to switch between different main game music
 	}
 
 }

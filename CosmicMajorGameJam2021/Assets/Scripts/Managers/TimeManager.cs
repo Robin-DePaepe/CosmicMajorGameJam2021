@@ -71,7 +71,11 @@ public class GameTime //time object for in game events, to be set in game standa
             
         }
         return false;
+    }
 
+    public int OnlySeconds()
+    {
+        return hours * 3600 + minutes * 60 + (int)seconds;
     }
 
 };
@@ -92,7 +96,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private RectTransform popUpPos;
     private float totalTimeOfWorkDay;
     public GameTime currentTime;
-
+    private GameTime nextSusDecrease=new GameTime();
     private bool timePaused=true;
     public bool debug;
     
@@ -106,10 +110,13 @@ public class TimeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        totalTimeOfWorkDay = ConvertGameTimeToRealTime((endTime - startTime).seconds);
+        totalTimeOfWorkDay = (endTime - startTime).OnlySeconds();
         currentTime = startTime;
         timePaused = false;
         StartCoroutine(Clock());
+        Invoke(nameof(BeginTheDay),Time.deltaTime);
+        
+        
     }
 
     // Update is called once per frame
@@ -118,6 +125,13 @@ public class TimeManager : MonoBehaviour
         if (debug)
         {
             LogTime();
+        }
+
+        if (currentTime >= nextSusDecrease)//suspicion decay
+        {
+            SuspicionManager.main.ReduceSuspicion(SuspicionManager.main.suspicionDecay);
+            nextSusDecrease = currentTime + new GameTime(ConvertRealTimeToGameTime(SuspicionManager.main.suspicionRate), 0, 0);
+            nextSusDecrease.convert();
         }
     }
 
@@ -132,21 +146,19 @@ public class TimeManager : MonoBehaviour
             Debug.Log(currentTime.hours + " " + currentTime.minutes + " " + currentTime.seconds);
         }
     }
-    
+
     IEnumerator Clock()
     {
-        while (!timePaused)
+        while (currentTime <= endTime)
         {
-            currentTime += new GameTime(ConvertRealTimeToGameTime(Time.deltaTime), 0,0 );
-            if (currentTime >= endTime)
+            if (!timePaused)
             {
-                timePaused = true;
+                currentTime += new GameTime(ConvertRealTimeToGameTime(Time.deltaTime), 0, 0);
+                yield return new WaitForEndOfFrame();
             }
-            yield return new WaitForEndOfFrame();
         }
     }
 
-    
 
     public float ConvertRealTimeToGameTime(float inLifeTime)//converts real time in seconds to in game time seconds
     {
@@ -159,9 +171,10 @@ public class TimeManager : MonoBehaviour
 
     public void BeginTheDay()
     {
-        //play music
         //play begin day sound effects
         SoundManager.main.PlaySoundEffect(SoundEffects.daystart);
+        //play music
+        SoundManager.main.PlayMainGameMusic();
     }
 
     public void EndOfDay()
@@ -169,26 +182,49 @@ public class TimeManager : MonoBehaviour
         SatisfactionManager.main.CheckSatisfactionCondition();
     }
 
+    public void ScheduleEmail(float time)//in in game time
+    { 
+        //set a time for the mail to be sent
+        //call a function which you send the email to be sent(or a type of mail if it's a random)
+        //types of emails to be sent from here
+        //1. Planet addition mail
+        //2. Spam product ad
+        //3. Actual product ad
+        
+    }
+
     public void ScheduleModDownLoad(string mod, float time)//time is in game time
     {
         //convert time
         time = ConvertGameTimeToRealTime(time);
-        
-        
-        //create pop up to notify player of download
-        GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
-        window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
+        //set time
         StartCoroutine(ScheduleAddMod(mod, time));
     }
 
     IEnumerator ScheduleAddMod(string mod,float time)
     {
-        yield return new WaitForSeconds(time);
+        float timer = 0;
+        while (timer < time)
+        {
+            while (timePaused)
+            {
+                yield return null;
+            }
+            timer += Time.deltaTime;
+        }
+        //play notification sound
+        SoundManager.main.PlaySoundEffect(SoundEffects.notice);
         //add modifier to list
         ModManager.main.AddMod(mod);
+        //create pop up to notify player of download
+        GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
+        //set details
+        window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
         
     }
-    
-    
-    
+
+    public void ChangePause() => timePaused = !timePaused;
+
+
+
 }
