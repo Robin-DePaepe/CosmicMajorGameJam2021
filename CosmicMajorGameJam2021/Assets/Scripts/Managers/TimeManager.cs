@@ -215,7 +215,7 @@ public class TimeManager : MonoBehaviour
         //play notification sound
         SoundManager.main.PlaySoundEffect(SoundEffects.notice);
         //add modifier to list
-        ModManager.main.AddMod(mod);
+        ModManager.main.AddModByName(mod);
         //create pop up to notify player of download
         GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
         //set details

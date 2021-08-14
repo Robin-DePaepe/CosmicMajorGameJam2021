@@ -41,7 +41,15 @@ public class ModManager : MonoBehaviour
             modData.Add(new modData(line));
         }
     }
-    public void AddMod(string modString)
+
+    public void AddModBySite(string siteAddress)
+    {
+        //foreach (Mod mod in mods)
+        //{
+        //    if (mod.website == siteAddress) AddModByName(mod.modName);
+        //}
+    }
+    public void AddModByName(string modString)
     {
         Mod mod = allMods[modString];
         

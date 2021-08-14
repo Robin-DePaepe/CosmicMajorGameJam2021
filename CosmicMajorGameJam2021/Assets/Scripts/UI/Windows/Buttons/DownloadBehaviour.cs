@@ -18,7 +18,7 @@ public class DownloadBehaviour : MonoBehaviour
     #endregion
     public void OnDownload()
     {
-        Debug.Log($"downloading from {site} now.");
+        ModManager.main.AddModBySite(site);
     }
 
 
