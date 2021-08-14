@@ -127,10 +127,10 @@ public class TimeManager : MonoBehaviour
             LogTime();
         }
 
-        if (currentTime == nextSusDecrease)
+        if (currentTime >= nextSusDecrease)//suspicion decay
         {
             SuspicionManager.main.ReduceSuspicion(SuspicionManager.main.suspicionDecay);
-            nextSusDecrease = currentTime + new GameTime(SuspicionManager.main.suspicionRate, 0, 0);
+            nextSusDecrease = currentTime + new GameTime(ConvertRealTimeToGameTime(SuspicionManager.main.suspicionRate), 0, 0);
             nextSusDecrease.convert();
         }
     }
