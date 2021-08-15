@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SuspicionManager : MonoBehaviour
 {
@@ -14,9 +15,14 @@ public class SuspicionManager : MonoBehaviour
     [SerializeField] public int suspicionRate;
     
     
-    private int suspicion;
+    public int suspicion;
 
     public static SuspicionManager main;
+    
+    [Header("Bar")]
+    public Image bar;
+    public Sprite[] barSprites;
+    private int threshold;
 
     private void Awake()
     {
@@ -26,24 +32,27 @@ public class SuspicionManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        threshold = suspicionLossValue / (barSprites.Length-1);
+        SetBarSprite();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //SetBarSprite();
     }
 
     public void AddSuspicion(int addition)
     {
         suspicion = Mathf.Min(suspicion + addition, 100);
         CheckForEmailCondition();
+        SetBarSprite();
     }
 
     public void ReduceSuspicion(int reduction)
     {
         suspicion =Mathf.Max(suspicion-reduction,0);
+        SetBarSprite();
     }
 
     public void CheckForEmailCondition()
@@ -57,18 +66,25 @@ public class SuspicionManager : MonoBehaviour
         {
             
             //send 75% sus mail
+            //MailManager.main.ScheduleNewMail(0f, new Mail());
         }
         if (suspicion >= 50)
         {
             //send 50% sus mail
-            
+            //MailManager.main.ScheduleNewMail(0f, new Mail());
+
         }
         if (suspicion >= 25)
         {
             //send 25% sus mail
-            
+            //MailManager.main.ScheduleNewMail(0f, new Mail());
         }
         
         
+    }
+    
+    public void SetBarSprite()
+    {
+        bar.sprite = barSprites[Mathf.Max(0,(int)(suspicion / threshold)-1)];
     }
 }

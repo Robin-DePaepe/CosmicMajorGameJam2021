@@ -46,3 +46,16 @@ MonoBehaviour:
   suspicionLossValue: 500
   suspicionDecay: 10
   suspicionRate: 1
+  suspicion: 0
+  bar: {fileID: 0}
+  barSprites:
+  - {fileID: 8509521148418038497, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: -2799159015661063067, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: 1996914521097297239, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: -4153081374495176504, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: 247968918207308389, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: 2018317806350066181, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: -7422255245755910275, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: -6736891293700218021, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: 4975511891453570651, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}
+  - {fileID: 3375008135218997444, guid: 24878c195e1c92f4ba74a565bd1791d0, type: 3}

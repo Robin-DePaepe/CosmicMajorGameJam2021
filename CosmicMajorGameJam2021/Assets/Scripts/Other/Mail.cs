@@ -17,4 +17,11 @@ public class Mail : MonoBehaviour
         title = _title;
     }
 
+    public string Sender()
+    {
+        return infoSender;
+    }
+
+    
+
 }

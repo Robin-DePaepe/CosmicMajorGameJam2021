@@ -182,12 +182,11 @@ public class TimeManager : MonoBehaviour
         SatisfactionManager.main.CheckSatisfactionCondition();
     }
 
-    public void ScheduleEmail(float time)//in in game time
+    public void ScheduleEmail(float time)//in in real time
     { 
         //set a time for the mail to be sent
         //call a function which you send the email to be sent(or a type of mail if it's a random)
         //types of emails to be sent from here
-        //1. Planet addition mail
         //2. Spam product ad
         //3. Actual product ad
 

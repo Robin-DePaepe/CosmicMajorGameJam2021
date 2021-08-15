@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MailManager : MonoBehaviour
 {
@@ -37,12 +38,17 @@ public class MailManager : MonoBehaviour
         mails.Add(mail);
 
         //play sound
+        if (mail.Sender() == "Bossy")
+            SoundManager.main.PlaySoundEffect(SoundEffects.bossemail);
+        else
+            SoundManager.main.PlaySoundEffect(SoundEffects.email);
         //fire pop up
+        WindowManager.main.CreatePopUp(new Vector3(1000,-1000,0), "New Mail from " + mail.Sender(),0, 5f);
     }
 
     private void Reader(int lineIndex, List<string> line)
     {
-        Mail mail = new Mail(line[3], line[3], line[4]);
+        Mail mail = new Mail(line[2], line[3], line[4]);
 
         ScheduleNewMail(float.Parse(line[0]), mail);
     }

@@ -2,15 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SatisfactionManager : MonoBehaviour
 {
     [Tooltip("How much satisfaction does the player need to win the level?")]
-    [SerializeField]private int requiredSatisfaction;
-    private int satisfaction;
+    [SerializeField]private int requiredSatisfaction=100;
+    public int satisfaction=0;
 
     public static SatisfactionManager main;
 
+    [Header("Bar")]
+    public Image bar;
+    public Sprite[] barSprites;
+    private int threshold;
+    
     private void Awake()
     {
         main = this;
@@ -19,13 +25,14 @@ public class SatisfactionManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        threshold = requiredSatisfaction /20;
+        SetBarSprite();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //SetBarSprite();
     }
     public void ResetSatisfaction()
     {
@@ -34,12 +41,14 @@ public class SatisfactionManager : MonoBehaviour
 
     public void AddSatisfaction(int addition)
     {
-        satisfaction =Mathf.Min(satisfaction+addition,100);
+        satisfaction =Mathf.Max(0,Mathf.Min(satisfaction+addition,100));
+        SetBarSprite();
         
     }
     public void ReduceSatisfaction(int reduction)
     {
         satisfaction =Mathf.Max(satisfaction-reduction,0);
+        SetBarSprite();
     }
     public void CheckSatisfactionCondition()
     {
@@ -53,5 +62,11 @@ public class SatisfactionManager : MonoBehaviour
             //insert what happens when we lose here
             GameManager.main.Loss();
         }
+    }
+
+    public void SetBarSprite()
+    {
+        
+        bar.sprite = barSprites[Mathf.Max(0,(int)(satisfaction / threshold)-1)];
     }
 }

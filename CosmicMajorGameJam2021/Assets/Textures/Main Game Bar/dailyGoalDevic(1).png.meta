@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 854f4e59ded936c47a16bcf1691fbd10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4503950831595702715
+    second: dailyGoalDevic(1)_0
+  - first:
+      213: -3691637001220230414
+    second: dailyGoalDevic(1)_1
+  - first:
+      213: 3377162515982850196
+    second: dailyGoalDevic(1)_2
+  - first:
+      213: -629937680770131173
+    second: dailyGoalDevic(1)_3
+  - first:
+      213: -3307336753236715111
+    second: dailyGoalDevic(1)_4
+  - first:
+      213: -417917963166668595
+    second: dailyGoalDevic(1)_5
+  - first:
+      213: -2134252885936173546
+    second: dailyGoalDevic(1)_6
+  - first:
+      213: 8253861227082171023
+    second: dailyGoalDevic(1)_7
+  - first:
+      213: 2275444507136714566
+    second: dailyGoalDevic(1)_8
+  - first:
+      213: 8233118991642795055
+    second: dailyGoalDevic(1)_9
+  - first:
+      213: 4633306448258817631
+    second: dailyGoalDevic(1)_10
+  - first:
+      213: 2819461575193139319
+    second: dailyGoalDevic(1)_11
+  - first:
+      213: -635169559181096305
+    second: dailyGoalDevic(1)_12
+  - first:
+      213: 4868059963246535897
+    second: dailyGoalDevic(1)_13
+  - first:
+      213: 7298797519445865661
+    second: dailyGoalDevic(1)_14
+  - first:
+      213: 4497911792672340872
+    second: dailyGoalDevic(1)_15
+  - first:
+      213: 3824368036361475178
+    second: dailyGoalDevic(1)_16
+  - first:
+      213: 746364503697112525
+    second: dailyGoalDevic(1)_17
+  - first:
+      213: 9105656546310499615
+    second: dailyGoalDevic(1)_18
+  - first:
+      213: -1173002217944983166
+    second: dailyGoalDevic(1)_19
+  - first:
+      213: 7565488205750490032
+    second: dailyGoalDevic(1)_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546b9e4e490ce71c0800000000000000
+      internalID: -4503950831595702715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 121
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2749ed4bba4ccc0800000000000000
+      internalID: -3691637001220230414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 121
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4981ce15a671ede20800000000000000
+      internalID: 3377162515982850196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 121
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b101354030247f0800000000000000
+      internalID: -629937680770131173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 121
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995bb6febaf912d0800000000000000
+      internalID: -3307336753236715111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 91
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc82234a3d1433af0800000000000000
+      internalID: -417917963166668595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 91
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e0ce8de4c9162e0800000000000000
+      internalID: -2134252885936173546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 91
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f824a912e0b9b8270800000000000000
+      internalID: 8253861227082171023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 91
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6476ff139b0049f10800000000000000
+      internalID: 2275444507136714566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 91
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c146a1a1ae14270800000000000000
+      internalID: 8233118991642795055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e5ef79aafcc4040800000000000000
+      internalID: 4633306448258817631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 61
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778104f4d5db02720800000000000000
+      internalID: 2819461575193139319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 61
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a8ed4b6ac6f27f0800000000000000
+      internalID: -635169559181096305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 61
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d46c969eb2de8340800000000000000
+      internalID: 4868059963246535897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 61
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4b21a5ca98a4560800000000000000
+      internalID: 7298797519445865661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b7649c1facb6e30800000000000000
+      internalID: 4497911792672340872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_16
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 31
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a641fa97772e21530800000000000000
+      internalID: 3824368036361475178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 31
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb3dbcf8e9b5a00800000000000000
+      internalID: 746364503697112525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 31
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d2c81926acd5e70800000000000000
+      internalID: 9105656546310499615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 31
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289d4a692b8a8bfe0800000000000000
+      internalID: -1173002217944983166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dailyGoalDevic(1)_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b35a2080730ef860800000000000000
+      internalID: 7565488205750490032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
