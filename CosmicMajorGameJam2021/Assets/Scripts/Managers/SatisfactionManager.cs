@@ -32,7 +32,7 @@ public class SatisfactionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //SetBarSprite();
+        SetBarSprite();
     }
     public void ResetSatisfaction()
     {

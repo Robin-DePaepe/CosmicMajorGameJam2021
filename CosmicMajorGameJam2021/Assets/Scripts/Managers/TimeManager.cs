@@ -92,6 +92,8 @@ public class TimeManager : MonoBehaviour
     [Tooltip("in seconds")]
     [SerializeField] private GameTime endTime;
 
+    [Header("Mod download")] [SerializeField]
+    private float modDownLoadTime;
 
     [SerializeField] private RectTransform popUpPos;
     private float totalTimeOfWorkDay;
@@ -192,10 +194,10 @@ public class TimeManager : MonoBehaviour
 
     }
 
-    public void ScheduleModDownLoad(string mod, float time)//time is in game time
+    public void ScheduleModDownLoad(string mod)//time is in game time
     {
         //convert time
-        time = ConvertGameTimeToRealTime(time);
+        float time = ConvertGameTimeToRealTime(modDownLoadTime);
         //set time
         StartCoroutine(ScheduleAddMod(mod, time));
     }

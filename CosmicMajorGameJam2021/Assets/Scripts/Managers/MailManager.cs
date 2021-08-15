@@ -18,7 +18,7 @@ public class MailManager : MonoBehaviour
     {
         main = this;
 
-        StartCoroutine(ScheduleNewMail(10f, new Mail("titel", "robin DP", "wat ben jij goed")));
+        //StartCoroutine(ScheduleNewMail(10f, new Mail("titel", "robin DP", "wat ben jij goed")));
         if (!mailList)
         {
             mailList = Resources.Load<TextAsset>("EmailChart");
@@ -38,17 +38,17 @@ public class MailManager : MonoBehaviour
         mails.Add(mail);
 
         //play sound
-        if (mail.Sender() == "Bossy")
+        /*if (mail.Sender() == "Bossy")
             SoundManager.main.PlaySoundEffect(SoundEffects.bossemail);
         else
-            SoundManager.main.PlaySoundEffect(SoundEffects.email);
+            SoundManager.main.PlaySoundEffect(SoundEffects.email);*/
         //fire pop up
-        WindowManager.main.CreatePopUp(new Vector3(1000,-1000,0), "New Mail from " + mail.Sender(),0, 5f);
+        //WindowManager.main.CreatePopUp(new Vector3(1000,-1000,0), "New Mail from " + mail.Sender(),0, 5f);
     }
 
     private void Reader(int lineIndex, List<string> line)
     {
-        Mail mail = new Mail(line[2], line[3], line[4]);
+        Mail mail = new Mail();
 
         ScheduleNewMail(float.Parse(line[0]), mail);
     }
