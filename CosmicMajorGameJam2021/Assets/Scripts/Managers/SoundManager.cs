@@ -159,7 +159,7 @@ public class SoundManager : MonoBehaviour
 	{
 		musicSource.clip = MainGameMusic[1];
 		musicSource.Play();
-		Invoke(nameof(PlayMainMenuMusic),musicSource.clip.length);//doing this instead of loop because we may want to switch between different main game music
+		Invoke(nameof(PlayMainGameMusic),musicSource.clip.length);//doing this instead of loop because we may want to switch between different main game music
 	}
 
 }
