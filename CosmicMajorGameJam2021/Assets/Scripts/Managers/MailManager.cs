@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MailManager : MonoBehaviour
 {
@@ -12,13 +13,19 @@ public class MailManager : MonoBehaviour
 
     static private TextAsset mailList;
 
+    [SerializeField] private GameObject mailSummaryTemplate;
+    [SerializeField] private GameObject mailSummaryList;
+
+    //mail displayable info
+    [SerializeField] private Text subject;
+    [SerializeField] private Text senderInfo;
+    [SerializeField] private Text body;
     #endregion
 
     private void Start()
     {
         main = this;
 
-        //StartCoroutine(ScheduleNewMail(10f, new Mail("titel", "robin DP", "wat ben jij goed")));
         if (!mailList)
         {
             mailList = Resources.Load<TextAsset>("EmailChart");
@@ -26,16 +33,29 @@ public class MailManager : MonoBehaviour
         }
     }
 
-    public IEnumerator ScheduleNewMail(float time, Mail mail)
+    public IEnumerator ScheduleNewMail(float time, GameObject mail)
     {
         yield return new WaitForSeconds(time);
 
         AddMail(mail);
     }
 
-    private void AddMail(Mail mail)
+    private void AddMail(GameObject mail)
     {
-        mails.Add(mail);
+        Mail mailScript = mail.GetComponent<Mail>();
+
+
+        WindowManager.main.CreatePopUp(new Vector3(1000, -10000, 0f), "New mail from: " + mailScript.MailData.infoSender, 0f, 2.5f);
+
+        //set to latest new mail in the hierachy
+        mail.transform.SetSiblingIndex(mailSummaryList.transform.childCount);
+
+        mail.SetActive(true);
+
+        mailScript.SetArrivalTime();
+        mails.Add(mailScript);
+
+        Canvas.ForceUpdateCanvases();
 
         //play sound
         /*if (mail.Sender() == "Bossy")
@@ -46,10 +66,36 @@ public class MailManager : MonoBehaviour
         //WindowManager.main.CreatePopUp(new Vector3(1000,-1000,0), "New Mail from " + mail.Sender(),0, 5f);
     }
 
+    public void RemoveMail(Mail mail)
+    {
+        mails.Remove(mail);
+    }
+
+    public void MailSelected(Mail mail)
+    {
+        subject.text = mail.MailData.subject;
+        senderInfo.text = mail.MailData.infoSender;
+        body.text = mail.MailData.body;
+    }
+
     private void Reader(int lineIndex, List<string> line)
     {
-        Mail mail = new Mail();
+        MailData.type mailType = MailData.type.regular;
 
-        ScheduleNewMail(float.Parse(line[0]), mail);
+        switch (line[1])
+        {
+            case "regular":
+                break;
+            case "boss": mailType = MailData.type.boss;
+                break;
+            default:
+                break;
+        }
+
+        GameObject mail = Instantiate(mailSummaryTemplate, mailSummaryList.transform);
+        mail.GetComponent<Mail>().SetData(new MailData(line[3], line[2], line[4], mailType));
+        mail.SetActive(false);
+
+       StartCoroutine(ScheduleNewMail(float.Parse(line[0]), mail));
     }
 }
