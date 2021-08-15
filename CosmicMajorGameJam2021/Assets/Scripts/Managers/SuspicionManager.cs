@@ -85,6 +85,8 @@ public class SuspicionManager : MonoBehaviour
     
     public void SetBarSprite()
     {
-        bar.sprite = barSprites[Mathf.Max(0,(int)(suspicion /Mathf.Max(1, threshold))-1)];
+        int snum = (Mathf.Max(suspicion,1) / Mathf.Max(1, threshold) - 1);
+        Mathf.Clamp(snum, 0, barSprites.Length);
+        bar.sprite = barSprites[snum];
     }
 }

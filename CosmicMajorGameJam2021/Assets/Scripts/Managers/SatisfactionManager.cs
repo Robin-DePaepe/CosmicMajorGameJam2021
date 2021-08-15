@@ -66,7 +66,10 @@ public class SatisfactionManager : MonoBehaviour
 
     public void SetBarSprite()
     {
+        int snum = (Mathf.Max(satisfaction,1) / Mathf.Max(1, threshold) - 1);
+        Mathf.Clamp(snum, 0, barSprites.Length);
+        bar.sprite = barSprites[snum];
         
-        bar.sprite = barSprites[Mathf.Max(0,(int)(satisfaction / Mathf.Max(1, threshold))-1)];
+        
     }
 }
