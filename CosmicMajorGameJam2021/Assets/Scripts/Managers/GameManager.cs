@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager main;
+    public GameObject winpanel;
+    public GameObject losepanel;
 
    /* private void Awake()
     {
@@ -33,9 +35,21 @@ public class GameManager : MonoBehaviour
     }
     public void LoadMainMenuScene()
     {
-        SceneManager.LoadScene("MainMenu");
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("GameScene"))
+        {
+            StartCoroutine(PlaySoundAndGo());
+        }
+        else
+            SceneManager.LoadScene("MainMenu");
     }
 
+    IEnumerator PlaySoundAndGo()
+    {
+        SoundManager.main.PlaySoundEffect(SoundEffects.donewithgame);
+        yield return new WaitForSeconds(6f);
+        SceneManager.LoadScene("MainMenu");
+    }
+    
     public void LoadCreditScene()
     {
         SceneManager.LoadScene("CreditsScene");
@@ -44,13 +58,19 @@ public class GameManager : MonoBehaviour
     public void Loss()
     {
         //play loss sound effect
+        SoundManager.main.musicSource.Stop();
         SoundManager.main.PlaySoundEffect(SoundEffects.shutdown);
+        
         //play loss visual effects
-        SceneManager.LoadScene("EndScene");
+        losepanel.SetActive(true);
     }
 
     public void Win()
     {
         
+        //
+        winpanel.SetActive(true);
+        //play sound win
+        SoundManager.main.PlaySoundEffect(SoundEffects.daycomplete);
     }
 }

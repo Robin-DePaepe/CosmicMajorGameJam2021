@@ -159,6 +159,8 @@ public class TimeManager : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+        EndOfDay();
+        
     }
 
 

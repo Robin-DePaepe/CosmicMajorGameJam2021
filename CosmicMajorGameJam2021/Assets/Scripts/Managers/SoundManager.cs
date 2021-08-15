@@ -14,7 +14,9 @@ public enum SoundEffects
 	notice,
 	chime,
 	foldercorruption,
-	daystart
+	daystart,
+	daycomplete,
+	donewithgame
 };
 
 public class SoundManager : MonoBehaviour
@@ -44,6 +46,8 @@ public class SoundManager : MonoBehaviour
 	public AudioClip[] chime;
 	public AudioClip[] click;
 	public AudioClip dayStart;
+	public AudioClip dayComplete;
+	public AudioClip doneWithGame;
 
 
 	public AudioSource musicSource;
@@ -134,6 +138,12 @@ public class SoundManager : MonoBehaviour
 				break;
 			case SoundEffects.daystart:
 				sfxSource.PlayOneShot(dayStart);
+				break;
+			case SoundEffects.daycomplete:
+				sfxSource.PlayOneShot(dayComplete);
+				break;
+			case SoundEffects.donewithgame:
+				sfxSource.PlayOneShot(doneWithGame);
 				break;
 			default: break;
 		}

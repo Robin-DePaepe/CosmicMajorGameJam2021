@@ -54,7 +54,7 @@ public class SatisfactionManager : MonoBehaviour
     {
         if (satisfaction >= requiredSatisfaction)
         {
-            //pass on to next day
+            GameManager.main.Win();
             
         }
         else

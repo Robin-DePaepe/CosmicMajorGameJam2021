@@ -43,3 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 147767de1f4d6314f8dded791da15f0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winpanel: {fileID: 0}
+  losepanel: {fileID: 0}
