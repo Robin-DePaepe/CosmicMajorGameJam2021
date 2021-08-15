@@ -2,11 +2,11 @@ Spawn Time (game time hours),Name,Description,Difficulty,Temperature,Water Level
 0,Vistasa,A lush planet suitable for life. Offers an abundance of plant life at the cost of very mountainous terrain,Easy,40-80,10-30,40-100,10-50,10-40
 0,Aquonda,A planet teeming with life but with very little water on the surface. The plants gain their water through underground deposits,Easy,30-50,0-20,10-30,0-30,10-30
 0,Solmont,"A very flat planet with little variation in terrain. Once large mountain dominates the planet, peeking out through the clouds",Easy,20-50,20-40,20-50,20-60,10-30
-1,Caberum,"Extremely rocky environment that's always covered in a thick gray fog. The perfect planet for excavation of materials, but not much else",Easy,20-30,20-50,10-40,20-50,20-40
-2,Lurax,"One large river runs through the entire world, connecting back onto itself like a ring. This is the only habitable lush area, with the rest of the planet being extremely rocky. ",Medium,40-60,10-30,50-60,10-20,40-50
-3,Glakus,"Extremely cold planet that's completely covered in ice. Once a flourishing environment, it's now used as a research facility for collecting ice samples",Medium,0-10,40-60,0-10,30-60,40-50
-4,Esvita,"An extremely dense amount of people reside on this planet, causing there to never be enough food to go around. Wastelands litter the planet with very few patches of green remaining",Medium,30-50,30-40,20-30,50-60,60-80
-5,Aferus,"An large quantity of Underwater volcanoes causes an abundance of clouds to appear on this planet. Almost seems like a gaseous planet from above, but is actually quite habitable",Medium,40-60,40-50,40-60,20-40,50-90
-6,Disolum,"Extremely hot planet. Known for it's always-erupting volcanoes and extreme density of ore deposits, making it worth it to make a track onto the planet",Hard,70-80,0-10,0-10,10-20,0-10
-6.5,Opela,Land mass is made up of countless small islands that fill the planet. Wealthy individuals buy these islands and create their own countries.,Hard,30-40,60-70,50-70,40-50,70-80
-7,Silec,Overgrown planet that remains uninhabitable due to a high amount of poisonous plant life and extremely dangerous animals. ,Hard,70-80,60-70,90-100,0-10,80-100
+2,Caberum,"Extremely rocky environment that's always covered in a thick gray fog. The perfect planet for excavation of materials, but not much else",Easy,20-30,20-50,10-40,20-50,20-40
+4,Lurax,"One large river runs through the entire world, connecting back onto itself like a ring. This is the only habitable lush area, with the rest of the planet being extremely rocky. ",Medium,40-60,10-30,50-60,10-20,40-50
+6,Glakus,"Extremely cold planet that's completely covered in ice. Once a flourishing environment, it's now used as a research facility for collecting ice samples",Medium,0-10,40-60,0-10,30-60,40-50
+7,Esvita,"An extremely dense amount of people reside on this planet, causing there to never be enough food to go around. Wastelands litter the planet with very few patches of green remaining",Medium,30-50,30-40,20-30,50-60,60-80
+9,Aferus,"An large quantity of Underwater volcanoes causes an abundance of clouds to appear on this planet. Almost seems like a gaseous planet from above, but is actually quite habitable",Medium,40-60,40-50,40-60,20-40,50-90
+10,Disolum,"Extremely hot planet. Known for it's always-erupting volcanoes and extreme density of ore deposits, making it worth it to make a track onto the planet",Hard,70-80,0-10,0-10,10-20,0-10
+12.5,Opela,Land mass is made up of countless small islands that fill the planet. Wealthy individuals buy these islands and create their own countries.,Hard,30-40,60-70,50-70,40-50,70-80
+14,Silec,Overgrown planet that remains uninhabitable due to a high amount of poisonous plant life and extremely dangerous animals. ,Hard,70-80,60-70,90-100,0-10,80-100

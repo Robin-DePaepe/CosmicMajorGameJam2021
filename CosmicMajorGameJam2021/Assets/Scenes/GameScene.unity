@@ -408,6 +408,11 @@ PrefabInstance:
       propertyPath: bar
       value: 
       objectReference: {fileID: 565946644}
+    - target: {fileID: 7698832750914935015, guid: 506eb2ab748cdf4449b5d277ca5a420e,
+        type: 3}
+      propertyPath: requiredSatisfaction
+      value: 1000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 506eb2ab748cdf4449b5d277ca5a420e, type: 3}
 --- !u!4 &612469166 stripped
@@ -971,6 +976,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TimeManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371919070970948806, guid: 95747c3cb7784fd439aab1d9d884f980,
+        type: 3}
+      propertyPath: rate
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1371919070970948807, guid: 95747c3cb7784fd439aab1d9d884f980,
         type: 3}

@@ -29,7 +29,7 @@ public class ModManager : MonoBehaviour
             if (modData[i].start)
             {
                 mod.AddSuspicion();
-                mods.Add(mod);
+                //mods.Add(mod);
                 mods.Add(mod);
             }
         }        
