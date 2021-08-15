@@ -1151,6 +1151,8 @@ MonoBehaviour:
     type: 3}
   popUpTemplate: {fileID: 6643826361764740556, guid: 9d85f04c24f8cf942b00123505c12984,
     type: 3}
+  tutorialTemplate: {fileID: 2667328754671287902, guid: 83786a8cf4a69ce4ea2cf79ce69c7a35,
+    type: 3}
   windowParent: {fileID: 7307897046356819218}
   onTopParent: {fileID: 7307897048237698324}
   minimisedWindows: {fileID: 7307897046354960230}

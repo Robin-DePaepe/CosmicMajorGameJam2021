@@ -17,10 +17,11 @@ public class WindowsConjoinedPopUp : WindowConjoined
 
     public void SetPop(string text, float timeTillPop, float timeToLast)
     {
+        //if you don't want the popUp to go away put 0 for timeToLast
         lifeTime = timeToLast;
         popupUIText.text = text;
         SetVisuals(false);
-        Invoke(nameof(Pop), timeTillPop);
+        StartCoroutine(waitPop(timeTillPop));
     }
 
     void SetVisuals(bool setTo)
@@ -32,8 +33,15 @@ public class WindowsConjoinedPopUp : WindowConjoined
     void Pop()
     {
         SetVisuals(true);
-        Destroy(gameObject,lifeTime);
+        if (lifeTime > 0)
+        {
+            Destroy(gameObject,lifeTime);
+        }
     }
-    
-    
+
+    IEnumerator waitPop(float wait)
+    {
+        yield return new WaitForSeconds(wait);
+        Pop();
+    }
 }

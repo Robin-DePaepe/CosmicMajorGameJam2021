@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -46,7 +45,7 @@ public class GameManager : MonoBehaviour
     IEnumerator PlaySoundAndGo()
     {
         SoundManager.main.PlaySoundEffect(SoundEffects.donewithgame);
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("MainMenu");
     }
     

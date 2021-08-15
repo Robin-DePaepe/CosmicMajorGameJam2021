@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class WindowManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class WindowManager : MonoBehaviour
     public GameObject conjoined;
     public GameObject planetStat;
     public GameObject popUpTemplate;
+    public GameObject tutorialTemplate;
     [Header("Window Parents")]
     public GameObject windowParent;
     public GameObject onTopParent;
@@ -51,8 +53,7 @@ public class WindowManager : MonoBehaviour
         
         mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
-        
-        CreatePopUp(new Vector3(0,0,0), "Test", 2f, 2f);
+        createTutorial("test", TimeManager.main.startGame);
     }
 
     #endregion
@@ -62,9 +63,17 @@ public class WindowManager : MonoBehaviour
     public void CreatePopUp(Vector3 position, string popUpText,float timeTillPop,float timeLasted)
     {
         GameObject window = CreateWindow(position, popUpTemplate, onTop:true);
-        window.GetComponent<WindowsConjoinedPopUp>().SetPop(popUpText, timeTillPop,timeLasted);
+        WindowsConjoinedPopUp script = (WindowsConjoinedPopUp) windows[window].script;
+        script.SetPop(popUpText, timeTillPop,timeLasted);
     }
 
+    public void createTutorial(string text, UnityAction onClose)
+    {
+        GameObject window = CreateWindow(Vector3.zero, tutorialTemplate, true);
+        WindowTutorial script = (WindowTutorial) windows[window].script;
+        script.tutorialText = text;
+        script.onClose.AddListener(onClose);
+    }
     #endregion
 
     #region Window Functions

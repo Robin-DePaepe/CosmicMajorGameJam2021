@@ -75,7 +75,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2eab371717d54d542a4a5129ff6d5e0e, type: 3}
   dayStart: {fileID: 8300000, guid: a2d2d73b1b70dfb44813599c9622253d, type: 3}
   dayComplete: {fileID: 8300000, guid: c559ecf2c1b950b4891bfccbaabbfde0, type: 3}
-  doneWithGame: {fileID: 0}
+  doneWithGame: {fileID: 8300000, guid: af876bac4e0442448b1271276c67d1a9, type: 3}
   musicSource: {fileID: 5993892992149408951}
   sfxSource: {fileID: 1515631737}
 --- !u!82 &5993892992149408951

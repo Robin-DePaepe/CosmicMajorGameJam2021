@@ -114,11 +114,13 @@ public class TimeManager : MonoBehaviour
     {
         totalTimeOfWorkDay = (endTime - startTime).OnlySeconds();
         currentTime = startTime;
-        timePaused = false;
         StartCoroutine(Clock());
         Invoke(nameof(BeginTheDay),Time.deltaTime);
-        
-        
+    }
+
+    public void startGame()
+    {
+        timePaused = false;
     }
 
     // Update is called once per frame
