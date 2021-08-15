@@ -30,14 +30,16 @@ public class WindowManager : MonoBehaviour
     public GameObject canvas;
     public RectTransform taskBar; //for getting the position of the taskbar to set the edges of the screen
     internal Camera mainCamera;
-
+    
     #endregion
 
     #region Variables
     [Header("Variables")]
     public float offset; //offset between the window's border and edge of screen
     internal IDictionary<GameObject, WindowEntry> windows;
-
+    public string collideTut;
+    public string webTut;
+    public string downloadTut;
     #endregion
 
     #region Unity Functions

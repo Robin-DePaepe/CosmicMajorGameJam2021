@@ -190,6 +190,12 @@ public class PlanetBehaviour : MonoBehaviour
 
         fromCollision = collision;
         shortcut.SetCorrupted(collision);
+
+        if (collision && !GameManager.main.collidedTut)
+        {
+            WindowManager.main.createTutorial(WindowManager.main.collideTut);
+            GameManager.main.collidedTut = true;
+        }
     }
 
     public void UnCorrupt(bool collision = false)

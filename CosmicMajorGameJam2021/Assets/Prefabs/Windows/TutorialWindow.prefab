@@ -235,6 +235,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialText: 
   text: {fileID: 3427443270923228157}
+  onClose:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3427443270923228159
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,14 +330,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
+  m_fontSize: 30
   m_fontSizeBase: 22
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 2
+  m_fontSizeMax: 30
   m_fontStyle: 1
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0

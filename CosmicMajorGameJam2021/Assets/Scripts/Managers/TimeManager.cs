@@ -208,6 +208,11 @@ public class TimeManager : MonoBehaviour
 
     IEnumerator ScheduleAddMod(string mod,float time)
     {
+        if (!GameManager.main.downloadTut)
+        {
+            WindowManager.main.createTutorial(WindowManager.main.downloadTut);
+            GameManager.main.downloadTut = true;
+        }
         float timer = 0;
         while (timer < time)
         {
@@ -225,7 +230,6 @@ public class TimeManager : MonoBehaviour
         GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
         //set details
         window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
-        
     }
 
     public void ChangePause() => timePaused = !timePaused;

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ModManager : MonoBehaviour
@@ -44,10 +45,16 @@ public class ModManager : MonoBehaviour
 
     public void AddModBySite(string siteAddress)
     {
-        //foreach (Mod mod in mods)
-        //{
-        //    if (mod.website == siteAddress) AddModByName(mod.modName);
-        //}
+        List<string> availableMods = new List<string>();
+        for (int i = 0; i < allMods.Count; i++)
+        {
+            if (allMods.Values.ToList()[i].website == siteAddress)
+            {
+                availableMods.Add(allMods.Keys.ToList()[i]);
+            }
+        }
+        
+        AddModByName(availableMods[Random.Range(0,availableMods.Count)]);
     }
     public void AddModByName(string modString)
     {

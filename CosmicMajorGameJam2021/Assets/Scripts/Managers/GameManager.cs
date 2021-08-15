@@ -22,11 +22,15 @@ public class GameManager : MonoBehaviour
     public bool firstModOpen=false;
     public bool firstEmailReceived=false;
     
-   /* private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
-*/
+    internal bool collidedTut;
+    internal bool webTut;
+    internal bool downloadTut;
+
+    /* private void Awake()
+     {
+         DontDestroyOnLoad(this.gameObject);
+     }
+ */
     // Start is called before the first frame update
     void Awake()
     {

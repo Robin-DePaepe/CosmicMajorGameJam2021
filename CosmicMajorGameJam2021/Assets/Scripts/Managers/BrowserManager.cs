@@ -62,6 +62,11 @@ public class BrowserManager : MonoBehaviour
             page.GetComponentInChildren<DownloadBehaviour>().SiteAdress = siteName;
 
             AddTab(page, siteName);
+            if (!GameManager.main.webTut)
+            {
+                WindowManager.main.createTutorial(WindowManager.main.webTut);
+                GameManager.main.webTut = true;
+            }
         }
     }
     private void AddTab(GameObject page, string pageName)
