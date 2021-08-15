@@ -116,7 +116,7 @@ public class PlanetManager : MonoBehaviour
         {
             unCorrupt.Remove(planet);
         }
-        SatisfactionManager.main.ReduceSatisfaction(destroyPenalty);
+        SatisfactionManager.main.AddSatisfaction(-destroyPenalty);
         Destroy(planet);
     }
 

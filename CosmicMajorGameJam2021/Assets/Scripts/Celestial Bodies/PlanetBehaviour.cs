@@ -183,7 +183,7 @@ public class PlanetBehaviour : MonoBehaviour
     public void Corrupt(bool collision = false)
     {
         corrupted = true;
-        SatisfactionManager.main.ReduceSatisfaction(PlanetManager.main.corruptPenalty);
+        SatisfactionManager.main.AddSatisfaction(-PlanetManager.main.corruptPenalty);
         
         PlanetManager.main.unCorrupt.Remove(gameObject);
         PlanetManager.main.corrupt.Add(gameObject);
