@@ -45,9 +45,6 @@ public class MailManager : MonoBehaviour
     {
         Mail mailScript = mail.GetComponent<Mail>();
 
-
-        WindowManager.main.CreatePopUp( "New mail from: " + mailScript.MailData.infoSender, 0f, 4f);
-
         //set to latest new mail in the hierachy
         mail.transform.SetSiblingIndex(mailSummaryList.transform.childCount);
 
@@ -59,12 +56,13 @@ public class MailManager : MonoBehaviour
         Canvas.ForceUpdateCanvases();
 
         //play sound
-        /*if (mail.Sender() == "Bossy")
+        if (mailScript.MailData.mailType == MailData.mailTypes.boss)
             SoundManager.main.PlaySoundEffect(SoundEffects.bossemail);
         else
-            SoundManager.main.PlaySoundEffect(SoundEffects.email);*/
+            SoundManager.main.PlaySoundEffect(SoundEffects.email);
+
         //fire pop up
-        //WindowManager.main.CreatePopUp(new Vector3(1000,-1000,0), "New Mail from " + mail.Sender(),0, 5f);
+        WindowManager.main.CreatePopUp("New mail from: " + mailScript.MailData.infoSender, 0f, 4f);
     }
 
     public void RemoveMail(Mail mail)
@@ -89,18 +87,14 @@ public class MailManager : MonoBehaviour
     
     private void Reader(int lineIndex, List<string> line)
     {
-        MailData.type mailType = MailData.type.regular;
+        MailData.mailTypes mailType = MailData.mailTypes.regular;
 
-        switch (line[1])
+        switch (line[2])
         {
-            case "regular":
-                break;
-            case "boss": mailType = MailData.type.boss;
-                break;
-            default:
+            case "Bossy":
+                mailType = MailData.mailTypes.boss;
                 break;
         }
-
         GameObject mail = Instantiate(mailSummaryTemplate, mailSummaryList.transform);
         mail.GetComponent<Mail>().SetData(new MailData(line[3], line[2], line[4], mailType));
         mail.SetActive(false);

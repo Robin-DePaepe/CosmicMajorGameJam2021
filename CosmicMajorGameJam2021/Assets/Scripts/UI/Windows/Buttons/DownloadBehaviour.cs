@@ -28,18 +28,14 @@ public class DownloadBehaviour : MonoBehaviour
         {
             case DownloadType.mod:
         ModManager.main.AddModBySite(site);
-                Debug.Log("mod");
                 break;
             case DownloadType.blackHole:
                 PlanetManager.main.createBlackHole();
-                Debug.Log("scam");
                 break;
             case DownloadType.malware:
                 PlanetManager.main.CorruptRandom();
-                Debug.Log("malware");
                 break;
             case DownloadType.scam: //nothing happens.. you got scammed
-                Debug.Log("scam");
                 break;
             default:
                 break;
