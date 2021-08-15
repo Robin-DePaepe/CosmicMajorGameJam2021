@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
         "in each planet for more information on their needs. All areas should be in the green, "+
         "or else satisfaction points will be lost. Add modifiers to planet folders to increase or decrease these stats to get them green! "+
         "A folder has been left on the desktop containing all the modifiers you will need!";
-    
+
+    public string firstModOpenText = "Click a Modifier to check out what changes it does to a Planet Folder";
 
     public bool firstPlanetOpen=false;
     public bool firstModOpen=false;
