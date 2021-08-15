@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10b202ead1d2ce44bb2b31dc018a7f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rate: 240
+  rate: 120
   startTime:
     hours: 9
     minutes: 0
@@ -52,6 +52,7 @@ MonoBehaviour:
     hours: 17
     minutes: 0
     seconds: 0
+  modDownLoadTime: 0
   popUpPos: {fileID: 0}
   currentTime:
     hours: 0

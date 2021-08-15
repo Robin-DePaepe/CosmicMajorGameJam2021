@@ -36,8 +36,8 @@ public class StatBar : MonoBehaviour
 
     void SetProgress(int progress)
     {
-        float progressPercent = progress / 100f;
-        progressRect.sizeDelta = new Vector2(holderRect.rect.width * progressPercent, progressRect.sizeDelta.y);
+        float progressPos = progress / 100f * holderRect.rect.width;
+        progressRect.localPosition = new Vector3( progressPos - (holderRect.rect.width/2) - (progressRect.rect.width/2), progressRect.localPosition.y);
     }
 
     void SetGreenZone(int min, int max, int buffer)

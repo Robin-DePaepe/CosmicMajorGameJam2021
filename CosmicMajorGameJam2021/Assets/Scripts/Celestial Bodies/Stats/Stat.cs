@@ -74,6 +74,6 @@ public class Stat
 
     public int CalculateBuffer()
     {
-        return (greenMax-greenMin)/2;
+        return Mathf.Clamp((greenMax-greenMin)/2,0,100);
     }
 }

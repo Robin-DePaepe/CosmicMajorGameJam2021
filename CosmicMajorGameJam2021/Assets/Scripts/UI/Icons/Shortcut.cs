@@ -55,14 +55,6 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
 
     public virtual void OnPointerDown(PointerEventData eventData)
     {
-        if (appName == "Mods")
-        {
-            if (!GameManager.main.firstModOpen)
-            { 
-                GameManager.main.firstModOpen = true; 
-                WindowManager.main.createTutorial(GameManager.main.firstModOpenText);
-            }
-        }
         if (clickedOnce)
         {
             if (window)
@@ -79,6 +71,14 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
             else
             {
                 CreateWindow();
+                if (appName == "Mods")
+                {
+                    if (!GameManager.main.firstModOpen)
+                    { 
+                        GameManager.main.firstModOpen = true; 
+                        WindowManager.main.createTutorial(GameManager.main.firstModOpenText);
+                    }
+                }
             }
 
             clickedOnce = false;

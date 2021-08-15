@@ -23,6 +23,7 @@ public class WindowManager : MonoBehaviour
     [Header("Window Parents")]
     public GameObject windowParent;
     public GameObject onTopParent;
+    public GameObject popUpParent;
     
     [Header("Other Components")]
     public GameObject minimisedWindows;
@@ -62,9 +63,9 @@ public class WindowManager : MonoBehaviour
 
     #region Specific Windows
 
-    public void CreatePopUp(Vector3 position, string popUpText,float timeTillPop,float timeLasted)
+    public void CreatePopUp(string popUpText,float timeTillPop,float timeLasted)
     {
-        GameObject window = CreateWindow(position, popUpTemplate, onTop:true);
+        GameObject window = CreateWindow(Vector3.zero, popUpTemplate, parent: popUpParent);
         WindowsConjoinedPopUp script = (WindowsConjoinedPopUp) windows[window].script;
         script.SetPop(popUpText, timeTillPop,timeLasted);
     }
@@ -84,18 +85,21 @@ public class WindowManager : MonoBehaviour
 
     #region Window Functions
     
-    public GameObject CreateWindow(Vector3 position, GameObject windowTemplate, bool onTop = false , Sprite Icon = null, bool check = true) 
+    public GameObject CreateWindow(Vector3 position, GameObject windowTemplate, bool onTop = false , Sprite Icon = null, bool check = true, GameObject parent = null) 
     {
         //creates a window with the location and name specified, and returns it (if needed)
         //the location is then checked for remaining within the screen
         //the name is only for displaying at the taskbar, this can be changed to an icon
-        
-        GameObject window = Instantiate(windowTemplate, position, Quaternion.identity, windowParent.transform);
-
-        if (onTop)
+        if (!parent)
         {
-            window.transform.SetParent(onTopParent.transform);
+            parent = windowParent;
         }
+        else if (onTop)
+        {
+            parent = onTopParent;
+        }
+        GameObject window = Instantiate(windowTemplate, position, Quaternion.identity, parent.transform);
+
         
         RectTransform windowRect = window.GetComponent<RectTransform>();
         

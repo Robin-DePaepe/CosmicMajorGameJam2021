@@ -11,11 +11,10 @@ public class GameManager : MonoBehaviour
     public GameObject losepanel;
 
     public string firstPlanetOpenText =
-        "What you just opened is called a Planet Folder. These are the life-blood of the company,"+
-        " and must be taken care of to increase your Daily Sadisfaction Goal. Check the stats.TXT file "+
-        "in each planet for more information on their needs. All areas should be in the green, "+
-        "or else satisfaction points will be lost. Add modifiers to planet folders to increase or decrease these stats to get them green! "+
-        "A folder has been left on the desktop containing all the modifiers you will need!";
+        "You just opened a Planet Folder. These must be taken care of to increase your Daily Satisfaction Goal. " + 
+        " Check the stats file in each planet for more information. All areas should be in the green, or else satisfaction points will be lost. "+ 
+        "Add modifiers to planet folders to increase or decrease these stats! " +
+        "A folder has been left on the desktop containing all the modifiers you need!";
 
     public string firstModOpenText = "Click a Modifier to check out what changes it does to a Planet Folder";
 
