@@ -118,7 +118,7 @@ public class TimeManager : MonoBehaviour
         Invoke(nameof(BeginTheDay),Time.deltaTime);
     }
 
-    public void startGame()
+    public void unPauseTime()
     {
         timePaused = false;
     }
@@ -233,7 +233,6 @@ public class TimeManager : MonoBehaviour
     }
 
     public void ChangePause() => timePaused = !timePaused;
-
 
 
 }

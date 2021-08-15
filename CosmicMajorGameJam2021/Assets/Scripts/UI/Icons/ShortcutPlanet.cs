@@ -8,22 +8,39 @@ using Random = UnityEngine.Random;
 
 public class ShortcutPlanet : Shortcut
 {
+    #region Components
+    
+    [Header("Components")]
     private PlanetBehaviour planetBehaviour;
     internal Planet planet;
-    private Vector3 offset;
-    private BoxCollider2D col;
     private WindowModPlanets windowScript;
     internal SpriteRenderer sprite;
+    public Canvas worldCanvas;
+    private BoxCollider2D col;
+
+    [Header("Sprites")]
     public SpritePair unCorruptSprite;
     public SpritePair collisionSprite;
     public List<SpritePair> corruptSprites;
-    public float clickTime = 0.2f;
-    public TextMeshProUGUI nameText;
-    public Canvas worldCanvas;
-    SpritePair currentPair;
     internal Sprite thumb;
 
+    
+    [Header("Text")]
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI pointText;
+    public TextMeshProUGUI addPointText;
+    #endregion
+
+    #region Variables
+    private Vector3 offset;
+    public float clickTime = 0.2f;
+    public float pointStay;
+    public float pointFadeTime;
     private bool clicked;
+    SpritePair currentPair;
+    #endregion
+    
+
     
     #region Unity
 
@@ -50,6 +67,12 @@ public class ShortcutPlanet : Shortcut
         if (window)
         {
             planetBehaviour.frozen = window.activeSelf;
+        }
+
+        if (planet)
+        {
+            pointText.text = planet.stats.pointsProduced + "/" + planet.stats.maxProduction;
+            pointText.color = sprite.color + (Color.white/2);
         }
     }
 
@@ -153,9 +176,51 @@ public class ShortcutPlanet : Shortcut
     }
     
     #endregion
+
+    #region Other
+
+    public void AddPoints(int points)
+    {
+        addPointText.color = pointText.color;
+        string pointString = points.ToString();
+        if (points >= 0)
+        {
+            pointString = "+" + pointString;
+        }
+        addPointText.text = pointString;
+        addPointText.gameObject.SetActive(true);
+        StartCoroutine(waitDisablePoints());
+    }
+
+    IEnumerator waitDisablePoints()
+    {
+        float timeSinceStart = 0;
+        while (addPointText.gameObject.activeSelf)
+        {
+            if (!TimeManager.main.timePaused)
+            {
+                timeSinceStart += Time.deltaTime;
+
+                if (timeSinceStart >= pointStay)
+                {
+                    float alpha  = 1-((timeSinceStart - pointStay)/pointFadeTime);
+                    Color og = addPointText.color;
+                    addPointText.color = new Color(og.r, og.g, og.b, alpha);
+                
+                    if (timeSinceStart-pointStay >= pointFadeTime)
+                    {
+                        addPointText.gameObject.SetActive(false);
+                    }
+                }
+            }
+            
+            yield return new WaitForEndOfFrame();
+        }
+    }
+    #endregion
 }
 
-[System.Serializable]
+[Serializable]
 public class SpritePair
 {
     public Sprite close;

@@ -57,7 +57,7 @@ public class WindowManager : MonoBehaviour
         
         mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
-        createTutorial(startTut, TimeManager.main.startGame);
+        createTutorial(startTut);
     }
 
     #endregion
@@ -71,16 +71,14 @@ public class WindowManager : MonoBehaviour
         script.SetPop(popUpText, timeTillPop,timeLasted);
     }
 
-    public void createTutorial(string text, UnityAction onClose = null)
+    public void createTutorial(string text)
     {
         GameObject window = CreateWindow(Vector3.zero, tutorialTemplate, true);
         WindowTutorial script = (WindowTutorial) windows[window].script;
         script.tutorialText = text;
-        
-        if (onClose != null)
-        {
-            script.onClose.AddListener(onClose);
-        }
+
+        TimeManager.main.timePaused = true;
+        script.onClose.AddListener(TimeManager.main.unPauseTime);
     }
     #endregion
 

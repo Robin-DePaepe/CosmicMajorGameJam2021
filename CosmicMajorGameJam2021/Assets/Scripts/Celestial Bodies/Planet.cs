@@ -63,12 +63,16 @@ public class Planet : MonoBehaviour
 
             if (behaviour.gameObject.activeSelf)
             {
-                timeSinceLast += Time.deltaTime;
-                
-                if (timeSinceLast >= 10f)
+                if (!TimeManager.main.timePaused)
                 {
-                    SatisfactionManager.main.AddSatisfaction(stats.pointsProduced);
-                    timeSinceLast = 0;
+                    timeSinceLast += Time.deltaTime;
+                
+                    if (timeSinceLast >= 10f)
+                    {
+                        SatisfactionManager.main.AddSatisfaction(stats.pointsProduced);
+                        shortcut.AddPoints(stats.pointsProduced);
+                        timeSinceLast = 0;
+                    }
                 }
             }
 

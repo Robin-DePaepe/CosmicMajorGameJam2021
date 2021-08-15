@@ -17,7 +17,7 @@ public class WindowDraggable : Window, IPointerDownHandler, IPointerUpHandler
     
     public override void Close()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     public void OnPointerDown(PointerEventData eventData)

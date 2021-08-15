@@ -25,12 +25,9 @@ public class SoundManager : MonoBehaviour
 
 	[SerializeField] private AudioMixer musicMixer = null;
 	[SerializeField] private AudioMixer sfxMixer = null;
-
-	[Range(0.1f, 1f)] [SerializeField] private float defaultMusicVolume = 0.3f;
-	[Range(0.1f, 1f)] [SerializeField] private float defaultSfxVolume = 0.8f;
-
-	private float musicVolume = 0.3f;
-	private float sfxVolume = 0.8f;
+	
+	public float musicVolume;
+	public float sfxVolume;
 	
 	[Space] [Header("Music")] 
 	public AudioClip MainMenuMusic;
@@ -82,24 +79,20 @@ public class SoundManager : MonoBehaviour
 	private void Awake()
 	{
 		main = this;
+		getMixerVolumes();
 	}
 
 	private void Start()
 	{
-		
-		musicVolume = defaultMusicVolume;
-		sfxVolume = defaultSfxVolume;
-
-		UpdateMixerVolumes();
 		if(isInMainMenuScene)PlayMainMenuMusic();
 		else PlayMainGameMusic();
 		
 	}
 
-	private void UpdateMixerVolumes()
+	private void getMixerVolumes()
 	{
-	//	musicMixer.SetFloat("MusicVolume", Mathf.Log10(musicVolume) * 20);
-//		sfxMixer.SetFloat("SfxVolume", Mathf.Log10(sfxVolume) * 20);
+		musicMixer.GetFloat("MusicVolume", out musicVolume);
+		sfxMixer.GetFloat("SfxVolume", out sfxVolume);
 	}
 
 	private void Update()
