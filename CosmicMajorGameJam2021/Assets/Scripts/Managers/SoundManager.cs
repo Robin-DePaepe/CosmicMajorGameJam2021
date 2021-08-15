@@ -34,7 +34,7 @@ public class SoundManager : MonoBehaviour
 	
 	[Space] [Header("Music")] 
 	public AudioClip MainMenuMusic;
-	public AudioClip MainGameMusic;
+	public AudioClip[] MainGameMusic;
 	[SerializeField] private bool isInMainMenuScene;
 	[Space] [Header("Sounds")] 
 	public AudioClip mailNormal;
@@ -157,9 +157,9 @@ public class SoundManager : MonoBehaviour
 	}
 	public void PlayMainGameMusic()
 	{
-		musicSource.clip = MainGameMusic;
+		musicSource.clip = MainGameMusic[1];
 		musicSource.Play();
-		Invoke(nameof(PlayMainMenuMusic),MainGameMusic.length);//doing this instead of loop because we may want to switch between different main game music
+		Invoke(nameof(PlayMainMenuMusic),musicSource.clip.length);//doing this instead of loop because we may want to switch between different main game music
 	}
 
 }

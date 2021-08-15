@@ -810,21 +810,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sound Manager
       objectReference: {fileID: 0}
-    - target: {fileID: 5993892992149408950, guid: 7ea82fa00b0ae334c9565f3b2158579e,
-        type: 3}
-      propertyPath: dayComplete
-      value: 
-      objectReference: {fileID: 8300000, guid: c559ecf2c1b950b4891bfccbaabbfde0, type: 3}
-    - target: {fileID: 5993892992149408950, guid: 7ea82fa00b0ae334c9565f3b2158579e,
-        type: 3}
-      propertyPath: notice.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5993892992149408950, guid: 7ea82fa00b0ae334c9565f3b2158579e,
-        type: 3}
-      propertyPath: notice.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: ffe91afa8eec74e4a91e6a60653c5497, type: 3}
     - target: {fileID: 5993892992149408969, guid: 7ea82fa00b0ae334c9565f3b2158579e,
         type: 3}
       propertyPath: m_RootOrder

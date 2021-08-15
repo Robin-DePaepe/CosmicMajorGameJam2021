@@ -50,7 +50,10 @@ MonoBehaviour:
   defaultMusicVolume: 0.3
   defaultSfxVolume: 0.8
   MainMenuMusic: {fileID: 8300000, guid: dabaaca0fc8b0cf42b4623ce9575c392, type: 3}
-  MainGameMusic: {fileID: 8300000, guid: 4f8d774b74b9ff348bf342eb6cf4be67, type: 3}
+  MainGameMusic:
+  - {fileID: 8300000, guid: 4f8d774b74b9ff348bf342eb6cf4be67, type: 3}
+  - {fileID: 8300000, guid: 0fc672fa53c461f49a24b883f5587d2d, type: 3}
+  - {fileID: 8300000, guid: 1cece33d8adcd9a4e8bb0e6c0f7abf0a, type: 3}
   isInMainMenuScene: 0
   mailNormal: {fileID: 8300000, guid: 06b6e31d0721f7b4d8e237ceef4fee44, type: 3}
   mailBoss: {fileID: 8300000, guid: b641759caead4934c94f27a55c9fd681, type: 3}
@@ -60,9 +63,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 307073452157af94a884850de2106d45, type: 3}
   - {fileID: 8300000, guid: 8ef795ab8785f254cb951b5bc2ebd0ac, type: 3}
   notice:
-  - {fileID: 8300000, guid: 5400a3e631b2e404683f80ccb7f68632, type: 3}
-  - {fileID: 8300000, guid: 5c183fb3958f34f4f86edd48cd957123, type: 3}
   - {fileID: 8300000, guid: ffe91afa8eec74e4a91e6a60653c5497, type: 3}
+  - {fileID: 8300000, guid: 5c183fb3958f34f4f86edd48cd957123, type: 3}
   chime:
   - {fileID: 8300000, guid: af876bac4e0442448b1271276c67d1a9, type: 3}
   - {fileID: 8300000, guid: 716ba7ce350974342adabe05b3fa30ca, type: 3}
@@ -72,6 +74,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: d05a5c08ff94c944196b846a9a564fe0, type: 3}
   - {fileID: 8300000, guid: 2eab371717d54d542a4a5129ff6d5e0e, type: 3}
   dayStart: {fileID: 8300000, guid: a2d2d73b1b70dfb44813599c9622253d, type: 3}
+  dayComplete: {fileID: 8300000, guid: c559ecf2c1b950b4891bfccbaabbfde0, type: 3}
+  doneWithGame: {fileID: 0}
   musicSource: {fileID: 5993892992149408951}
   sfxSource: {fileID: 1515631737}
 --- !u!82 &5993892992149408951
