@@ -6,26 +6,36 @@ using UnityEngine.UI;
 public class Mail : MonoBehaviour
 {
     #region variables
-    [SerializeField] private Sprite iconSprite;
+    [SerializeField] private Image iconSprite;
     [SerializeField] private Text title;
     [SerializeField] private Text info;
+    [SerializeField] private Text time;
 
     private MailData data;
     #endregion
 
-    [System.Obsolete]
-    public Mail()
+    public MailData MailData { get { return data; } }
+    public void SetArrivalTime()
     {
-        iconSprite = GetComponentInChildren<Image>().sprite;
+        string hours = TimeManager.main.currentTime.hours.ToString();
+        if (hours.Length < 2)
+        {
+            hours = "0" + hours;
+        }
 
-        title = transform.FindChild("Title").GetComponent<Text>();
-        info = transform.FindChild("Info").GetComponent<Text>();
+        string minutes = TimeManager.main.currentTime.minutes.ToString();
+        if (minutes.Length < 2)
+        {
+            minutes = "0" + minutes;
+        }
+
+        time.text = hours + ":" + minutes;
     }
     public void SetData(MailData _data)
     {
         data = _data;
 
-        title.text = data.title;
+        title.text = data.subject;
         info.text = data.infoSender;
 
         switch (data.typeMail)
@@ -39,14 +49,24 @@ public class Mail : MonoBehaviour
                 break;
         }
     }
-}
 
+    public void Select()
+    {
+        MailManager.main.MailSelected(this);
+    }
+    public void Close()
+    {
+        MailManager.main.RemoveMail(this);
+        Destroy(this.gameObject);
+    }
+}
 public class MailData : MonoBehaviour
 {
     #region Variables
-    public string title;
+    public string subject;
     public string infoSender;
     public string body;
+    public string mailArrivalTime;
     public type typeMail;
     public enum type { regular, boss };
     #endregion
@@ -55,7 +75,7 @@ public class MailData : MonoBehaviour
     {
         body = _body;
         infoSender = _info;
-        title = _title;
+        subject = _title;
         typeMail = _typeMail;
     }
 }
