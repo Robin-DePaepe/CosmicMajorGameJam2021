@@ -48,13 +48,16 @@ public class ModManager : MonoBehaviour
         List<string> availableMods = new List<string>();
         for (int i = 0; i < allMods.Count; i++)
         {
-            if (allMods.Values.ToList()[i].website == siteAddress)
+            if (allMods.Values.ToList()[i].website.ToLower() == siteAddress)
             {
                 availableMods.Add(allMods.Keys.ToList()[i]);
             }
         }
-        
-        AddModByName(availableMods[Random.Range(0,availableMods.Count)]);
+
+        if (availableMods.Count > 0)
+        {
+            TimeManager.main.ScheduleModDownLoad(availableMods[Random.Range(0,availableMods.Count)]);
+        }
     }
     public void AddModByName(string modString)
     {

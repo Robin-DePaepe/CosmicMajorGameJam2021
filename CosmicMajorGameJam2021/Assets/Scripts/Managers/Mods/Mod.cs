@@ -21,9 +21,13 @@ public class Mod
         icon = Resources.Load<Sprite>("ModIcon");
         changes = data.changes.ToList();
 
-        if (data.start)
+        if (!data.start)
         {
             website = data.website;
+        }
+        else
+        {
+            website = "";
         }
     }
 

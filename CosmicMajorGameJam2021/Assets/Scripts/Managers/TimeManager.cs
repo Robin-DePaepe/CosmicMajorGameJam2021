@@ -93,7 +93,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private GameTime endTime;
 
     [Header("Mod download")] [SerializeField]
-    private float modDownLoadTime;
+    private float modDownLoadTime = 5;
 
     [SerializeField] private RectTransform popUpPos;
     private float totalTimeOfWorkDay;
@@ -200,10 +200,7 @@ public class TimeManager : MonoBehaviour
 
     public void ScheduleModDownLoad(string mod)//time is in game time
     {
-        //convert time
-        float time = ConvertGameTimeToRealTime(modDownLoadTime);
-        //set time
-        StartCoroutine(ScheduleAddMod(mod, time));
+        StartCoroutine(ScheduleAddMod(mod, modDownLoadTime));
     }
 
     IEnumerator ScheduleAddMod(string mod,float time)
@@ -227,9 +224,7 @@ public class TimeManager : MonoBehaviour
         //add modifier to list
         ModManager.main.AddModByName(mod);
         //create pop up to notify player of download
-        GameObject window= WindowManager.main.CreateWindow(popUpPos.position, WindowManager.main.popUpTemplate, true);
-        //set details
-        window.GetComponent<WindowsConjoinedPopUp>().SetPop("Notification: " + mod + " modifier downloaded",time,5f);
+        WindowManager.main.CreatePopUp("Notification: " + mod + " modifier downloaded",0,5f);
     }
 
     public void ChangePause() => timePaused = !timePaused;
