@@ -45,7 +45,7 @@ public class MailManager : MonoBehaviour
         Mail mailScript = mail.GetComponent<Mail>();
 
 
-        WindowManager.main.CreatePopUp(new Vector3(1000, -10000, 0f), "New mail from: " + mailScript.MailData.infoSender, 0f, 2.5f);
+        WindowManager.main.CreatePopUp( "New mail from: " + mailScript.MailData.infoSender, 0f, 4f);
 
         //set to latest new mail in the hierachy
         mail.transform.SetSiblingIndex(mailSummaryList.transform.childCount);
