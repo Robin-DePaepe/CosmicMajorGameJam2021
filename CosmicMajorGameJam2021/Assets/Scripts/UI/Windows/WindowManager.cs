@@ -67,12 +67,16 @@ public class WindowManager : MonoBehaviour
         script.SetPop(popUpText, timeTillPop,timeLasted);
     }
 
-    public void createTutorial(string text, UnityAction onClose)
+    public void createTutorial(string text, UnityAction onClose = null)
     {
         GameObject window = CreateWindow(Vector3.zero, tutorialTemplate, true);
         WindowTutorial script = (WindowTutorial) windows[window].script;
         script.tutorialText = text;
-        script.onClose.AddListener(onClose);
+        
+        if (onClose != null)
+        {
+            script.onClose.AddListener(onClose);
+        }
     }
     #endregion
 
