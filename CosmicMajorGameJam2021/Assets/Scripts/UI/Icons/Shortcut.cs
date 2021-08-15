@@ -111,6 +111,8 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
 
     protected virtual void CreateWindow()
     {
+        if (!windowTemplate) return;
+
         windowPosition = transform.position + (new Vector3((rect.rect.width/2) * rect.lossyScale.x, -(rect.rect.height/2) * rect.lossyScale.y, 0));
         
         window = manager.CreateWindow(windowPosition,windowTemplate, Icon: Icon,check:false);
