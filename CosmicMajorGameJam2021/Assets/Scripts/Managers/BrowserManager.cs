@@ -22,7 +22,7 @@ public class BrowserManager : MonoBehaviour
 
     static private TextAsset pagesList;
     // key: link string, value: destination page of the link
-    static List<string> pageLookupTable = new List<string>();
+    static Dictionary<string,DownloadBehaviour.DownloadType> pageLookupTable = new Dictionary<string, DownloadBehaviour.DownloadType>();
     #endregion
 
     private void Start()
@@ -40,8 +40,27 @@ public class BrowserManager : MonoBehaviour
     {
         if (lineIndex > 0)
         {
-            string site = line[line.Count - 1];
-            if (!pageLookupTable.Contains(site.ToLower())) pageLookupTable.Add(site.ToLower());
+            string site = line[8];
+            DownloadBehaviour.DownloadType type = DownloadBehaviour.DownloadType.scam;
+
+            switch (line[9])
+            {
+                case "malware":
+                    type = DownloadBehaviour.DownloadType.malware;
+                    break;
+                case "scam":
+                    type = DownloadBehaviour.DownloadType.scam;
+                    break;
+                case "mod":
+                    type = DownloadBehaviour.DownloadType.mod;
+                    break;
+                case "blackHole":
+                    type = DownloadBehaviour.DownloadType.blackHole;
+                    break;
+                default:
+                    break;
+            }
+            if (!pageLookupTable.ContainsKey(site.ToLower())) pageLookupTable.Add(site.ToLower(),type);
         }
     }
 
@@ -52,7 +71,7 @@ public class BrowserManager : MonoBehaviour
 
     public void AddNewSite(string siteName)
     {
-        if (pageLookupTable.Contains(siteName.ToLower()))
+        if (pageLookupTable.ContainsKey(siteName.ToLower()))
         {
             if (tabs.Count == maxTabs) tabs[0].GetComponent<TabBehaviour>().Close();
 
@@ -60,6 +79,7 @@ public class BrowserManager : MonoBehaviour
 
             page.GetComponent<Image>().sprite = Resources.Load<Sprite>($"SitePages/{siteName}");
             page.GetComponentInChildren<DownloadBehaviour>().SiteAdress = siteName;
+            page.GetComponentInChildren<DownloadBehaviour>().SetDownloadType( pageLookupTable[siteName]);
 
             AddTab(page, siteName);
             if (!GameManager.main.webTut)

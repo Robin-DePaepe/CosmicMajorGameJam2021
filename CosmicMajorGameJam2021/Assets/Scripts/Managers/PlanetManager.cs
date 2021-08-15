@@ -86,7 +86,7 @@ public class PlanetManager : MonoBehaviour
         planets.Add(planet, planetScript);
         unCorrupt.Add(planet);
     }
-    void createBlackHole()
+    public void createBlackHole()
     {
         Vector3 position = new Vector3(Random.Range(minDistance * 2, maxDistance / 2),
             Random.Range(minDistance * 2, maxDistance / 2), 0);
