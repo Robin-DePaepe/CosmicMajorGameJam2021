@@ -11,6 +11,10 @@ public class Mail : MonoBehaviour
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI info;
     [SerializeField] private TextMeshProUGUI time;
+    [SerializeField] private Sprite openMailIcon;
+    [SerializeField] private Sprite bossMailIcon;
+    [SerializeField] private Image iconImage;
+
 
     private MailData data;
     #endregion
@@ -36,23 +40,17 @@ public class Mail : MonoBehaviour
     {
         data = _data;
 
+        if (data.mailType == MailData.mailTypes.boss)
+        {
+            iconImage.sprite = bossMailIcon;
+        }
         title.text = data.subject;
         info.text = data.infoSender;
-
-        switch (data.typeMail)
-        {
-            case MailData.type.regular:
-                //      iconSprite = ...
-                break;
-            case MailData.type.boss:
-                break;
-            default:
-                break;
-        }
     }
 
     public void Select()
     {
+        if (data.mailType != MailData.mailTypes.boss) iconImage.sprite = openMailIcon;
         MailManager.main.MailSelected(this);
     }
     public void Close()
@@ -68,16 +66,17 @@ public class MailData
     public string infoSender;
     public string body;
     public string mailArrivalTime;
-    public type typeMail;
-    public enum type { regular, boss };
+    public mailTypes mailType;
+
+    public enum mailTypes { regular, boss };
     #endregion
 
-    public MailData(string _title, string _info, string _body, type _typeMail = type.regular)
+    public MailData(string _title, string _info, string _body, mailTypes _mailType)
     {
         body = _body;
         infoSender = _info;
         subject = _title;
-        typeMail = _typeMail;
+        mailType = _mailType;
     }
 }
 
