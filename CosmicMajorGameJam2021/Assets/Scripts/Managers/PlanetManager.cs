@@ -135,7 +135,6 @@ public class PlanetManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         
-        WindowManager.main.CreatePopUp("New Planet: " + data.name,0, 5f);
         createPlanet(data.name, data.description, data.stats);
     }
     #endregion

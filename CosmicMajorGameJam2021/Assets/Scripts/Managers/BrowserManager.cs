@@ -72,7 +72,8 @@ public class BrowserManager : MonoBehaviour
 
     public void AddNewSite(string siteName)
     {
-        if (pageLookupTable.ContainsKey(siteName.ToLower()))
+        siteName = siteName.ToLower();
+        if (pageLookupTable.ContainsKey(siteName))
         {
             if (tabs.Count == maxTabs) tabs[0].GetComponent<TabBehaviour>().Close();
 

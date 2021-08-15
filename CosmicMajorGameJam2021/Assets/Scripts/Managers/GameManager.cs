@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager main;
     public GameObject winpanel;
     public GameObject losepanel;
-
+    
     public string firstPlanetOpenText =
         "You just opened a Planet Folder. These must be taken care of to increase your Daily Satisfaction Goal. " + 
         " Check the stats file in each planet for more information. All areas should be in the green, or else satisfaction points will be lost. "+ 

@@ -52,7 +52,7 @@ MonoBehaviour:
     hours: 17
     minutes: 0
     seconds: 0
-  modDownLoadTime: 0
+  modDownLoadTime: 5
   popUpPos: {fileID: 0}
   currentTime:
     hours: 0

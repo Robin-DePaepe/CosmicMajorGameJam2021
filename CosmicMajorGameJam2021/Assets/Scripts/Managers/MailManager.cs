@@ -36,7 +36,17 @@ public class MailManager : MonoBehaviour
 
     public IEnumerator ScheduleNewMail(float time, GameObject mail)
     {
-        yield return new WaitForSeconds(time);
+        float timeWaited=TimeManager.main.ConvertGameTimeToRealTime(time*3600);
+
+        while (timeWaited < time)
+        {
+            if (!TimeManager.main.timePaused)
+            {
+                timeWaited += Time.deltaTime;
+            }
+
+            yield return new WaitForEndOfFrame();
+        }
 
         AddMail(mail);
     }

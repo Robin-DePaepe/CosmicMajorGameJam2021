@@ -63,7 +63,7 @@ MonoBehaviour:
   planetParent: {fileID: 0}
   blackHoleTemplate: {fileID: 3507489208988997998, guid: 10ac4fc08790e6346b74eb6b38132ca0,
     type: 3}
-  maxDistance: 70
+  maxDistance: 55
   minDistance: 20
   corruptPenalty: 10
   destroyPenalty: 20
