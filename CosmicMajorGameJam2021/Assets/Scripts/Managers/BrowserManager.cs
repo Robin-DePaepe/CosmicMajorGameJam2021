@@ -12,7 +12,7 @@ public class BrowserManager : MonoBehaviour
     [SerializeField] private GameObject tabPrefab;
     [SerializeField] private GameObject addButton;
     [SerializeField] private GameObject searchDefaultPage;
-
+    [SerializeField] private GameObject pageParent;
     const int maxTabs = 3;
 
     List<GameObject> tabs = new List<GameObject>();
@@ -66,7 +66,8 @@ public class BrowserManager : MonoBehaviour
 
     public void AddNewTab()
     {
-        AddTab(Instantiate(searchDefaultPage, transform), "New Page");
+        GameObject defaultPage = Instantiate(searchDefaultPage, pageParent.transform);
+        AddTab(defaultPage, "New Page");
     }
 
     public void AddNewSite(string siteName)
@@ -75,8 +76,7 @@ public class BrowserManager : MonoBehaviour
         {
             if (tabs.Count == maxTabs) tabs[0].GetComponent<TabBehaviour>().Close();
 
-            GameObject page = Instantiate(defaultWebPage, transform);
-
+            GameObject page = Instantiate(defaultWebPage, pageParent.transform);
             page.GetComponent<Image>().sprite = Resources.Load<Sprite>($"SitePages/{siteName}");
             page.GetComponentInChildren<DownloadBehaviour>().SiteAdress = siteName;
             page.GetComponentInChildren<DownloadBehaviour>().SetDownloadType( pageLookupTable[siteName]);

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,9 +18,9 @@ public class MailManager : MonoBehaviour
     [SerializeField] private GameObject mailSummaryList;
 
     //mail displayable info
-    [SerializeField] private Text subject;
-    [SerializeField] private Text senderInfo;
-    [SerializeField] private Text body;
+    [SerializeField] private TextMeshProUGUI subject;
+    [SerializeField] private TextMeshProUGUI senderInfo;
+    [SerializeField] private TextMeshProUGUI body;
     #endregion
 
     private void Start()
@@ -76,8 +77,16 @@ public class MailManager : MonoBehaviour
         subject.text = mail.MailData.subject;
         senderInfo.text = mail.MailData.infoSender;
         body.text = mail.MailData.body;
+        StartCoroutine(enableToggle(body.gameObject));
     }
 
+    IEnumerator enableToggle(GameObject objectToToggle)
+    {
+        objectToToggle.SetActive(false);
+        yield return new WaitForEndOfFrame();
+        objectToToggle.SetActive(true);
+    }
+    
     private void Reader(int lineIndex, List<string> line)
     {
         MailData.type mailType = MailData.type.regular;

@@ -38,6 +38,7 @@ public class WindowManager : MonoBehaviour
     [Header("Variables")]
     public float offset; //offset between the window's border and edge of screen
     internal IDictionary<GameObject, WindowEntry> windows;
+    public string startTut;
     public string collideTut;
     public string webTut;
     public string downloadTut;
@@ -56,7 +57,7 @@ public class WindowManager : MonoBehaviour
         
         mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
-        createTutorial("test", TimeManager.main.startGame);
+        createTutorial(startTut, TimeManager.main.startGame);
     }
 
     #endregion
@@ -94,7 +95,7 @@ public class WindowManager : MonoBehaviour
         {
             parent = windowParent;
         }
-        else if (onTop)
+        if(onTop)
         {
             parent = onTopParent;
         }

@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BrowserBehaviour : MonoBehaviour
 {
     #region Properties
-    [SerializeField] private InputField searchBar;
+    [SerializeField] private TMP_InputField searchBar;
     [SerializeField] private GameObject linkTemplate;
     [SerializeField] private GameObject linkParent;
 
@@ -29,7 +30,7 @@ public class BrowserBehaviour : MonoBehaviour
             for (int i = history.Count - 1; i >= 0; i--)
             {
                 GameObject link = Instantiate(linkTemplate, linkParent.transform);
-                link.GetComponentInChildren<Text>().text = history[i];
+                link.GetComponentInChildren<TextMeshProUGUI>().text = history[i];
                 link.GetComponent<LinkBehaviour>().LinkAdress = history[i];
             }
         }
@@ -50,7 +51,7 @@ public class BrowserBehaviour : MonoBehaviour
             GameObject link = Instantiate(linkTemplate, linkParent.transform);
 
             link.GetComponent<LinkBehaviour>().LinkAdress = inputText;
-            link.GetComponentInChildren<Text>().text = inputText;
+            link.GetComponentInChildren<TextMeshProUGUI>().text = inputText;
             link.transform.SetSiblingIndex(1); //this will set is as the first link (just below the title which is index 0)
 
             if (history.Count == linkCapasity)

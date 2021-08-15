@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,9 +8,9 @@ public class Mail : MonoBehaviour
 {
     #region variables
     [SerializeField] private Image iconSprite;
-    [SerializeField] private Text title;
-    [SerializeField] private Text info;
-    [SerializeField] private Text time;
+    [SerializeField] private TextMeshProUGUI title;
+    [SerializeField] private TextMeshProUGUI info;
+    [SerializeField] private TextMeshProUGUI time;
 
     private MailData data;
     #endregion
@@ -60,7 +61,7 @@ public class Mail : MonoBehaviour
         Destroy(this.gameObject);
     }
 }
-public class MailData : MonoBehaviour
+public class MailData
 {
     #region Variables
     public string subject;

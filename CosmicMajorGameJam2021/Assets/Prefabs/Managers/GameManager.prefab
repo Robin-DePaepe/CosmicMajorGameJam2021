@@ -45,12 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winpanel: {fileID: 0}
   losepanel: {fileID: 0}
-  firstPlanetOpenText: You just opened a Planet Folder. These must be taken care
-    of to increase your Daily Satisfaction Goal. Check the stats file in each planet
-    for more information. All areas should be in the green, or else satisfaction
-    points will be lost. Add modifiers to planet folders to increase or decrease
-    these stats! A folder has been left on the desktop containing all the modifiers
-    you need!
+  firstPlanetOpenText: 'These planets must be taken care of to increase your Daily
+    Satisfaction Goal. Check the stats file in each planet for more information.
+    All areas should be in the green, or else satisfaction points will be lost. Add
+    modifiers to planet folders to increase or decrease these stats! A folder has
+    been left on the desktop containing all the modifiers you need! '
   firstModOpenText: Click a Modifier to check out what changes it does to a Planet
     Folder
   firstPlanetOpen: 0
