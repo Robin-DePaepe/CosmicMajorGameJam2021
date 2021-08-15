@@ -35,7 +35,8 @@ public class DownloadBehaviour : MonoBehaviour
     public void OnDownload()
     {
         if (hasBought) return;
-
+        
+        hasBought = true;
         if (sprites != null)
         {
             webImage.sprite = sprites[2];
