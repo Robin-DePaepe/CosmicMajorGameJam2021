@@ -24,6 +24,7 @@ public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHa
     }
     protected override void CreateWindow()
     {
+        
         base.CreateWindow();
         windowScript = window.GetComponent<WindowMod>();
         windowScript.Set(mod);
