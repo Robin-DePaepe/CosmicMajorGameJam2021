@@ -2,32 +2,49 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DownloadBehaviour : MonoBehaviour
 {
     #region variables
-
+    private bool hasBought;
     private string site;
-    private DownloadType type;
+    private Sprite[] sprites = null;
 
-  public  enum DownloadType { mod, blackHole, malware, scam};
+    private DownloadType type;
+    public enum DownloadType { mod, blackHole, malware, scam };
+
+    [SerializeField] private Image webImage;
+    #endregion
+
     public string SiteAdress
     {
         get { return site; }
-        set { site = value; }
+        set
+        {
+            site = value;
+            sprites = Resources.LoadAll<Sprite>($"SitePages/{site}");
+            webImage.sprite = sprites[0];
+        }
     }
 
     public void SetDownloadType(DownloadType _type)
     {
         type = _type;
     }
-    #endregion
     public void OnDownload()
     {
+        if (hasBought) return;
+        
+        hasBought = true;
+        if (sprites != null)
+        {
+            webImage.sprite = sprites[2];
+        }
         switch (type)
         {
             case DownloadType.mod:
-        ModManager.main.AddModBySite(site);
+                ModManager.main.AddModBySite(site);
                 break;
             case DownloadType.blackHole:
                 PlanetManager.main.createBlackHole();
@@ -42,5 +59,15 @@ public class DownloadBehaviour : MonoBehaviour
         }
     }
 
+    public void OnHover()
+    {
+        if (hasBought || sprites == null) return;
+        webImage.sprite = sprites[1];
+    }
 
+    public void OnHoverExit()
+    {
+        if (hasBought || sprites == null) return;
+        webImage.sprite = sprites[0];
+    }
 }

@@ -788,16 +788,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 256
       objectReference: {fileID: 0}
-    - target: {fileID: 4490003303077572028, guid: cc113952f4a02a04fab6e2da104062e3,
-        type: 3}
-      propertyPath: m_Constraint
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4490003303077572028, guid: cc113952f4a02a04fab6e2da104062e3,
-        type: 3}
-      propertyPath: m_ConstraintCount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6632121296972621896, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_AnchorMax.y
