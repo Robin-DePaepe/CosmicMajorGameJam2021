@@ -77,7 +77,6 @@ public class BrowserManager : MonoBehaviour
             if (tabs.Count == maxTabs) tabs[0].GetComponent<TabBehaviour>().Close();
 
             GameObject page = Instantiate(defaultWebPage, pageParent.transform);
-            page.GetComponent<Image>().sprite = Resources.Load<Sprite>($"SitePages/{siteName}");
             page.GetComponentInChildren<DownloadBehaviour>().SiteAdress = siteName;
             page.GetComponentInChildren<DownloadBehaviour>().SetDownloadType( pageLookupTable[siteName]);
 
