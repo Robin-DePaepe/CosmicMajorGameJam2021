@@ -11,13 +11,15 @@ public class MailManager : MonoBehaviour
 
     static private TextAsset mailList;
 
+    [SerializeField] private GameObject mailSummaryList;
+    [SerializeField] private GameObject mailSummaryTemplate;
     #endregion
 
     private void Start()
     {
         main = this;
 
-        StartCoroutine(ScheduleNewMail(10f, new Mail("titel", "robin DP", "wat ben jij goed")));
+        StartCoroutine(ScheduleNewMail(10f, new MailData("titel", "robin DP", "wat ben jij goed",MailData.type.boss)));
         if (!mailList)
         {
             mailList = Resources.Load<TextAsset>("EmailChart");
@@ -25,16 +27,18 @@ public class MailManager : MonoBehaviour
         }
     }
 
-    public IEnumerator ScheduleNewMail(float time, Mail mail)
+    public IEnumerator ScheduleNewMail(float time, MailData mail)
     {
         yield return new WaitForSeconds(time);
 
         AddMail(mail);
     }
 
-    private void AddMail(Mail mail)
+    private void AddMail(MailData mailData)
     {
-        mails.Add(mail);
+     GameObject mail = Instantiate(mailSummaryTemplate, mailSummaryList.transform);
+        mail.GetComponent<Mail>().SetData(mailData);
+   //     mails.Add(mail);
 
         //play sound
         //fire pop up
@@ -42,8 +46,8 @@ public class MailManager : MonoBehaviour
 
     private void Reader(int lineIndex, List<string> line)
     {
-        Mail mail = new Mail(line[3], line[3], line[4]);
+        //Mail mail = new Mail(line[3], line[3], line[4]);
 
-        ScheduleNewMail(float.Parse(line[0]), mail);
+        //ScheduleNewMail(float.Parse(line[0]), mail);
     }
 }
