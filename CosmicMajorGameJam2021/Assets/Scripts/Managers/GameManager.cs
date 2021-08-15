@@ -17,9 +17,12 @@ public class GameManager : MonoBehaviour
         "A folder has been left on the desktop containing all the modifiers you need!";
 
     public string firstModOpenText = "Click a Modifier to check out what changes it does to a Planet Folder";
-
+    public string firstModFileOpenText = "Drag and drop the modifier into the planet file to change its stats. You can drag them back into the modifier file too";
+    
     public bool firstPlanetOpen=false;
     public bool firstModOpen=false;
+    public bool firstModFileOpen=false;
+    
     public bool firstEmailReceived=false;
     
     internal bool collidedTut;

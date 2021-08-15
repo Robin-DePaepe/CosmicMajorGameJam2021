@@ -24,7 +24,12 @@ public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHa
     }
     protected override void CreateWindow()
     {
-        
+        if (!GameManager.main.firstModFileOpen)
+        {
+            GameManager.main.firstModFileOpen = true;
+            WindowManager.main.createTutorial(GameManager.main.firstModFileOpenText);
+        }
+
         base.CreateWindow();
         windowScript = window.GetComponent<WindowMod>();
         windowScript.Set(mod);
