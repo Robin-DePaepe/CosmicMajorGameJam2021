@@ -1,9 +1,14 @@
 Name,Temperature Change,Water Levels,Vegetation,Population,Air Quality,Sus (NOT AMONG US) points,Description,Obtained From,Type
-Food Abundance,,,,10,,0,Population +10,Packed-In Folder x2,mod
-Heat Wave,10,,,,,0,Temperature +10,Packed-In Folder x2,mod
-Plant Infestation,,,10,,,0,Vegetation +10,Packed-In Folder x2,mod
-Wind Power,,,,,10,0,Air Quality +10,Packed-In Folder x2,mod
-World Peace,,,,10,,0,Population +10,Packed-In Folder x2,mod
+Food Abundance,,,,20,,0,Population +20,Packed-In Folder x2,mod
+Food Shortage,,,,-20,,0,Population -20,Packed-In Folder x2,mod
+Heat Wave,20,,,,,0,Temperature +20,Packed-In Folder x2,mod
+Cold Front,-20,,,,,0,Temperature -20,Packed-In Folder x2,mod
+Plant Infestation,,,20,,,0,Vegetation +20,Packed-In Folder x2,mod
+Plant-Eating Fungus,,,-20,,,0,Vegetation -20,Packed-In Folder x2,mod
+Wind Power,,,,,20,0,Air Quality +20,Packed-In Folder x2,mod
+Polution,,,,,-20,0,Air Quality -20,Packed-In Folder x2,mod
+World Peace,,,,20,,0,Population +20,Packed-In Folder x2,mod
+World War,,,,-20,,0,Population -20,Packed-In Folder x2,mod
 Democracy,,,,10,,5,Population +10,,mod
 Drought,,-20,,,,5,Water Level -20,,mod
 Idol Worship,,10,-10,-10,,5,"Water Level +10, Vegetation +10, Population -10",HelpHelp.com,mod
