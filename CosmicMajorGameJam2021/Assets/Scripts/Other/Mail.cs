@@ -44,7 +44,7 @@ public class Mail : MonoBehaviour
     {
         data = _data;
 
-        if (data.mailType == MailData.mailTypes.boss)
+        if (data.mailType == MailData.mailTypes.boss || data.mailType == MailData.mailTypes.warning)
         {
             iconImage.sprite = bossMailIcon;
         }
@@ -54,7 +54,7 @@ public class Mail : MonoBehaviour
 
     public void Select()
     {
-        if (data.mailType != MailData.mailTypes.boss) iconImage.sprite = openMailIcon;
+        if (data.mailType != MailData.mailTypes.boss && data.mailType != MailData.mailTypes.warning) iconImage.sprite = openMailIcon;
         MailManager.main.MailSelected(this);
     }
     public void Close()
