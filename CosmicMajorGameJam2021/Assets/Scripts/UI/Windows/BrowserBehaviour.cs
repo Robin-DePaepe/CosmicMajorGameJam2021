@@ -21,6 +21,11 @@ public class BrowserBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        if(!GameManager.main.browserTut)
+        {
+            WindowManager.main.createTutorial(WindowManager.main.browserTut);
+            GameManager.main.browserTut = true;
+        }
         browserManager = transform.root.GetComponentInChildren<BrowserManager>();
 
         if (!searchBar) Debug.LogError("No search bar given for the browser.");

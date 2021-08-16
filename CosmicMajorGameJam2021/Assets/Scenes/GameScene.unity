@@ -781,7 +781,7 @@ PrefabInstance:
     - target: {fileID: 3702813609628898924, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -162.59995
+      value: -162.59991
       objectReference: {fileID: 0}
     - target: {fileID: 3702813609628898924, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
@@ -873,6 +873,19 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1908996141}
+    - target: {fileID: 7307897047312378768, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: mailTut
+      value: Some mails contain websites to download mods. You can type these in
+        the browser or just click on the link. Clicking on the link will only work
+        when the browser is already open!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307897047312378768, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: browserTut
+      value: Here you can search sites or browse your history, once on a site just
+        click the download button and you will be good to go.
+      objectReference: {fileID: 0}
     - target: {fileID: 7307897047312378769, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_Pivot.x

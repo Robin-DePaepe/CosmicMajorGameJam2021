@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
     internal bool collidedTut;
     internal bool webTut;
     internal bool downloadTut;
+    internal bool browserTut;
+    internal bool mailTut;
 
     internal bool blackHoleTut;
     /* private void Awake()

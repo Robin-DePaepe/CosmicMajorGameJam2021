@@ -64,7 +64,7 @@ public class BrowserManager : MonoBehaviour
         }
     }
 
-    public void AddNewTab()
+    private void AddNewTab()
     {
         GameObject defaultPage = Instantiate(searchDefaultPage, pageParent.transform);
         AddTab(defaultPage, "New Page");

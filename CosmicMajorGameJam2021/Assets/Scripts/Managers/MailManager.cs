@@ -15,6 +15,8 @@ public class MailManager : MonoBehaviour
 
     static private TextAsset mailList;
 
+    Mail currentSelectedMail = null;
+
     [SerializeField] private GameObject mailTempHold;
     [SerializeField] private GameObject mailSummaryTemplate;
     [SerializeField] private GameObject mailSummaryList;
@@ -40,6 +42,18 @@ public class MailManager : MonoBehaviour
         foreach (var mail in mails)
         {
             AddMailVisually(mail.Value);
+        }
+    }
+
+    public void OpenMailWebSite()
+    {
+        if (currentSelectedMail == null || currentSelectedMail.MailData.siteName == "") return;
+
+        GameObject browserManager = GameObject.FindGameObjectWithTag("InternetManager");
+
+        if(browserManager != null)
+        {
+            browserManager.GetComponent<BrowserManager>().AddNewSite(currentSelectedMail.MailData.siteName);
         }
     }
 
@@ -103,6 +117,15 @@ public class MailManager : MonoBehaviour
 
     public void MailSelected(Mail mail)
     {
+        //give tutorial
+        if (!GameManager.main.mailTut)
+        {
+            WindowManager.main.createTutorial(WindowManager.main.mailTut);
+            GameManager.main.mailTut = true;
+        }
+
+        //set the data of the mail view
+        currentSelectedMail = mail;
         subject.text = mail.MailData.subject;
         senderInfo.text = mail.MailData.infoSender;
         body.text = mail.MailData.body;

@@ -54,7 +54,9 @@ public class DownloadBehaviour : MonoBehaviour
             case DownloadType.malware:
                 PlanetManager.main.CorruptRandom();
                 break;
-            case DownloadType.scam: //nothing happens.. you got scammed
+            case DownloadType.scam:
+                //nothing happens.. you got scammed
+                WindowManager.main.CreatePopUp("Looks like you got scammed. No mods were downloaded.", 0f, 3f);
                 break;
             default:
                 break;

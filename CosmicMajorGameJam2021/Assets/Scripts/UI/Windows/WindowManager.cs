@@ -43,6 +43,8 @@ public class WindowManager : MonoBehaviour
     public string webTut;
     public string downloadTut;
     public string blackHoleTut;
+    public string mailTut;
+    public string browserTut;
     #endregion
 
     #region Unity Functions

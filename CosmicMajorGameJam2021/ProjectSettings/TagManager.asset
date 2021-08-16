@@ -8,6 +8,7 @@ TagManager:
   - Manager
   - Canvas
   - Mouse
+  - InternetManager
   layers:
   - Default
   - TransparentFX

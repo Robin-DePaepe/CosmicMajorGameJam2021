@@ -223,7 +223,7 @@ public class TimeManager : MonoBehaviour
 
     public void ScheduleModDownLoad(string mod)//time is in game time
     {
-        WindowManager.main.CreatePopUp("Notification: " + mod + " modifier downloading",0,2.5f);
+        WindowManager.main.CreatePopUp("Notification: " + mod + " modifier downloading",0,3f);
         StartCoroutine(ScheduleAddMod(mod, modDownLoadTime));
     }
 
