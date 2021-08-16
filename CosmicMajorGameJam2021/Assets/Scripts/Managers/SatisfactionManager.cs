@@ -39,9 +39,9 @@ public class SatisfactionManager : MonoBehaviour
         satisfaction = 0;
     }
 
-    public void AddSatisfaction(int addition)
+    public void AddSatisfaction(float addition)
     {
-        satisfaction += addition;
+        satisfaction += (int)addition;
         SetBarSprite();
         
     }
@@ -61,6 +61,7 @@ public class SatisfactionManager : MonoBehaviour
 
     public void SetBarSprite()
     {
+        
         int snum = (Mathf.Max(satisfaction,1) / Mathf.Max(1, threshold) - 1);
         snum = Mathf.Clamp(snum, 0, barSprites.Length);
         bar.sprite = barSprites[snum];
