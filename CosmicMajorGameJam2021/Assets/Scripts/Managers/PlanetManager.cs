@@ -56,7 +56,7 @@ public class PlanetManager : MonoBehaviour
             StartCoroutine(schedulePlanet(planetData[i]));
         }
     }
-
+    
     #endregion
 
     #region Create And Destroy
@@ -88,13 +88,19 @@ public class PlanetManager : MonoBehaviour
     }
     public void createBlackHole()
     {
-        Vector3 position = new Vector3(Random.Range(minDistance * 2, maxDistance / 2),
-            Random.Range(minDistance * 2, maxDistance / 2), 0);
+        Vector3 position = new Vector3(Random.Range(minDistance, maxDistance),
+            Random.Range(minDistance, maxDistance), 0);
 
         GameObject blackHole = Instantiate(blackHoleTemplate, planetParent.transform);
         blackHole.transform.position = position;
 
         blackHoles.Add(blackHole);
+
+        if (!GameManager.main.blackHoleTut)
+        {
+            WindowManager.main.createTutorial(WindowManager.main.blackHoleTut);
+            GameManager.main.blackHoleTut = true;
+        }
     }
     public void destroyAllBlackHoles()
     {

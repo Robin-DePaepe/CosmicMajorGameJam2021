@@ -564,6 +564,8 @@ MonoBehaviour:
   conjoinedWindow: {fileID: 0}
   availableText: {fileID: 69207143278189314}
   button: {fileID: 69207143174058754}
+  closeButton: {fileID: 2665983254125930640}
+  minimiseButton: {fileID: 5980008683965104875}
 --- !u!1 &5980008683965104878
 GameObject:
   m_ObjectHideFlags: 0

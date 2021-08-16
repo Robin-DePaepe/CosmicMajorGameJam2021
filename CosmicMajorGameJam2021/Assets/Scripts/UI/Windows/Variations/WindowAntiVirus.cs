@@ -8,6 +8,8 @@ public class WindowAntiVirus : WindowDraggable
 {
     public TextMeshProUGUI availableText;
     public Button button;
+    public Button closeButton;
+    public Button minimiseButton;
     private bool running;
     
     protected override void Start()
@@ -61,10 +63,13 @@ public class WindowAntiVirus : WindowDraggable
         availableText.text = "Running...";
         availableText.color = Color.yellow;
         button.interactable = false;
+        closeButton.interactable = false;
+        minimiseButton.interactable = false;
 
         yield return new WaitForSeconds(wait);
         PlanetManager.main.clearMalware();
-
+        closeButton.interactable = true;
+        minimiseButton.interactable = true;
         running = false;
     }
 }

@@ -137,7 +137,7 @@ public class ShortcutPlanet : Shortcut
         }
         else
         {
-            sprite.sprite = corruptSprites[Random.Range(0, corruptSprites.Count)].open;
+            SetPair(corruptSprites[Random.Range(0, corruptSprites.Count)]);
         }
     }
 
@@ -152,27 +152,25 @@ public class ShortcutPlanet : Shortcut
     public void SetPair(SpritePair pair, bool open = false)
     {
         currentPair = pair;
+
         if (open)
         {
-            sprite.sprite = pair.open;
+            sprite.sprite = currentPair.open;
         }
         else
         {
-            sprite.sprite = pair.close;
+            sprite.sprite = currentPair.close;
         }
     }
     IEnumerator waitUnClick()
     {
         clicked = true;
-        SpritePair startPair = currentPair;
-        SetPair(startPair, true);
+        SetPair(currentPair,true);
         
         yield return new WaitForSeconds(clickTime);
         clicked = false;
-        if (startPair == currentPair)
-        {
-            SetPair(startPair);
-        }
+        
+        SetPair(currentPair);
     }
     
     #endregion

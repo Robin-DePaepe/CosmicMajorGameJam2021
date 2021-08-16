@@ -203,7 +203,6 @@ public class PlanetBehaviour : MonoBehaviour
     public void UnCorrupt(bool collision = false)
     {
         corrupted = false;
-        
         shortcut.SetPair(shortcut.unCorruptSprite);
         
         PlanetManager.main.corrupt.Remove(gameObject);

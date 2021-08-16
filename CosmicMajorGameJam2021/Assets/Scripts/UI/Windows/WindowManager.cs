@@ -42,6 +42,7 @@ public class WindowManager : MonoBehaviour
     public string collideTut;
     public string webTut;
     public string downloadTut;
+    public string blackHoleTut;
     #endregion
 
     #region Unity Functions

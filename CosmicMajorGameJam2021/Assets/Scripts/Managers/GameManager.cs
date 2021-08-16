@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     internal bool webTut;
     internal bool downloadTut;
 
+    internal bool blackHoleTut;
     /* private void Awake()
      {
          DontDestroyOnLoad(this.gameObject);

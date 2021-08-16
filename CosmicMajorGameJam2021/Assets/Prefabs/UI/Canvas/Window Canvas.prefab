@@ -1139,6 +1139,8 @@ MonoBehaviour:
     Gauge that tracks your suspicion, which diminishes over time. Download a lot
     of files at once and the Boss is sure to notice, so be careful! Downloads take
     time and appear on the mod folder on the desktop. "
+  blackHoleTut: Uh oh! A black hole spawned from some sketchy link you clicked! This
+    will destroy everything it touches. Run the Anti-Virus program to remove it.
 --- !u!1 &7307897047842171321
 GameObject:
   m_ObjectHideFlags: 0

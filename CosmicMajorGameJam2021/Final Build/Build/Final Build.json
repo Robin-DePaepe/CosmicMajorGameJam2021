@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "CosmicMajorGameJam2021",
+"productVersion": "0.1",
+"dataUrl": "Final Build.data.unityweb",
+"wasmCodeUrl": "Final Build.wasm.code.unityweb",
+"wasmFrameworkUrl": "Final Build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.22f1"
+}
