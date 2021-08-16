@@ -8,23 +8,23 @@ using Random = UnityEngine.Random;
 public class PlanetManager : MonoBehaviour
 {
     #region Components
-    
+
     public static PlanetManager main;
     public GameObject planetTemplate;
     public GameObject planetParent;
     public GameObject blackHoleTemplate;
-    
+
     #endregion
 
     #region Variables
 
     public float maxDistance = 50;
     public float minDistance = 5;
-    
+
     public int corruptPenalty = 10;
     public int destroyPenalty = 20;
     public float speed = 0.1f;
-    
+
     #endregion
 
     #region Lists and Dicts
@@ -34,7 +34,7 @@ public class PlanetManager : MonoBehaviour
     public List<GameObject> unCorrupt;
     public List<GameObject> blackHoles;
     public List<PlanetData> planetData;
-    
+
     #endregion
 
     #region Unity Functions
@@ -74,7 +74,7 @@ public class PlanetManager : MonoBehaviour
         Planet planetScript = planet.GetComponent<Planet>();
 
         planetScript.behaviour.startDistanceToSun = Random.Range(minDistance, maxDistance);
-        planetScript.behaviour.currentAngle = Random.Range(0,360);
+        planetScript.behaviour.currentAngle = Random.Range(0, 360);
         planetScript.behaviour.maxDistance = maxDistance;
         planetScript.behaviour.minDistance = minDistance;
         planetScript.description = description;
@@ -82,7 +82,7 @@ public class PlanetManager : MonoBehaviour
         planetScript.behaviour.travelingSpeed = speed;
         planetScript.baseStats = stats;
         planet.name = planetName;
-        
+
         planets.Add(planet, planetScript);
         unCorrupt.Add(planet);
     }
@@ -90,10 +90,10 @@ public class PlanetManager : MonoBehaviour
     {
         Vector3 position = new Vector3(Random.Range(minDistance * 2, maxDistance / 2),
             Random.Range(minDistance * 2, maxDistance / 2), 0);
-        
+
         GameObject blackHole = Instantiate(blackHoleTemplate, planetParent.transform);
         blackHole.transform.position = position;
-        
+
         blackHoles.Add(blackHole);
     }
     public void destroyAllBlackHoles()
@@ -134,7 +134,7 @@ public class PlanetManager : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
-        
+
         createPlanet(data.name, data.description, data.stats);
     }
     #endregion
@@ -143,9 +143,12 @@ public class PlanetManager : MonoBehaviour
 
     public void CorruptRandom()
     {
-        GameObject target = unCorrupt[Random.Range(0, unCorrupt.Count)];
+        if (unCorrupt.Count > 0)
+        {
+            GameObject target = unCorrupt[Random.Range(0, unCorrupt.Count)];
 
-        planets[target].behaviour.Corrupt();
+            planets[target].behaviour.Corrupt();
+        }
     }
 
     void UnCorruptAll()
@@ -177,9 +180,9 @@ public class PlanetManager : MonoBehaviour
         {
             return true;
         }
-        
+
         //check for popups here
-        
+
         return false;
     }
 

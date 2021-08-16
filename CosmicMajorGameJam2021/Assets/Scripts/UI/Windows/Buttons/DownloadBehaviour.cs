@@ -41,10 +41,12 @@ public class DownloadBehaviour : MonoBehaviour
         {
             webImage.sprite = sprites[2];
         }
+        int suspicion = 15;
         switch (type)
         {
             case DownloadType.mod:
                 ModManager.main.AddModBySite(site);
+                suspicion = 1;
                 break;
             case DownloadType.blackHole:
                 PlanetManager.main.createBlackHole();
@@ -57,6 +59,7 @@ public class DownloadBehaviour : MonoBehaviour
             default:
                 break;
         }
+                SuspicionManager.main.AddSuspicion(suspicion);
     }
 
     public void OnHover()

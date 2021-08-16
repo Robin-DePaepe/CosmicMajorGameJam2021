@@ -45,7 +45,7 @@ public class BrowserManager : MonoBehaviour
 
             switch (line[9])
             {
-                case "malware":
+                case "malWare":
                     type = DownloadBehaviour.DownloadType.malware;
                     break;
                 case "scam":

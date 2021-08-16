@@ -32,7 +32,7 @@ public class SuspicionManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        threshold = suspicionLossValue / (barSprites.Length-1);
+        threshold = suspicionLossValue / (barSprites.Length);
         SetBarSprite();
     }
 
@@ -84,8 +84,9 @@ public class SuspicionManager : MonoBehaviour
     
     public void SetBarSprite()
     {
-        int snum = (Mathf.Max(suspicion,1) / Mathf.Max(1, threshold) - 1);
+        int snum = (Mathf.Max(suspicion,1) / Mathf.Max(1, threshold));
         snum = Mathf.Clamp(snum, 0, barSprites.Length-1);
+
         bar.sprite = barSprites[snum];
         if (snum == barSprites.Length - 1)
         {

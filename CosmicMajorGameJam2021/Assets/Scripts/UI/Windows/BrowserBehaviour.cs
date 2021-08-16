@@ -16,7 +16,7 @@ public class BrowserBehaviour : MonoBehaviour
     //history
     static List<string> history = new List<string>();
 
-    const int linkCapasity = 10;
+    const int linkCapasity = 7;
     #endregion
 
     private void Awake()
