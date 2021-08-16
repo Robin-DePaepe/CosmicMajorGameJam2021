@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
     private WindowMod windowScript;
     internal WindowMods currentFolderScript;
@@ -13,6 +14,7 @@ public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHa
     private GameObject mouse;
     private GameObject previousParent;
     private RectTransform previousRect;
+    public Image icon;
     private void Awake()
     {
         mouse = GameObject.FindWithTag("Mouse");
@@ -21,7 +23,24 @@ public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHa
     protected override void Start()
     {
         base.Start();
+        image = icon;
+        Set();
     }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        CreateWindow();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        Destroy(window);
+    }
+
+    public override void OnPointerDown(PointerEventData eventData)
+    {
+    }
+
     protected override void CreateWindow()
     {
         if (!GameManager.main.firstModFileOpen)
@@ -31,7 +50,7 @@ public class ShortcutMod : Shortcut, IDragHandler, IBeginDragHandler, IEndDragHa
         }
 
         base.CreateWindow();
-        windowScript = window.GetComponent<WindowMod>();
+        windowScript = (WindowMod)WindowManager.main.windows[window].script;
         windowScript.Set(mod);
     }
 

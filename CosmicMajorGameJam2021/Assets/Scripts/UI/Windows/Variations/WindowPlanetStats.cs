@@ -15,6 +15,7 @@ public class WindowPlanetStats : WindowDraggable
     protected override void Start()
     {
         base.Start();
+        planet.statWindow = gameObject;
         planetShower.planet = planet;
         planetNameText.text = planet.planetName;
         CreateStats();
@@ -22,6 +23,11 @@ public class WindowPlanetStats : WindowDraggable
 
     public override void Minimise()
     {
+        if (planet.modWindow)
+        {
+            planet.modWindow.SetActive(false);
+        }
+        gameObject.SetActive(false);
         base.Minimise();
     }
 
@@ -31,31 +37,45 @@ public class WindowPlanetStats : WindowDraggable
         {
             planetShower.gameObject.SetActive(true);
         }
+        if (planet)
+        {
+            if (planet.modWindow)
+            {
+                planet.modWindow.SetActive(true);
+            }
+        }
     }
 
     public override void Close()
     {
-        gameObject.SetActive(false);
+        if (planet.modWindow)
+        {
+            Destroy(planet.modWindow); 
+        }
+        Destroy(gameObject);
     }
 
     protected override void Update()
     {
         base.Update();
-        planetNameText.text = planet.planetName + ": " + planet.stats.pointsProduced + "/" + planet.stats.maxProduction;
         if (!planet)
         {
             Destroy(gameObject);
         }
+        planetNameText.text = planet.planetName + ": " + planet.stats.pointsProduced + "/" + planet.stats.maxProduction;
     }
 
     void CreateStats()
     {
         for (int i = 0; i < planet.stats.list.Count; i++)
         {
-            GameObject statObj = Instantiate(statTemplate, statParent.transform);
-            StatBar statScript = statObj.GetComponent<StatBar>();
-            statScript.planet = planet;
-            statScript.index = i;
+            if (planet.stats.list[i] != null)
+            {
+                GameObject statObj = Instantiate(statTemplate, statParent.transform);
+                StatBar statScript = statObj.GetComponent<StatBar>();
+                statScript.planet = planet;
+                statScript.index = i;
+            }
         }
     }
 }

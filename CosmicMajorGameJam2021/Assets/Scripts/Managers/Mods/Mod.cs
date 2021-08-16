@@ -40,8 +40,11 @@ public class Mod
     {
         for (int i = 0; i < stat.list.Count; i++)
         {
-            stat.list[i].barProgress += changes[i];
-            stat.list[i].barProgress = Mathf.Clamp(stat.list[i].barProgress, 0, 100);
+            if (stat.list[i] != null)
+            {
+                stat.list[i].barProgress += changes[i];
+                stat.list[i].barProgress = Mathf.Clamp(stat.list[i].barProgress, 0, 100);
+            }
         }
     }
 }

@@ -39,9 +39,7 @@ public class ShortcutPlanet : Shortcut
     private bool clicked;
     SpritePair currentPair;
     #endregion
-    
 
-    
     #region Unity
 
     private void Awake()
@@ -67,6 +65,10 @@ public class ShortcutPlanet : Shortcut
         if (window)
         {
             planetBehaviour.frozen = window.activeSelf;
+        }
+        else
+        {
+            planetBehaviour.frozen = false;
         }
 
         if (planet)

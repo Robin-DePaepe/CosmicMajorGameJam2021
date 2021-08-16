@@ -1,5 +1,7 @@
 ﻿
 using System.Collections.Generic;
+using UnityEngine;
+
 [System.Serializable]
 public class Stats
 {
@@ -12,43 +14,73 @@ public class Stats
     public Stat airQuality;
     public Stat population;
 
-    public Stats(Stat temperature, Stat waterLevels, Stat vegetation, Stat population, Stat airQuality)
+    public Stats(List<Stat> stat)
     {
-        temperature.SetStat("Temperature", "Ambient temperature of planet");
-        this.temperature = temperature;
-        
-        waterLevels.SetStat("Water Levels", "Height of sea level");
-        this.waterLevels = waterLevels;
-        
-        vegetation.SetStat("Vegetation", "Amount of greenery");
-        this.vegetation = vegetation;
-        
-        population.SetStat("Population", "Population density");
-        this.population = population;
-        
-        airQuality.SetStat("Air Quality", "Quality of Air on the planet");
-        this.airQuality = airQuality;
-        
+        if (stat[0] != null)
+        {
+            stat[0].SetStat("Temperature", "Ambient temperature of planet");
+            this.temperature = stat[0];
+        }
+
+        if (stat[1] != null)
+        {
+            stat[1].SetStat("Water Levels", "Height of sea level");
+            this.waterLevels = stat[1];
+        }
+
+        if (stat[2] != null)
+        {
+            stat[2].SetStat("Vegetation", "Amount of greenery");
+            this.vegetation = stat[2];
+        }
+
+        if (stat[3] != null)
+        {
+            stat[3].SetStat("Population", "Population density");
+            this.population = stat[3];
+        }
+
+        if (stat[4] != null)
+        {
+            stat[4].SetStat("Air Quality", "Quality of Air on the planet");
+            this.airQuality = stat[4];
+        }
+
         createList();
         setMaxProduction();
     }
 
     public Stats(Stats original)
     {
-        temperature = new Stat(original.temperature);
-        temperature.SetStat("Temperature", "Ambient temperature of planet");
+        if (original.temperature != null)
+        {
+            temperature = new Stat(original.temperature);
+            temperature.SetStat("Temperature", "Ambient temperature of planet");
+        }
 
-        waterLevels = new Stat(original.waterLevels);
-        waterLevels.SetStat("Water Levels", "Height of sea level");
+        if (original.waterLevels != null)
+        {
+            waterLevels = new Stat(original.waterLevels);
+            waterLevels.SetStat("Water Levels", "Height of sea level");
+        }
 
-        vegetation = new Stat(original.vegetation);
-        vegetation.SetStat("Vegetation", "Amount of greenery");
+        if (original.vegetation != null)
+        {
+            vegetation = new Stat(original.vegetation);
+            vegetation.SetStat("Vegetation", "Amount of greenery");
+        }
 
-        airQuality = new Stat(original.airQuality);
-        airQuality.SetStat("Air Quality", "Quality of Air on the planet");
+        if (original.airQuality != null)
+        {
+            airQuality = new Stat(original.airQuality);
+            airQuality.SetStat("Air Quality", "Quality of Air on the planet");
+        }
 
-        population = new Stat(original.population);
-        population.SetStat("Population", "Population density");
+        if (original.population != null)
+        {
+            population = new Stat(original.population);
+            population.SetStat("Population", "Population density");
+        }
 
         createList();
         setMaxProduction();
@@ -60,8 +92,12 @@ public class Stats
 
         for (int i = 0; i < list.Count; i++)
         {
-            pointsProduced += list[i].PointsProduced();
+            if (list[i] != null)
+            {
+                pointsProduced += list[i].PointsProduced();
+            }
         }
+
     }
 
     void createList()
@@ -78,7 +114,10 @@ public class Stats
     {
         for (int i = 0; i < list.Count; i++)
         {
-            maxProduction += list[i].PointProduction;
+            if (list[i] != null)
+            {
+                maxProduction += list[i].PointProduction;
+            }
         }
     }
 }

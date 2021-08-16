@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -26,6 +27,7 @@ public class WindowModPlanets : WindowMods
     protected override void Start()
     {
         base.Start();
+        planet.modWindow = gameObject;
         mods = planet.mods;
         planetNameText.text = planet.planetName;
         GameObject shortcutObj = Instantiate(statShortcutTemplate, modParent.transform);
@@ -36,14 +38,34 @@ public class WindowModPlanets : WindowMods
 
     }
 
+    private void OnEnable()
+    {
+        if (planet)
+        {
+            if (planet.statWindow)
+            {
+                planet.statWindow.SetActive(true);
+            }
+        }
+    }
+
     public override void Minimise()
     {
+        if (planet.statWindow)
+        {
+            planet.statWindow.SetActive(false);
+        }
+        gameObject.SetActive(false);
         base.Minimise();
     }
 
     public override void Close()
     {
-        gameObject.SetActive(false);
+        if (planet.statWindow)
+        {
+            Destroy(planet.statWindow);
+        }
+        Destroy(gameObject);
     }
     public override void AddMod(GameObject modObject, Mod mod)
     {

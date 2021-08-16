@@ -11,6 +11,8 @@ public class Planet : MonoBehaviour
     public string description;
     internal PlanetBehaviour behaviour;
     internal ShortcutPlanet shortcut;
+    internal GameObject modWindow;
+    internal GameObject statWindow;
     public List<Mod> mods;
     public Color halfGood;
     public Color bad;
@@ -52,6 +54,7 @@ public class Planet : MonoBehaviour
                 shortcut.sprite.color = bad;
             }
         }
+
     }
 
     IEnumerator waitPoints()

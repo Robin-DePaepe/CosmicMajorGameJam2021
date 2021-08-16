@@ -12,7 +12,7 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
     
     [Header("Components")]
     public WindowManager manager;
-    private Image image;
+    protected Image image;
     private TextMeshProUGUI text;
     protected RectTransform rect;
     

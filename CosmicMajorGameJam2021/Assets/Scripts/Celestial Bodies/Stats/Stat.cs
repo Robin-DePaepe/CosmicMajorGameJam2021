@@ -66,7 +66,7 @@ public class Stat
         }
         else
         {
-            pointsProduced = -PointProduction;
+            pointsProduced = -1;
         }
 
         return pointsProduced;

@@ -15,17 +15,30 @@ public class PlanetData
         name = line[1];
         description = line[2];
         string difficulty = line[3];
-        stats = new Stats(
-            new Stat(getRanges(line[4]), difficulty),
-            new Stat(getRanges(line[5]), difficulty),
-            new Stat(getRanges(line[6]), difficulty),
-            new Stat(getRanges(line[7]), difficulty),
-            new Stat(getRanges(line[8]), difficulty)
-        );
+
+        List<Stat> statsToAdd = new List<Stat>();
+        for (int i = 4; i < 9; i++)
+        {
+            int[] ranges = getRanges(line[i]);
+            if (ranges != null)
+            {
+                statsToAdd.Add(new Stat(ranges, difficulty));
+            }
+            else
+            {
+                statsToAdd.Add(null);
+            }
+        }
+
+        stats = new Stats(statsToAdd);
     }
 
     int[] getRanges(string cell)
     {
+        if (cell == "")
+        {
+            return null;
+        }
         int[] ranges = new int[2];
         string[] stringRanges = cell.Split('-');
 

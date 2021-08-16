@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class WindowMod : WindowDraggable
 {
     internal Mod mod;
-    public TextMeshProUGUI modName;
     public TextMeshProUGUI description;
     public Image icon;
     protected override void Update()
@@ -25,9 +24,7 @@ public class WindowMod : WindowDraggable
     {
         mod = modParam;
         
-        modName.text = mod.modName;
         description.text = mod.description;
-        icon.sprite = mod.icon;
     }
     
 }

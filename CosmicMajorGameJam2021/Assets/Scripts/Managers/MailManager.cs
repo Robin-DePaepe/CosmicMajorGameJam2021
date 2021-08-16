@@ -125,7 +125,6 @@ public class MailManager : MonoBehaviour
         {
             case "":
                 return;
-                break;
             case "Information":
                 mailType = MailData.mailTypes.information;
                 break;
