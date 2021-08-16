@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     
     public string firstPlanetOpenText =
         "You just opened a Planet Folder. These must be taken care of to increase your Daily Satisfaction Goal. " + 
-        " Check the stats file in each planet for more information. All areas should be in the green, or else satisfaction points will be lost. "+ 
+        " Check the stats file in each planet for more information. Your stat should be in the green or the satisfaction points will be lost. "+ 
         "Add modifiers to planet folders to increase or decrease these stats! " +
         "A folder has been left on the desktop containing all the modifiers you need!";
 
