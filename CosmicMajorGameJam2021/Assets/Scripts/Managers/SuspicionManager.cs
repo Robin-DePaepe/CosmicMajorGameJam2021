@@ -13,8 +13,8 @@ public class SuspicionManager : MonoBehaviour
     [SerializeField] public int suspicionDecay;
     [Tooltip("Time for suspicion decrease to happen(in real time seconds)")]
     [SerializeField] public int suspicionRate;
-    
-    
+
+    private Dictionary<int, GameObject> suspicionMails = new Dictionary<int, GameObject>();
     public int suspicion;
 
     public static SuspicionManager main;
@@ -42,6 +42,10 @@ public class SuspicionManager : MonoBehaviour
         SetBarSprite();
     }
 
+    public void AddSuspicionMail(int sus, GameObject mail)
+    {
+        suspicionMails.Add(sus, mail);
+    }
     public void AddSuspicion(int addition)
     {
         suspicion = Mathf.Min(suspicion + addition, 100);
@@ -59,28 +63,23 @@ public class SuspicionManager : MonoBehaviour
     {
         if (suspicion >= suspicionLossValue)//results in losing the game
         {
-            //insert what happens when we lose here
             GameManager.main.Loss();
         }
-        if (suspicion >= 75)
-        {
-            
-            //send 75% sus mail
-            //MailManager.main.ScheduleNewMail(0f, new Mail());
-        }
-        if (suspicion >= 50)
-        {
-            //send 50% sus mail
-            //MailManager.main.ScheduleNewMail(0f, new Mail());
 
-        }
-        if (suspicion >= 25)
+            List<int> sentMails = new List<int>(); 
+        foreach (var mail in suspicionMails)
         {
-            //send 25% sus mail
-            //MailManager.main.ScheduleNewMail(0f, new Mail());
+            if(suspicion >= mail.Key)
+            {
+               StartCoroutine( MailManager.ScheduleNewMail(mail.Value));
+                sentMails.Add(mail.Key);
+            }
         }
-        
-        
+
+        foreach (int mailID in sentMails)
+        { 
+            suspicionMails.Remove(mailID);
+        }
     }
     
     public void SetBarSprite()

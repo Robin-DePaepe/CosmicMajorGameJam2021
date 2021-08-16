@@ -128,6 +128,8 @@ public class PlanetBehaviour : MonoBehaviour
     #endregion
 
     #region Get/Set
+    public bool IsCorrupted
+    { get { return corrupted; } }
 
     public void SetDistance(float offset)
     {

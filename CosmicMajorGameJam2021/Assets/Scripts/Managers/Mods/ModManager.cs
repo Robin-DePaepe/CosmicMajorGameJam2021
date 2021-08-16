@@ -24,6 +24,8 @@ public class ModManager : MonoBehaviour
         for (int i = 0; i < modData.Count; i++)
         {
             Mod mod = new Mod(modData[i]);
+            if (mod.modName == "") continue;
+
             allMods.Add(mod.modName, mod);
 
             if (modData[i].start)

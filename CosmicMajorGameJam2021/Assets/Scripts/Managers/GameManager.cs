@@ -40,12 +40,7 @@ public class GameManager : MonoBehaviour
         main = this;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
+
 
     public void LoadGameScene()
     {
@@ -91,4 +86,5 @@ public class GameManager : MonoBehaviour
         //play sound win
         SoundManager.main.PlaySoundEffect(SoundEffects.daycomplete);
     }
+
 }

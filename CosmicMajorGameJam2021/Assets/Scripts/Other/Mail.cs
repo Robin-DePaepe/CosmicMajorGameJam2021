@@ -20,6 +20,10 @@ public class Mail : MonoBehaviour
     #endregion
 
     public MailData MailData { get { return data; } }
+    public void SetMailId(uint id)
+    {
+        data.mailId = id;
+    }
     public void SetArrivalTime()
     {
         string hours = TimeManager.main.currentTime.hours.ToString();
@@ -55,7 +59,7 @@ public class Mail : MonoBehaviour
     }
     public void Close()
     {
-        MailManager.main.RemoveMail(this);
+        MailManager.RemoveMail(data.mailId);
         Destroy(this.gameObject);
     }
 }
@@ -66,17 +70,21 @@ public class MailData
     public string infoSender;
     public string body;
     public string mailArrivalTime;
+    public string siteName;
+    public uint mailId;
+
     public mailTypes mailType;
 
-    public enum mailTypes { regular, boss };
+    public enum mailTypes { information, productAd, boss, warning };
     #endregion
 
-    public MailData(string _title, string _info, string _body, mailTypes _mailType)
+    public MailData(string _title, string _info, string _body, mailTypes _mailType,string _siteName = "")
     {
         body = _body;
         infoSender = _info;
         subject = _title;
         mailType = _mailType;
+        siteName = _siteName;
     }
 }
 

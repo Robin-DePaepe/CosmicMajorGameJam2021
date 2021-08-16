@@ -60,3 +60,5 @@ MonoBehaviour:
     seconds: 0
   timePaused: 1
   debug: 0
+  mailManager: {fileID: 4430757670695788388, guid: 0463c9d969690904cad9234540e62ea6,
+    type: 3}

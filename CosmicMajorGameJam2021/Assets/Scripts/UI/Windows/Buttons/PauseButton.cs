@@ -11,7 +11,6 @@ public class PauseButton : MonoBehaviour
 
     private Image image;
 
-    public GameObject text;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +29,6 @@ public class PauseButton : MonoBehaviour
     {
         TimeManager.main.ChangePause();
         image.color = new Color(image.color.r,image.color.g,image.color.b,pausePanel.activeSelf?1:0 );
-        text.SetActive(pausePanel.activeSelf);
         pausePanel.SetActive(!pausePanel.activeSelf);
     }
 }

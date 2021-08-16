@@ -63,7 +63,7 @@ public class Planet : MonoBehaviour
 
             if (behaviour.gameObject.activeSelf)
             {
-                if (!TimeManager.main.timePaused)
+                if (!TimeManager.main.timePaused && !behaviour.IsCorrupted)
                 {
                     timeSinceLast += Time.deltaTime;
                 

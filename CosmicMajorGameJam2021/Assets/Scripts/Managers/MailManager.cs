@@ -10,10 +10,12 @@ public class MailManager : MonoBehaviour
     #region Variables
     public static MailManager main;
 
-    private static List<Mail> mails = new List<Mail>();
+    private static Dictionary<uint, GameObject> mails = new Dictionary<uint, GameObject>();
+    private static uint mailId = 0;
 
     static private TextAsset mailList;
 
+    [SerializeField] private GameObject mailTempHold;
     [SerializeField] private GameObject mailSummaryTemplate;
     [SerializeField] private GameObject mailSummaryList;
 
@@ -21,6 +23,8 @@ public class MailManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI subject;
     [SerializeField] private TextMeshProUGUI senderInfo;
     [SerializeField] private TextMeshProUGUI body;
+
+    private bool applicationQuiting = false;
     #endregion
 
     private void Start()
@@ -32,17 +36,22 @@ public class MailManager : MonoBehaviour
             mailList = Resources.Load<TextAsset>("EmailChart");
             CSVReader.LoadFromString(mailList.text, Reader);
         }
+
+        foreach (var mail in mails)
+        {
+            AddMailVisually(mail.Value);
+        }
     }
 
-    public IEnumerator ScheduleNewMail(float time, GameObject mail)
+    static public IEnumerator ScheduleNewMail(GameObject mail, float time = 0f)
     {
-        float timeWaited=TimeManager.main.ConvertGameTimeToRealTime(time*3600);
+        float timeWaited = TimeManager.main.ConvertGameTimeToRealTime(time * 3600);
 
-        while (timeWaited < time)
+        while (timeWaited > 0f)
         {
             if (!TimeManager.main.timePaused)
             {
-                timeWaited += Time.deltaTime;
+                timeWaited -= Time.deltaTime;
             }
 
             yield return new WaitForEndOfFrame();
@@ -51,19 +60,29 @@ public class MailManager : MonoBehaviour
         AddMail(mail);
     }
 
-    private void AddMail(GameObject mail)
+    private void AddMailVisually(GameObject mail)
     {
-        Mail mailScript = mail.GetComponent<Mail>();
+        if (!main) return;
+
+        //set parent
+        mail.transform.SetParent(mailSummaryList.transform);
+        mail.SetActive(true);
 
         //set to latest new mail in the hierachy
         mail.transform.SetSiblingIndex(mailSummaryList.transform.childCount);
 
-        mail.SetActive(true);
+        mail.GetComponent<Transform>().localScale = new Vector3(1, 1, 1);
+        Canvas.ForceUpdateCanvases();
+    }
+    private static void AddMail(GameObject mail)
+    {
+        Mail mailScript = mail.GetComponent<Mail>();
 
         mailScript.SetArrivalTime();
-        mails.Add(mailScript);
+        mailScript.SetMailId(mailId);
 
-        Canvas.ForceUpdateCanvases();
+        mails.Add(mailId, mail);
+        ++mailId;
 
         //play sound
         if (mailScript.MailData.mailType == MailData.mailTypes.boss)
@@ -73,11 +92,13 @@ public class MailManager : MonoBehaviour
 
         //fire pop up
         WindowManager.main.CreatePopUp("New mail from: " + mailScript.MailData.infoSender, 0f, 4f);
+
+        if (main) main.AddMailVisually(mail);
     }
 
-    public void RemoveMail(Mail mail)
+    static public void RemoveMail(uint id)
     {
-        mails.Remove(mail);
+        mails.Remove(id);
     }
 
     public void MailSelected(Mail mail)
@@ -94,21 +115,69 @@ public class MailManager : MonoBehaviour
         yield return new WaitForEndOfFrame();
         objectToToggle.SetActive(true);
     }
-    
+
     private void Reader(int lineIndex, List<string> line)
     {
-        MailData.mailTypes mailType = MailData.mailTypes.regular;
+        MailData.mailTypes mailType = MailData.mailTypes.productAd;
+        string siteName = "";
 
-        switch (line[2])
+        switch (line[0])
         {
-            case "Bossy":
+            case "":
+                return;
+                break;
+            case "Information":
+                mailType = MailData.mailTypes.information;
+                break;
+            case "Work Addition Email":
                 mailType = MailData.mailTypes.boss;
                 break;
+            case "Warning Email":
+                mailType = MailData.mailTypes.warning;
+                break;
+            default:
+                if (line[0].Contains("Product Ad"))
+                {
+                    mailType = MailData.mailTypes.productAd;
+                    siteName = line[1];
+                }
+                else return;
+                break;
         }
+
         GameObject mail = Instantiate(mailSummaryTemplate, mailSummaryList.transform);
-        mail.GetComponent<Mail>().SetData(new MailData(line[3], line[2], line[4], mailType));
+        mail.GetComponent<Mail>().SetData(new MailData(line[3], line[2], line[4], mailType, siteName));
         mail.SetActive(false);
 
-       StartCoroutine(ScheduleNewMail(float.Parse(line[0]), mail));
+        if (mailType == MailData.mailTypes.information || mailType == MailData.mailTypes.boss)
+            StartCoroutine(ScheduleNewMail(mail, float.Parse(line[1])));
+        else
+        {
+            switch (mailType)
+            {
+                case MailData.mailTypes.productAd:
+                    TimeManager.main.AddProductEmail(mail);
+                    break;
+                case MailData.mailTypes.warning:
+                    SuspicionManager.main.AddSuspicionMail((int)float.Parse(line[1]), mail);
+                    break;
+            }
+        }
+    }
+
+    private void OnDestroy()
+    {
+        foreach (var mail in mails)
+        {
+            if (mail.Value && !applicationQuiting)
+            {
+                mail.Value.transform.SetParent(null);
+                mail.Value.gameObject.SetActive(false);
+            }
+        }
+    }
+    private void OnApplicationQuit()
+    {
+        applicationQuiting = true;
     }
 }

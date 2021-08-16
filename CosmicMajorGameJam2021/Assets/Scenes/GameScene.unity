@@ -853,6 +853,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7307897046354960233, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -13.130005
+      objectReference: {fileID: 0}
     - target: {fileID: 7307897047312378765, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_Name
@@ -1192,6 +1197,12 @@ PrefabInstance:
       propertyPath: losepanel
       value: 
       objectReference: {fileID: 266137968}
+    - target: {fileID: 1696318569027170051, guid: ea6a5f07bf34970448cb9e9f9c93b331,
+        type: 3}
+      propertyPath: mailManager
+      value: 
+      objectReference: {fileID: 4430757670695788388, guid: 0463c9d969690904cad9234540e62ea6,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea6a5f07bf34970448cb9e9f9c93b331, type: 3}
 --- !u!4 &1848534824 stripped

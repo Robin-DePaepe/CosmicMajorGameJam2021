@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 [Serializable]
 public class GameTime //time object for in game events, to be set in game standard time
@@ -101,7 +102,12 @@ public class TimeManager : MonoBehaviour
     private GameTime nextSusDecrease=new GameTime();
     public bool timePaused=true;
     public bool debug;
-    
+
+    [SerializeField] private GameObject mailManager;
+    List<GameObject> productMails = new List<GameObject>();
+    int currentMailID = 0;
+
+    float countDownForMail = -1f;
     public static TimeManager main;
 
     private void Awake()
@@ -116,6 +122,9 @@ public class TimeManager : MonoBehaviour
         currentTime = startTime;
         StartCoroutine(Clock());
         Invoke(nameof(BeginTheDay),Time.deltaTime);
+
+        //make sure the mail manager is instantiated
+        Instantiate(mailManager, transform);
     }
 
     public void unPauseTime()
@@ -126,6 +135,18 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!TimeManager.main.timePaused)
+        {
+            countDownForMail -= Time.deltaTime;
+
+            if (countDownForMail <= 0f)
+            {
+                SentProductEmail();
+                countDownForMail = Random.Range(ConvertGameTimeToRealTime(2400), ConvertGameTimeToRealTime(3600));//spawn one between every 40/60 minutes
+            }
+        }
+
+
         if (debug)
         {
             LogTime();
@@ -188,14 +209,16 @@ public class TimeManager : MonoBehaviour
         SatisfactionManager.main.CheckSatisfactionCondition();
     }
 
-    public void ScheduleEmail(float time)//in in real time
-    { 
-        //set a time for the mail to be sent
-        //call a function which you send the email to be sent(or a type of mail if it's a random)
-        //types of emails to be sent from here
-        //2. Spam product ad
-        //3. Actual product ad
+    public void AddProductEmail(GameObject Mail)
+    {
+        productMails.Add(Mail);
+    }
+    private void SentProductEmail()
+    {
+        StartCoroutine(MailManager.ScheduleNewMail(productMails[currentMailID]));
+        ++currentMailID;
 
+        if (currentMailID == productMails.Count) currentMailID = 0;
     }
 
     public void ScheduleModDownLoad(string mod)//time is in game time
