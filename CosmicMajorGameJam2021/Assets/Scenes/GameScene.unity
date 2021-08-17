@@ -1221,6 +1221,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4430757670695788388, guid: 0463c9d969690904cad9234540e62ea6,
         type: 3}
+    - target: {fileID: 1696318569027170051, guid: ea6a5f07bf34970448cb9e9f9c93b331,
+        type: 3}
+      propertyPath: firstModOpenText
+      value: Hover over a Modifier to check out what changes it does to a Planet
+        Folder
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696318569027170051, guid: ea6a5f07bf34970448cb9e9f9c93b331,
+        type: 3}
+      propertyPath: firstPlanetOpenText
+      value: This is a Planet Folder. Add Modifiers into it to increase stats. Stats
+        are shown in the file inside. Keep the stats in the Green to win!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea6a5f07bf34970448cb9e9f9c93b331, type: 3}
 --- !u!4 &1848534824 stripped

@@ -1,21 +1,22 @@
 Name,Temperature Change,Water Levels,Vegetation,Population,Air Quality,Sus (NOT AMONG US) points,Description,Obtained From,Type
-Food Abundance,,,,10,,0,Population +10,Packed-In Folder x2,mod
-Heat Wave,10,,,,,0,Temperature +10,Packed-In Folder x2,mod
-Plant Infestation,,,10,,,0,Vegetation +10,Packed-In Folder x2,mod
-Wind Power,,,,,10,0,Air Quality +10,Packed-In Folder x2,mod
-World Peace,,,,10,,0,Population +10,Packed-In Folder x2,mod
-Democracy,,,,10,,5,Population +10,,mod
+Food Abundance,,,,20,,0,Population +20,Packed-In Folder x2,mod
+Food Shortage,,,,-20,,0,Population -20,Packed-In Folder x2,mod
+Heat Wave,-20,,,,,0,Temperature -20,Packed-In Folder x2,mod
+Cold Front,20,,,,,0,Temperature -20,Packed-In Folder x2,mod
+Plant Infestation,,,-20,,,0,Vegetation -20,Packed-In Folder x2,mod
+Plant Virus,,,-20,,,0,Vegetation -20,Packed-In Folder x2,mod
+Democracy,,,,10,,5,Population +10,HelpHelp.com,mod
 Drought,,-20,,,,5,Water Level -20,,mod
-Idol Worship,,10,-10,-10,,5,"Water Level +10, Vegetation +10, Population -10",HelpHelp.com,mod
+Idol Worship,,10,-10,-10,,5,"Water Level +10, Vegetation +10, Population -10",,mod
 Monarchy,,,,10,,5,Population +10,Armstrong.com,mod
 Solar Flares,20,,,-10,,5,"Temperature +20, Population -10",,mod
 Communist Regime,,,,-20,-10,10,Population -20,,mod
 Natural Energy Deposits,,,,,20,10,Air Quality +20,PlanetaryAidCommitee.com,mod
-Pandemic,-10,,30,,,10,"Population -10, Vegetation +30",,mod
-Severe Flooding,,10,,-10,,10,"Water Level +10, Population -10",CorprateAid.com,mod
-Global Warming,30,,,,,15,Temperature +30,,mod
+Pandemic,-10,,30,,,10,"Population -10, Vegetation +30",CosmicWorkers.com,mod
+Severe Flooding,,10,,-10,,10,"Water Level +10, Population -10",,mod
+Global Warming,30,,,,,15,Temperature +30,CorprateAid.com,mod
 GMOs,,,30,,,15,Vegetation +30,,mod
-Hydro Power,,,,,30,15,Air Quality +30,CosmicWorkers.com,mod
+Hydro Power,,,,,30,15,Air Quality +30,,mod
 Solar Power,,,,,30,15,Air Quality +30,,mod
 Torrential Downpours,,30,,,,15,Water Level +30,,mod
 ,,,,,,10,,Mo$tAwe$ome.com,blackHole
