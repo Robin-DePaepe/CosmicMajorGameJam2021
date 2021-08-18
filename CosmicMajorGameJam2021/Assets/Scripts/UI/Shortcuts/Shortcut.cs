@@ -49,6 +49,11 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
         }
     }
 
+    private void Update()
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+    }
+
     #endregion
 
     #region Click Functions

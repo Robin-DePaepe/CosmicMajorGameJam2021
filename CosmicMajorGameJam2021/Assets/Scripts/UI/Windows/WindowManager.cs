@@ -62,6 +62,7 @@ public class WindowManager : MonoBehaviour
 
     public void CreatePopUp(string popUpText,float timeTillPop,float timeLasted)
     {
+        SoundManager.main.PlaySoundEffect(SoundEffects.notice);
         GameObject window = CreateWindow(Vector3.zero, popUpTemplate, parent: popUpParent);
         WindowsConjoinedPopUp script = (WindowsConjoinedPopUp) windows[window].script;
         script.SetPop(popUpText, timeTillPop,timeLasted);
@@ -72,7 +73,7 @@ public class WindowManager : MonoBehaviour
         GameObject window = CreateWindow(Vector3.zero, tutorialTemplate, true);
         WindowTutorial script = (WindowTutorial) windows[window].script;
         script.tutorialText = text;
-
+        
         TimeManager.main.timePaused = true;
         script.onClose.AddListener(TimeManager.main.unPauseTime);
     }

@@ -31,34 +31,32 @@ public class Planet : MonoBehaviour
 
     private void Update()
     {
-        if (!TimeManager.main.timePaused)
+
+        stats = new Stats(baseStats);
+        for (int i = 0; i < mods.Count; i++)
         {
-            stats = new Stats(baseStats);
-            for (int i = 0; i < mods.Count; i++)
-            {
-                mods[i].ChangeStats(stats);
-            }
-            stats.calculatePoints();
-            if (stats.pointsProduced == stats.maxProduction)
-            {
-                shortcut.sprite.color = Color.white;
-            }
-            else if (stats.pointsProduced >= 0)
-            {
-                shortcut.sprite.color = halfGood;
-            }
-            else
-            {
-                shortcut.sprite.color = bad;
-            }
+            mods[i].ChangeStats(stats);
+        }
+        stats.calculatePoints();
+        if (stats.pointsProduced == stats.maxProduction)
+        {
+            shortcut.sprite.color = Color.white;
+        }
+        else if (stats.pointsProduced >= 0)
+        {
+            shortcut.sprite.color = halfGood;
+        }
+        else
+        {
+            shortcut.sprite.color = bad;
         }
 
     }
 
-    public void addPoints()
+    public int addPoints()
     {
-        SatisfactionManager.main.AddSatisfaction(stats.pointsProduced);
         shortcut.AddPoints(stats.pointsProduced);
+        return stats.pointsProduced;
     }
     
 }

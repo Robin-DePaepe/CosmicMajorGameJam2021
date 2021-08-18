@@ -98,7 +98,10 @@ public class TimeManager : MonoBehaviour
     public void ChangePause() => timePaused = !timePaused;
     public void unPauseTime()
     {
-        timePaused = false;
+        if (rate > 0)
+        {
+            timePaused = false;
+        }
     }
     public float ConvertRealTimeToGameTime(float inLifeTime)//converts real time in seconds to in game time seconds
     {

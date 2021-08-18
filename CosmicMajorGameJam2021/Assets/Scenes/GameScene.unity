@@ -570,16 +570,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 79346905570039522, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 439.66187
+      objectReference: {fileID: 0}
+    - target: {fileID: 79346905570039522, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 236.07483
+      objectReference: {fileID: 0}
+    - target: {fileID: 79346905570039522, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 79346905570039522, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -183
+      objectReference: {fileID: 0}
     - target: {fileID: 274131947944335566, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1848534825}
-    - target: {fileID: 274131947944335566, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadMainMenuScene
-      objectReference: {fileID: 0}
     - target: {fileID: 3439105694944739312, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
         type: 3}
       propertyPath: m_Camera
@@ -705,20 +720,35 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5759524253390868810, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -90.57001
-      objectReference: {fileID: 0}
     - target: {fileID: 5794438679099853730, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1848534825}
-    - target: {fileID: 5794438679099853730, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+    - target: {fileID: 8166520783651085124, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadMainMenuScene
+      propertyPath: m_SizeDelta.y
+      value: 43.482452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166520783651085124, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166520783651085124, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166520783651085124, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166520783651085124, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -26.74
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5, type: 3}

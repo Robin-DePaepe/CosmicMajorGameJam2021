@@ -156,11 +156,13 @@ public class PlanetManager : MonoBehaviour
                 yield return new WaitForEndOfFrame();
             }
 
+            int total=0;
             for (int i = 0; i < unCorrupt.Count; i++)
             {
                 Planet planet = planets[unCorrupt[i]];
-                planet.addPoints();
+                total += planet.addPoints();
             }
+            SatisfactionManager.main.AddSatisfaction(total);
         }
     }
 

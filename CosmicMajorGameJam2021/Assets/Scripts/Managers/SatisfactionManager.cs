@@ -41,7 +41,7 @@ public class SatisfactionManager : MonoBehaviour
     public void AddSatisfaction(float addition)
     {
         satisfaction += (int)addition;
-        satisfaction = Mathf.Clamp(satisfaction, 0, requiredSatisfaction+1);
+        satisfaction = Mathf.Clamp(satisfaction, 0, requiredSatisfaction);
         SetBarSprite();
     }
     public void CheckSatisfactionCondition()
