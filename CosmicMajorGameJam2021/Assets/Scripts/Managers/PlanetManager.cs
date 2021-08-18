@@ -20,11 +20,12 @@ public class PlanetManager : MonoBehaviour
 
     public float maxDistance = 50;
     public float minDistance = 5;
-
+    [Tooltip("game time minutes")]
+    public float satisfactionRate = 10;
+    
     public int corruptPenalty = 10;
     public int destroyPenalty = 20;
     public float speed = 0.1f;
-
     #endregion
 
     #region Lists and Dicts
@@ -55,6 +56,8 @@ public class PlanetManager : MonoBehaviour
         {
             StartCoroutine(schedulePlanet(planetData[i]));
         }
+
+        StartCoroutine(addUpPoints());
     }
     
     #endregion
@@ -73,7 +76,6 @@ public class PlanetManager : MonoBehaviour
         GameObject planet = Instantiate(planetTemplate, planetParent.transform);
         Planet planetScript = planet.GetComponent<Planet>();
 
-        planetScript.behaviour.startDistanceToSun = Random.Range(minDistance, maxDistance);
         planetScript.behaviour.currentAngle = Random.Range(0, 360);
         planetScript.behaviour.maxDistance = maxDistance;
         planetScript.behaviour.minDistance = minDistance;
@@ -85,6 +87,24 @@ public class PlanetManager : MonoBehaviour
 
         planets.Add(planet, planetScript);
         unCorrupt.Add(planet);
+        
+        planetScript.behaviour.setPosition();
+        for (int i = 0; i < 50; i++)
+        {
+            List<Collider2D> colliders = new List<Collider2D>();
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.NoFilter();
+            planetScript.behaviour.col.OverlapCollider(filter, colliders);
+
+            if (colliders.Count > 0)
+            {
+                planetScript.behaviour.setPosition();
+            }
+            else
+            {
+                break;
+            }
+        }
     }
     public void createBlackHole()
     {
@@ -96,11 +116,7 @@ public class PlanetManager : MonoBehaviour
 
         blackHoles.Add(blackHole);
 
-        if (!GameManager.main.blackHoleTut)
-        {
-            WindowManager.main.createTutorial(WindowManager.main.blackHoleTut);
-            GameManager.main.blackHoleTut = true;
-        }
+        GameManager.main.checkTutorial(tutNames.blackHole);
     }
     public void destroyAllBlackHoles()
     {
@@ -126,25 +142,42 @@ public class PlanetManager : MonoBehaviour
         Destroy(planet);
     }
 
-    IEnumerator schedulePlanet(PlanetData data)
-    {
-        float timeToWait = TimeManager.main.ConvertGameTimeToRealTime(data.hoursToSpawn * 3600);
-        float timeWaited = 0;
+    #endregion
 
-        while (timeToWait >= timeWaited)
+    #region Coroutines
+
+    IEnumerator addUpPoints()
+    {
+        while (gameObject.activeSelf)
         {
-            if (!TimeManager.main.timePaused)
+            GameTime nextTime = TimeManager.main.currentTime + new GameTime(satisfactionRate*60, 0, 0);
+            while (nextTime >= TimeManager.main.currentTime)
             {
-                timeWaited += Time.deltaTime;
+                yield return new WaitForEndOfFrame();
             }
 
+            for (int i = 0; i < unCorrupt.Count; i++)
+            {
+                Planet planet = planets[unCorrupt[i]];
+                planet.addPoints();
+            }
+        }
+    }
+
+    IEnumerator schedulePlanet(PlanetData data)
+    {
+        GameTime scheduledTime = TimeManager.main.currentTime + new GameTime(data.hoursToSpawn * 3600, 0, 0);
+        while (scheduledTime >= TimeManager.main.currentTime)
+        {
             yield return new WaitForEndOfFrame();
         }
 
         createPlanet(data.name, data.description, data.stats);
+        WindowManager.main.CreatePopUp("New planet: " + data.name, 0, 3f);
     }
+    
     #endregion
-
+    
     #region Corruption
 
     public void CorruptRandom()

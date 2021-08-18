@@ -45,13 +45,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winpanel: {fileID: 0}
   losepanel: {fileID: 0}
-  firstPlanetOpenText: 'These planets must be taken care of to increase your Daily
-    Satisfaction Goal. Check the stats file in each planet for more information.
-    All areas should be in the green, or else satisfaction points will be lost. Add
-    modifiers to planet folders to increase or decrease these stats! A folder has
-    been left on the desktop containing all the modifiers you need! '
-  firstModOpenText: Click a Modifier to check out what changes it does to a Planet
-    Folder
-  firstPlanetOpen: 0
-  firstModOpen: 0
-  firstEmailReceived: 0
+  firstPlanetOpenText: This is a Planet Folder. Add Modifiers into it to increase
+    stats. Stats are shown in the file inside. Keep the stats in the Green to win!
+  firstModOpenText: Hover over a Modifier to check out what changes it does to a
+    Planet Folder
+  firstModFileOpenText: Drag and drop the modifier into the planet file to change
+    its stats. You can drag them back into the modifier file too
+  tutorialList:
+  - name: 0
+    text: 'Welcome to your new job at Cosmic Corp. We''re known for creating the
+      Planetary Operating Environment (POE for short). It''s your job to make sure
+      that all of your clients planets are taken care of. We''ve provided a folder
+      filled with Modifier Documents to help you with this. Drag the correct files
+      into the folders and you''re all set! Any unauthorized modifiers are prohibited
+      due to employees traveling to sites that contained malware that damaged planets.
+      Planet Needs can be viewed from the stats document inside all planet folders.
+      Get as many satisfaction points as possible by the end of the work day. Failure
+      to collect enough Satisfaction Points will result in disciplinary action. '
+  - name: 1
+    text: "Looks like two planets collided and got corrupted! Move them away from
+      each other using the slider inside a Planet Folders\u2019 stats document."
+  - name: 2
+    text: "Looks like you\u2019re on a website that the company has blacklisted for
+      providing un-authorised Modifiers! Cosmic Corp does not authorise the use of
+      these Modifiers (they call them \u201Ccheats\u201D). Use this information at
+      your own risk."
+  - name: 3
+    text: "The Boss isn\u2019t going to like that! Downloading Mods online isn\u2019t
+      allowed, and may get you fired! Luckily, your desktop comes equipped with a
+      Suspicion Gauge that tracks your suspicion, which diminishes over time. Download
+      a lot of files at once and the Boss is sure to notice, so be careful! Downloads
+      take time and appear on the mod folder on the desktop. "
+  - name: 4
+    text: Uh oh! A black hole spawned from some sketchy link you clicked! This will
+      destroy everything it touches. Run the Anti-Virus program to remove it.
+  - name: 5
+    text: Some mails contain websites to download mods. You can type these in the
+      browser or just click on the link. Clicking on the link will only work when
+      the browser is already open!
+  - name: 6
+    text: Here you can search sites or browse your history, once on a site just click
+      the download button and you will be good to go.
+  - name: 7
+    text: Drag and drop the modifier into the planet file to change its stats. You
+      can drag them back into the modifier file too
+  - name: 8
+    text: Hover over a Modifier to check out what changes it does to a Planet Folder
+  - name: 9
+    text: This is a Planet Folder. Add Modifiers into it to increase stats. Stats
+      are shown in the file inside. Keep the stats in the Green to win!

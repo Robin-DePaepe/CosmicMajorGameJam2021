@@ -27,8 +27,6 @@ public class Planet : MonoBehaviour
         mods = new List<Mod>();
 
         stats = new Stats(baseStats);
-
-        StartCoroutine(waitPoints());
     }
 
     private void Update()
@@ -57,28 +55,10 @@ public class Planet : MonoBehaviour
 
     }
 
-    IEnumerator waitPoints()
+    public void addPoints()
     {
-        float timeSinceLast = 0;
-        while (gameObject.activeSelf)
-        {
-            yield return new WaitForEndOfFrame();
-
-            if (behaviour.gameObject.activeSelf)
-            {
-                if (!TimeManager.main.timePaused && !behaviour.IsCorrupted)
-                {
-                    timeSinceLast += Time.deltaTime;
-                
-                    if (timeSinceLast >= 10f)
-                    {
-                        SatisfactionManager.main.AddSatisfaction(stats.pointsProduced);
-                        shortcut.AddPoints(stats.pointsProduced);
-                        timeSinceLast = 0;
-                    }
-                }
-            }
-
-        }
+        SatisfactionManager.main.AddSatisfaction(stats.pointsProduced);
+        shortcut.AddPoints(stats.pointsProduced);
     }
+    
 }

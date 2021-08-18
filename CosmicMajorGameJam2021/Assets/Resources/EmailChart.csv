@@ -1,31 +1,26 @@
 Timed Emails,,,,
 Type,Time Received (game time hours),Sender,Subject,Contents
-Information,0,Cosmic Corp LLC,Welcome to your new job!,"Welcome to your new job at Cosmic Corp LLC. We're known around the the cosmos for creating the Planetary Operating Environment (POE for short), in order to make managing a solar system as simple as possible. It's your job to make sure that all of your clients planets are taken care of and all their various needs are accounted for. We've provided a folder filled with Modifier Documents to help you with this. Just drag the correct files into the folders and you're all set! Any unauthorized modifiers are prohibited due to company employees traveling to websites that contained malware that damaged planets. Planet Needs can be viewed from the stats.TXT document inside all planet folders. Make sure to get as many satisfaction points as possible by the end of the work day. Failure to collect enough Satisfaction Points will result in disciplinary action. "
-Work Addition Email,1,Bossy,New Work Order,"You've been granted the opportunity to take control of another planet folder. Don't screw this up."
+Information,0,Cosmic Corp,Welcome to your new job!,Welcome to your new job at Cosmic Corp. We're known for creating the Planetary Operating Environment (POE for short). It's your job to make sure that all of your clients planets are taken care of. We've provided a folder filled with Modifier Documents to help you with this. Drag the correct files into the folders and you're all set! Any unauthorized modifiers are prohibited due to employees traveling to sites that contained malware that damaged planets. Planet Needs can be viewed from the stats document inside all planet folders. Get as many satisfaction points as possible by the end of the work day. Failure to collect enough Satisfaction Points will result in disciplinary action. 
 Information,4,Eric,Hi coworker!,"Hey there mate! How are you doing on this new exciting job? If you are enjoying it make sure to rate us and give feedback so we can improve our work environment. Only half a day to go, good luck and have fun!"
 ,,,,
 ,,,,
 ,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-Warning Email,30,Bossy,Suspicious Activity Detected,"Suspicious activity has been reported. PLease cease at once"
-Warning Email,75,Bossy,Suspicious Activity Detected,"An increase in uspicious activity has been reported on your computer. PLease cease at once"
+Suspicion emails,,,,
+Warning Email,30,Bossy,Suspicious Activity Detected,We have suspicions that you may be downloading unapproved modifiers. Disciplinary action or immediate termination will occur if discovered.
+Warning Email,75,Bossy,Suspicious Activity Detected,An employee has raised a complaint due to your work. This information will be investigated and we remind you that downloading unapproved modifiers will result in disciplinary action or immediate termination.
 ,,,,
 ,,,,
 ,,,,
 Randomly Occurring Emails,,,,
 One email from list is chosen randomly between every 20-40 seconds to send,,,,
 Type,Website Name in Email,Sender,Subject,Contents
-Spam Product Ad,Mo$tAwe$ome.com,Mo$t Awe$ome Download$,FREE DOWNLOADS 4 U!!," gO tO tHis SiTe For FrEe ThInG Site: Mo$tAwe$ome.com"
-Spam Product Ad,Planetary_aid_Commitee.com,Planetary_Aid_Commitee,YOU'VE BEEN CHOSEN!!!,YOU'VE BEEN RANDOMLY SELECTED TO TAKE PART IN BETA TESTING FOR OUR NEW WEBSITE!!!! Site: Planetary_aid_Commitee.com
-Spam Product Ad,danzSite.com,dans super selecton of modifier,many modifyers! much wow!,"hey kid, My buddy told me you need a hand with yer job. Just go to this site. Site: danzSite.com"
-Spam Product Ad,website.mymail.com,Prince Androscoggin,I need you're help,"Hello good friend! My name Prince Androscoggin, and I need you're help! My bank account password has been stolen and placed inside this website. If you can get it back for me, ill make sure to make you a millonare! Site: website.mymail.com"
+Spam Product Ad,Mo$tAwe$ome.com,Mo$t Awe$ome Download$,FREE DOWNLOADS 4 U!!,"Try downloading some of our AWESOME Modifyers to get ahead! We promice 112% increace in sadisfaction for your money! It's easy, just visit our site! Site: Mo$tAwe$ome.com"
+Spam Product Ad,Planetary_aid_Commitee.com,Planetary_Aid_Commitee,YOU'VE BEEN CHOSEN!!!,YOU'VE BEEN SELECTED TO TAKE PART IN BETA TESTING FOR OUR WEBSITE!!!! FOLLOW THIS LINK TO SIGN UP FOR NO CHARGE!!! Site: Planetary_aid_Commitee.com
+Spam Product Ad,danzSite.com,dans super selecton of modifier,many modifyers! much wow!,"My buddy told me you need a hand. I gotcha bro, my site's got everything u need. Litterally everything. Nothin but pure and uncut profits! Site: danzSite.com"
+Spam Product Ad,website.mymail.com,Prince Androscoggin,I need you're help,"My name Prince Androscoggin, and I need you're help! My bank has been stolen and placed inside website. get it back, ill make you millonare! Site: website.mymail.com"
 ,,,,
-Actual Product Ad,HelpHelp.com,Helpful Help LLC,Need a Helping Hand?,"The biggest supplier of Modifiers around! Site: HelpHelp.com"
-Actual Product Ad,PlanetaryAidCommitee.com,Planetary Aid Committee,#1 Rated Modifier Download Website,"The Planetary Aid Committee helps you get work done! Site: PlanetaryAidCommitee.com"
-Actual Product Ad,Armstrong.com,Armstrong.com,All Your Hard-To-Find Modifiers in Once Place!,"Your local family-owned Modifier supplier! Site: Armstrong.com"
-Actual Product Ad,CosmicWorkers.com,Cosmic Corp Workers Union,Supporting Salarymen Since 1995,"Founded by workers; For workers. Site: CosmicWorkers.com"
-Actual Product Ad,CorprateAid.com,Corprate Aid Specialist,Help in these trying times,Aid in these trying times! Site: CorprateAid.com
+Actual Product Ad,HelpHelp.com,Helpful Help LLC,Need a Hand?,We pride ourselves in top-notch plant products. Come browse our supply! Site: HelpHelp.com
+Actual Product Ad,PlanetaryAidCommitee.com,Planetary Aid Committee,#1 Modifier Download Website,We have created our very own open store to combat malware and misinformation. Access our atmospheric files today! Site: PlanetaryAidCommitee.com
+Actual Product Ad,Armstrong.com,Armstrong.com,All Your Hard-To-Find Modifiers in Once Place!,"Armstrong has been a family business for generations, distributing all kinds of hydro modifiers all the way from our farm! Site: Armstrong.com"
+Actual Product Ad,CosmicWorkers.com,Cosmic Corp Workers Union,Supporting Salarymen Since 1995,We have the principle of free Planet Modifier access to all. Follow this link to our website to enjoy the world of open source population modifiers. Site: CosmicWorkers.com
+Actual Product Ad,CorprateAid.com,Corprate Aid Specialist,Help in these trying times,We heard that you're struggling to handle the heat at your work. We can help you change your enivornment!  Site: CorprateAid.com

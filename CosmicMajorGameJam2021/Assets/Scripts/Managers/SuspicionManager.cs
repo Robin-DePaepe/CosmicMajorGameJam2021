@@ -66,7 +66,7 @@ public class SuspicionManager : MonoBehaviour
             GameManager.main.Loss();
         }
 
-            List<int> sentMails = new List<int>(); 
+        List<int> sentMails = new List<int>(); 
         foreach (var mail in suspicionMails)
         {
             if(suspicion >= mail.Key)

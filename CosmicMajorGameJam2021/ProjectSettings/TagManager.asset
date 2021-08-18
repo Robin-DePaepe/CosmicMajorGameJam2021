@@ -9,6 +9,7 @@ TagManager:
   - Canvas
   - Mouse
   - InternetManager
+  - InternetShortcut
   layers:
   - Default
   - TransparentFX

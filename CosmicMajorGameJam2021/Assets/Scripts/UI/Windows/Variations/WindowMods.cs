@@ -27,7 +27,7 @@ public class WindowMods : WindowDraggable
     {
         GameObject modObject = Instantiate(modTemplate, modParent.transform);
         ShortcutMod shortcut = modObject.GetComponent<ShortcutMod>();
-            
+        
         shortcut.mod = mod;
         shortcut.appName = mod.modName;
         shortcut.Icon = mod.icon;

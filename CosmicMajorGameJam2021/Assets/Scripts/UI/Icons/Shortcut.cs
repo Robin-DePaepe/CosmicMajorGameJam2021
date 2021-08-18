@@ -22,10 +22,10 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
 
     public Sprite Icon;
     public GameObject windowTemplate;
-    protected GameObject window;
+    internal GameObject window;
     public string appName;
     Vector3 windowPosition;
-    protected bool clickedOnce;
+    internal bool clickedOnce;
     #endregion
 
     #region Unity Functions
@@ -73,11 +73,7 @@ public class Shortcut : MonoBehaviour, IPointerDownHandler
                 CreateWindow();
                 if (appName == "Mods")
                 {
-                    if (!GameManager.main.firstModOpen)
-                    { 
-                        GameManager.main.firstModOpen = true; 
-                        WindowManager.main.createTutorial(GameManager.main.firstModOpenText);
-                    }
+                    GameManager.main.checkTutorial(tutNames.modOpen);
                 }
             }
 

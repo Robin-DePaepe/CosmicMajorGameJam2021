@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
 using Random = UnityEngine.Random;
@@ -84,9 +85,7 @@ public class SoundManager : MonoBehaviour
 
 	private void Start()
 	{
-		if(isInMainMenuScene)PlayMainMenuMusic();
-		else PlayMainGameMusic();
-		
+		StartCoroutine(musicLoop(isInMainMenuScene));
 	}
 
 	private void getMixerVolumes()
@@ -142,17 +141,34 @@ public class SoundManager : MonoBehaviour
 		}
 	}
 
-	public void PlayMainMenuMusic()
+	IEnumerator musicLoop(bool mainMenu)
 	{
-		musicSource.clip = MainMenuMusic;
-		musicSource.Play();
-		Invoke(nameof(PlayMainMenuMusic),MainMenuMusic.length);//using this here because loop will be turned off for consistency across scenes with the prefab
-	}
-	public void PlayMainGameMusic()
-	{
-		musicSource.clip = MainGameMusic[Random.Range(0,3)];
-		musicSource.Play();
-		Invoke(nameof(PlayMainGameMusic),musicSource.clip.length);//doing this instead of loop because we may want to switch between different main game music
-	}
+		int current = 0;
+		if (!mainMenu)
+		{
+			yield return new WaitForSeconds(dayStart.length);
+		}
+		while (gameObject.activeSelf)
+		{
+			if (!musicSource.isPlaying)
+			{
+				if (!mainMenu)
+				{
+					current++;
+					if (current >= MainGameMusic.Length)
+					{
+						current = 0;
+					}
+					musicSource.clip = MainGameMusic[Random.Range(0,3)];
+				}
+				else
+				{
+					musicSource.clip = MainMenuMusic;
+				}
 
+				musicSource.Play();
+			}
+			yield return new WaitForEndOfFrame();
+		}
+	}
 }

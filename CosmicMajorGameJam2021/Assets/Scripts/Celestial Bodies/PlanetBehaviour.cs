@@ -13,7 +13,7 @@ public class PlanetBehaviour : MonoBehaviour
 
     [Header("Components")]
     static Camera gameCamera;
-    BoxCollider2D col;
+    internal BoxCollider2D col;
     private ShortcutPlanet shortcut;
     #endregion
 
@@ -100,6 +100,12 @@ public class PlanetBehaviour : MonoBehaviour
         return centralPos;
     }
 
+    public void setPosition()
+    {
+        startDistanceToSun = Random.Range(minDistance, maxDistance);
+        transform.position = Quaternion.Euler(0f, 0f, currentAngle) * new Vector3(1,0,0) * startDistanceToSun;
+    }
+
     bool CheckFarther()
     {
         List<Collider2D> colliders = new List<Collider2D>();
@@ -184,6 +190,7 @@ public class PlanetBehaviour : MonoBehaviour
 
     public void Corrupt(bool collision = false)
     {
+        SoundManager.main.PlaySoundEffect(SoundEffects.foldercorruption);
         corrupted = true;
         SatisfactionManager.main.AddSatisfaction(-PlanetManager.main.corruptPenalty);
         
@@ -193,10 +200,9 @@ public class PlanetBehaviour : MonoBehaviour
         fromCollision = collision;
         shortcut.SetCorrupted(collision);
 
-        if (collision && !GameManager.main.collidedTut)
+        if (collision)
         {
-            WindowManager.main.createTutorial(WindowManager.main.collideTut);
-            GameManager.main.collidedTut = true;
+            GameManager.main.checkTutorial(tutNames.collide);
         }
     }
 

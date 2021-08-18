@@ -1,24 +1,29 @@
 Name,Temperature Change,Water Levels,Vegetation,Population,Air Quality,Sus (NOT AMONG US) points,Description,Obtained From,Type
-Food Abundance,,,,20,,0,Population +20,Packed-In Folder x2,mod
-Food Shortage,,,,-20,,0,Population -20,Packed-In Folder x2,mod
-Heat Wave,-20,,,,,0,Temperature -20,Packed-In Folder x2,mod
-Cold Front,20,,,,,0,Temperature -20,Packed-In Folder x2,mod
-Plant Infestation,,,-20,,,0,Vegetation -20,Packed-In Folder x2,mod
-Plant Virus,,,-20,,,0,Vegetation -20,Packed-In Folder x2,mod
-Democracy,,,,10,,5,Population +10,HelpHelp.com,mod
-Drought,,-20,,,,5,Water Level -20,,mod
-Idol Worship,,10,-10,-10,,5,"Water Level +10, Vegetation +10, Population -10",,mod
-Monarchy,,,,10,,5,Population +10,Armstrong.com,mod
-Solar Flares,20,,,-10,,5,"Temperature +20, Population -10",,mod
-Communist Regime,,,,-20,-10,10,Population -20,,mod
-Natural Energy Deposits,,,,,20,10,Air Quality +20,PlanetaryAidCommitee.com,mod
-Pandemic,-10,,30,,,10,"Population -10, Vegetation +30",CosmicWorkers.com,mod
-Severe Flooding,,10,,-10,,10,"Water Level +10, Population -10",,mod
-Global Warming,30,,,,,15,Temperature +30,CorprateAid.com,mod
-GMOs,,,30,,,15,Vegetation +30,,mod
-Hydro Power,,,,,30,15,Air Quality +30,,mod
-Solar Power,,,,,30,15,Air Quality +30,,mod
-Torrential Downpours,,30,,,,15,Water Level +30,,mod
+Birth Control,,,,-2,,0,Population -2,Packed-In Folder x2,mod
+Indoor Heater,1,,,,,0,Temperature +1,Packed-In Folder x2,mod
+Fertilizer,,,2,,,0,Vegetation +2,Packed-In Folder x2,mod
+Air Freshener ,,,,,-2,0,Air Quality -2,Packed-In Folder x2,mod
+Bottle of Water,,1,,,,0,Water Level +1,Packed-In Folder x2,mod
+Plant Infestation,,,20,,,5,Vegetation +20,HelpHelp.com,mod
+Weed Killer,,,-20,,,5,Vegetation -20,HelpHelp.com,mod
+Plant Infestation II,,,40,,,5,Vegetation +40,HelpHelp.com,mod
+Weed Killer II,,,-40,,,5,Vegetation -40,HelpHelp.com,mod
+Flood,,20,,,,5,Water Level +20,Armstrong.com,mod
+Drought,,-20,,,,5,Water Level -20,Armstrong.com,mod
+Flood II,,40,,,,5,Water Level +40,Armstrong.com,mod
+Drought II,,-40,,,,5,Water Level -40,Armstrong.com,mod
+Air purification,,,,,20,5,Air quality +20,PlanetaryAidCommitee.com,mod
+Pollution,,,,,-20,5,Air quality -20,PlanetaryAidCommitee.com,mod
+Air purification II,,,,,40,5,Air quality +40,PlanetaryAidCommitee.com,mod
+Pollution II,,,,,-40,5,Air quality -40,PlanetaryAidCommitee.com,mod
+Heat Wave,20,,,,,5,Temperature +20,CorprateAid.com,mod
+Cold Front,-20,,,,,5,Temperature -20,CorprateAid.com,mod
+Heat Wave II,40,,,,,5,Temperature +40,CorprateAid.com,mod
+Cold Front II,-40,,,,,5,Temperature -40,CorprateAid.com,mod
+Food Abundance,,,,20,,5,Population +20,CosmicWorkers.com,mod
+Food Scarcity,,,,-20,,5,Population -20,CosmicWorkers.com,mod
+Food Abundance II,,,,40,,5,Population +30,CosmicWorkers.com,mod
+Food Scarcity II,,,,-40,,5,Population -30,CosmicWorkers.com,mod
 ,,,,,,10,,Mo$tAwe$ome.com,blackHole
 ,,,,,,20,,Planetary_aid_Commitee.com,scam
 ,,,,,,10,,danzSite.com,malWare

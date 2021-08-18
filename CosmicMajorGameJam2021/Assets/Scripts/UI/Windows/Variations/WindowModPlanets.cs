@@ -30,6 +30,16 @@ public class WindowModPlanets : WindowMods
         planet.modWindow = gameObject;
         mods = planet.mods;
         planetNameText.text = planet.planetName;
+        statShortcut();
+
+        for (int i = 0; i < mods.Count; i++)
+        {
+            CreateMod(mods[i]);
+        }
+    }
+
+    void statShortcut()
+    {
         GameObject shortcutObj = Instantiate(statShortcutTemplate, modParent.transform);
         shortcut = shortcutObj.GetComponent<ShortcutPlanetStat>();
         shortcut.manager = manager;

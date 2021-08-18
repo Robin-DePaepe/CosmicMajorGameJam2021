@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +16,7 @@ public class SatisfactionManager : MonoBehaviour
     [Header("Bar")]
     public Image bar;
     public Sprite[] barSprites;
+    public TextMeshProUGUI text;
     private int threshold;
     
     private void Awake()
@@ -33,17 +35,14 @@ public class SatisfactionManager : MonoBehaviour
     void Update()
     {
         SetBarSprite();
-    }
-    public void ResetSatisfaction()
-    {
-        satisfaction = 0;
+        text.text = satisfaction + "/" + requiredSatisfaction;
     }
 
     public void AddSatisfaction(float addition)
     {
         satisfaction += (int)addition;
+        satisfaction = Mathf.Clamp(satisfaction, 0, requiredSatisfaction+1);
         SetBarSprite();
-        
     }
     public void CheckSatisfactionCondition()
     {

@@ -46,22 +46,24 @@ public class DownloadBehaviour : MonoBehaviour
         {
             case DownloadType.mod:
                 ModManager.main.AddModBySite(site);
-                suspicion = 1;
+                suspicion = 0;
                 break;
             case DownloadType.blackHole:
                 PlanetManager.main.createBlackHole();
+                SoundManager.main.PlaySoundEffect(SoundEffects.error);
+                WindowManager.main.CreatePopUp("Looks like you got scammed. A black hole was created", 0f, 3f);
                 break;
             case DownloadType.malware:
                 PlanetManager.main.CorruptRandom();
+                SoundManager.main.PlaySoundEffect(SoundEffects.error);
+                WindowManager.main.CreatePopUp("Looks like you got scammed. A planet was corrupted", 0f, 3f);
                 break;
             case DownloadType.scam:
-                //nothing happens.. you got scammed
+                SoundManager.main.PlaySoundEffect(SoundEffects.error);
                 WindowManager.main.CreatePopUp("Looks like you got scammed. No mods were downloaded.", 0f, 3f);
                 break;
-            default:
-                break;
         }
-                SuspicionManager.main.AddSuspicion(suspicion);
+        SuspicionManager.main.AddSuspicion(suspicion);
     }
 
     public void OnHover()

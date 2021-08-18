@@ -84,11 +84,7 @@ public class ShortcutPlanet : Shortcut
 
     public override void OnPointerDown(PointerEventData eventData)
     {
-        if (!GameManager.main.firstPlanetOpen)
-        {
-            GameManager.main.firstPlanetOpen = true;
-            WindowManager.main.createTutorial(GameManager.main.firstPlanetOpenText);
-        }
+        GameManager.main.checkTutorial(tutNames.planetOpen);
 
         if (window)
         {

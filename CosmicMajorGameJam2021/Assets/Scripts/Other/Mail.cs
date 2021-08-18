@@ -16,7 +16,7 @@ public class Mail : MonoBehaviour
     [SerializeField] private Image iconImage;
 
 
-    private MailData data;
+    internal MailData data;
     #endregion
 
     public MailData MailData { get { return data; } }

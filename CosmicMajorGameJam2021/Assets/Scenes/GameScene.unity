@@ -201,6 +201,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 122303540}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &206712055 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5755676564246991150, guid: cc113952f4a02a04fab6e2da104062e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1113064162}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &266137968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3439105695635121574, guid: 0cc0c7a10c3ecc94ebec0a27690be4c5,
@@ -410,9 +422,9 @@ PrefabInstance:
       objectReference: {fileID: 565946644}
     - target: {fileID: 7698832750914935015, guid: 506eb2ab748cdf4449b5d277ca5a420e,
         type: 3}
-      propertyPath: requiredSatisfaction
-      value: 100
-      objectReference: {fileID: 0}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 206712055}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 506eb2ab748cdf4449b5d277ca5a420e, type: 3}
 --- !u!4 &612469166 stripped
@@ -717,6 +729,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1364542698, guid: cc113952f4a02a04fab6e2da104062e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799831002, guid: cc113952f4a02a04fab6e2da104062e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 755252579246534379, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -753,6 +773,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2011323682342058683, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2237800331850989507, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_IsActive
@@ -781,17 +806,22 @@ PrefabInstance:
     - target: {fileID: 3702813609628898924, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -162.59991
-      objectReference: {fileID: 0}
-    - target: {fileID: 3702813609628898924, guid: cc113952f4a02a04fab6e2da104062e3,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 32.7
+      value: -163.58003
       objectReference: {fileID: 0}
     - target: {fileID: 3728717758449846724, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5353945092418887323, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 60.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 5500624816375404263, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6632121296972621896, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
@@ -822,6 +852,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6632121296972621899, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_TagString
+      value: InternetShortcut
       objectReference: {fileID: 0}
     - target: {fileID: 6818466928137996708, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
@@ -860,8 +895,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7307897046354960233, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307897046354960233, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307897046354960233, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 889.81006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307897046354960233, guid: cc113952f4a02a04fab6e2da104062e3,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -13.130005
+      value: 35.2
       objectReference: {fileID: 0}
     - target: {fileID: 7307897047312378765, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
@@ -873,19 +923,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1908996141}
-    - target: {fileID: 7307897047312378768, guid: cc113952f4a02a04fab6e2da104062e3,
-        type: 3}
-      propertyPath: mailTut
-      value: Some mails contain websites to download mods. You can type these in
-        the browser or just click on the link. Clicking on the link will only work
-        when the browser is already open!
-      objectReference: {fileID: 0}
-    - target: {fileID: 7307897047312378768, guid: cc113952f4a02a04fab6e2da104062e3,
-        type: 3}
-      propertyPath: browserTut
-      value: Here you can search sites or browse your history, once on a site just
-        click the download button and you will be good to go.
-      objectReference: {fileID: 0}
     - target: {fileID: 7307897047312378769, guid: cc113952f4a02a04fab6e2da104062e3,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1221,18 +1258,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4430757670695788388, guid: 0463c9d969690904cad9234540e62ea6,
         type: 3}
-    - target: {fileID: 1696318569027170051, guid: ea6a5f07bf34970448cb9e9f9c93b331,
-        type: 3}
-      propertyPath: firstModOpenText
-      value: Hover over a Modifier to check out what changes it does to a Planet
-        Folder
-      objectReference: {fileID: 0}
-    - target: {fileID: 1696318569027170051, guid: ea6a5f07bf34970448cb9e9f9c93b331,
-        type: 3}
-      propertyPath: firstPlanetOpenText
-      value: This is a Planet Folder. Add Modifiers into it to increase stats. Stats
-        are shown in the file inside. Keep the stats in the Green to win!
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea6a5f07bf34970448cb9e9f9c93b331, type: 3}
 --- !u!4 &1848534824 stripped

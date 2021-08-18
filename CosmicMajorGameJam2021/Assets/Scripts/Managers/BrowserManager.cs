@@ -25,10 +25,9 @@ public class BrowserManager : MonoBehaviour
     static Dictionary<string,DownloadBehaviour.DownloadType> pageLookupTable = new Dictionary<string, DownloadBehaviour.DownloadType>();
     #endregion
 
-    private void Start()
+    private void Awake()
     {
-        if
-            (!pagesList)
+        if (!pagesList)
         {
             pagesList = Resources.Load<TextAsset>("Mods");
             CSVReader.LoadFromString(pagesList.text, Reader);
@@ -82,11 +81,8 @@ public class BrowserManager : MonoBehaviour
             page.GetComponentInChildren<DownloadBehaviour>().SetDownloadType( pageLookupTable[siteName]);
 
             AddTab(page, siteName);
-            if (!GameManager.main.webTut)
-            {
-                WindowManager.main.createTutorial(WindowManager.main.webTut);
-                GameManager.main.webTut = true;
-            }
+            
+            GameManager.main.checkTutorial(tutNames.web);
         }
     }
     private void AddTab(GameObject page, string pageName)

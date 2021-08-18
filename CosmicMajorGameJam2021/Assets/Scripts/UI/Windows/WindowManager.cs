@@ -38,13 +38,6 @@ public class WindowManager : MonoBehaviour
     [Header("Variables")]
     public float offset; //offset between the window's border and edge of screen
     internal IDictionary<GameObject, WindowEntry> windows;
-    public string startTut;
-    public string collideTut;
-    public string webTut;
-    public string downloadTut;
-    public string blackHoleTut;
-    public string mailTut;
-    public string browserTut;
     #endregion
 
     #region Unity Functions
@@ -60,7 +53,7 @@ public class WindowManager : MonoBehaviour
         
         mainCamera = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canvasComponent = canvas.GetComponent<Canvas>();
-        createTutorial(startTut);
+        GameManager.main.checkTutorial(tutNames.start);
     }
 
     #endregion

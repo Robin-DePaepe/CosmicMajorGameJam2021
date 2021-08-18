@@ -49,25 +49,25 @@ public class MailManager : MonoBehaviour
     {
         if (currentSelectedMail == null || currentSelectedMail.MailData.siteName == "") return;
 
-        GameObject browserManager = GameObject.FindGameObjectWithTag("InternetManager");
-
-        if(browserManager != null)
+        GameObject shortcut = GameObject.FindGameObjectWithTag("InternetShortcut");
+        
+        if(shortcut != null)
         {
-            browserManager.GetComponent<BrowserManager>().AddNewSite(currentSelectedMail.MailData.siteName);
+            Shortcut shortcutScript = shortcut.GetComponent<Shortcut>();
+            shortcutScript.clickedOnce = true;
+            shortcutScript.OnPointerDown(null);
+            
+            BrowserManager browser = shortcutScript.window.GetComponent<BrowserManager>();
+            browser.AddNewSite(currentSelectedMail.MailData.siteName);
         }
     }
 
-    static public IEnumerator ScheduleNewMail(GameObject mail, float time = 0f)
+    static public IEnumerator ScheduleNewMail(GameObject mail, float gameTimeHours = 0f)
     {
-        float timeWaited = TimeManager.main.ConvertGameTimeToRealTime(time * 3600);
+        GameTime scheduledTime = TimeManager.main.currentTime + new GameTime(gameTimeHours * 3600,0,0);
 
-        while (timeWaited > 0f)
+        while (scheduledTime >= TimeManager.main.currentTime)
         {
-            if (!TimeManager.main.timePaused)
-            {
-                timeWaited -= Time.deltaTime;
-            }
-
             yield return new WaitForEndOfFrame();
         }
 
@@ -118,11 +118,7 @@ public class MailManager : MonoBehaviour
     public void MailSelected(Mail mail)
     {
         //give tutorial
-        if (!GameManager.main.mailTut)
-        {
-            WindowManager.main.createTutorial(WindowManager.main.mailTut);
-            GameManager.main.mailTut = true;
-        }
+        GameManager.main.checkTutorial(tutNames.mail);
 
         //set the data of the mail view
         currentSelectedMail = mail;
@@ -168,7 +164,8 @@ public class MailManager : MonoBehaviour
         }
 
         GameObject mail = Instantiate(mailSummaryTemplate, mailSummaryList.transform);
-        mail.GetComponent<Mail>().SetData(new MailData(line[3], line[2], line[4], mailType, siteName));
+        Mail mailScript = mail.GetComponent<Mail>();
+        mailScript.SetData(new MailData(line[3], line[2], line[4], mailType, siteName));
         mail.SetActive(false);
 
         if (mailType == MailData.mailTypes.information || mailType == MailData.mailTypes.boss)
@@ -178,7 +175,7 @@ public class MailManager : MonoBehaviour
             switch (mailType)
             {
                 case MailData.mailTypes.productAd:
-                    TimeManager.main.AddProductEmail(mail);
+                    TimeManager.main.AddProductEmail(mailScript);
                     break;
                 case MailData.mailTypes.warning:
                     SuspicionManager.main.AddSuspicionMail((int)float.Parse(line[1]), mail);
@@ -189,14 +186,18 @@ public class MailManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        foreach (var mail in mails)
+        if (!applicationQuiting)
         {
-            if (mail.Value && !applicationQuiting)
+            foreach (var mail in mails)
             {
-                mail.Value.transform.SetParent(null);
-                mail.Value.gameObject.SetActive(false);
+                if (mail.Value && !applicationQuiting)
+                {
+                    mail.Value.transform.SetParent(null);
+                    mail.Value.gameObject.SetActive(false);
+                }
             }
         }
+
     }
     private void OnApplicationQuit()
     {

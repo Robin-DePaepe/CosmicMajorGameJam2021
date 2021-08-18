@@ -53,12 +53,12 @@ MonoBehaviour:
     minutes: 0
     seconds: 0
   modDownLoadTime: 5
-  popUpPos: {fileID: 0}
+  mailMin: 0.7
+  mailMax: 1
   currentTime:
     hours: 0
     minutes: 0
     seconds: 0
   timePaused: 1
-  debug: 0
   mailManager: {fileID: 4430757670695788388, guid: 0463c9d969690904cad9234540e62ea6,
     type: 3}

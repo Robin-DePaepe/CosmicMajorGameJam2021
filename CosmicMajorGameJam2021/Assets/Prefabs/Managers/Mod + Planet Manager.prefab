@@ -65,8 +65,8 @@ MonoBehaviour:
     type: 3}
   maxDistance: 55
   minDistance: 20
-  corruptPenalty: 10
-  destroyPenalty: 20
+  corruptPenalty: 0
+  destroyPenalty: 10
   speed: 0.15
   corrupt: []
   unCorrupt: []

@@ -5,87 +5,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-[Serializable]
-public class GameTime //time object for in game events, to be set in game standard time
-{
-    public int hours;
-    public int minutes;
-    public float seconds;
-
-    public void convert()
-    {
-        if (seconds >= 60)
-        {
-            int minAdd = Mathf.RoundToInt(seconds) / 60;
-            minutes += minAdd;
-            seconds -=minAdd*60;
-        }
-        if (minutes >= 60)
-        {
-            int hourAdd = minutes / 60;
-            hours += hourAdd;
-            minutes -=hourAdd*60;
-        }
-        
-    }
-    public GameTime()
-    {
-        seconds = 0;
-        hours = 0;
-        minutes = 0;
-    }
-
-    public GameTime(float s, int m = 0, int h = 0)
-    {
-        seconds = s;
-        hours = h;
-        minutes = m;
-    }
-
-    public static GameTime operator +(GameTime gt1, GameTime gt2)
-    {
-        GameTime result=new GameTime(gt1.seconds + gt2.seconds, gt1.minutes + gt2.minutes, gt1.hours + gt2.hours);
-        result.convert();
-        return result;
-
-    }
-
-    public static GameTime operator -(GameTime gt1,GameTime gt2)=> new GameTime(Mathf.Abs(gt1.seconds - gt2.seconds), Mathf.Abs(gt1.minutes - gt2.minutes), 
-        Mathf.Abs(gt1.hours - gt2.hours));
-
-    public static bool operator >=(GameTime gt1, GameTime gt2)
-    {
-        if (gt1 != null && gt2 != null)
-        {
-            return (gt1.OnlySeconds() >= gt2.OnlySeconds());
-        }
-
-        return false;
-    }
-    
-    public static bool operator<=(GameTime gt1, GameTime gt2)
-    {
-        if (gt1 != null && gt2 != null)
-        {
-            
-            return  (gt1.OnlySeconds() <= gt2.OnlySeconds());
-            
-        }
-        return false;
-    }
-
-    public int OnlySeconds()
-    {
-        return hours * 3600 + minutes * 60 + (int)seconds;
-    }
-
-};
-
 public class TimeManager : MonoBehaviour
 {
     [Header("Time convention")]
     [Tooltip("The multiplying rate at which time moves in game. This means 1 second real time = (rate*time) in seconds in game")]
-    [SerializeField] private float rate;
+    public float rate;
 
     [Header("Work day times")]
     [Tooltip("in seconds")]
@@ -94,64 +18,45 @@ public class TimeManager : MonoBehaviour
     [SerializeField] private GameTime endTime;
 
     [Header("Mod download")] [SerializeField]
+    [Tooltip("Game Time minutes")]
     private float modDownLoadTime = 5;
 
-    [SerializeField] private RectTransform popUpPos;
-    private float totalTimeOfWorkDay;
+    [Tooltip("Game Time Hours")] [SerializeField]
+    private float mailMin;
+
+    [Tooltip("Game Time Hours")] [SerializeField]
+    private float mailMax;
     public GameTime currentTime;
     private GameTime nextSusDecrease=new GameTime();
     public bool timePaused=true;
-    public bool debug;
 
     [SerializeField] private GameObject mailManager;
-    List<GameObject> productMails = new List<GameObject>();
+    List<Mail> productMails = new List<Mail>();
     int currentMailID = 0;
 
-    float countDownForMail = -1f;
     public static TimeManager main;
+
+    #region Unity
 
     private void Awake()
     {
         main = this;
+        currentTime = startTime;
+        StartCoroutine(Clock());
+        StartCoroutine(createProductMails());
+        Invoke(nameof(BeginTheDay),Time.deltaTime);
+        Instantiate(mailManager, transform);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        totalTimeOfWorkDay = (endTime - startTime).OnlySeconds();
-        currentTime = startTime;
-        StartCoroutine(Clock());
-        Invoke(nameof(BeginTheDay),Time.deltaTime);
 
-        //make sure the mail manager is instantiated
-        Instantiate(mailManager, transform);
     }
 
-    public void unPauseTime()
-    {
-        timePaused = false;
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (!TimeManager.main.timePaused)
-        {
-            countDownForMail -= Time.deltaTime;
-
-            if (countDownForMail <= 0f)
-            {
-                SentProductEmail();
-                countDownForMail = Random.Range(ConvertGameTimeToRealTime(2400), ConvertGameTimeToRealTime(3600));//spawn one between every 40/60 minutes
-            }
-        }
-
-
-        if (debug)
-        {
-            LogTime();
-        }
-
+        
         if (currentTime >= nextSusDecrease)//suspicion decay
         {
             SuspicionManager.main.ReduceSuspicion(SuspicionManager.main.suspicionDecay);
@@ -159,34 +64,42 @@ public class TimeManager : MonoBehaviour
             nextSusDecrease.convert();
         }
     }
+    
+    #endregion
 
-    void LogTime()
+    #region Time functions
+
+    IEnumerator createProductMails()
     {
-        if (timePaused)
+        while (gameObject.activeSelf)
         {
-            Debug.Log("paused");
-        }
-        else
-        {
-            Debug.Log(currentTime.hours + " " + currentTime.minutes + " " + currentTime.seconds);
+            GameTime scheduledTime = currentTime + new GameTime(Random.Range(mailMin,mailMax) * 3600, 0, 0);
+            while (scheduledTime >= currentTime)
+            {
+                yield return new WaitForEndOfFrame();
+            }
+            SentProductEmail();
         }
     }
-
+    
     IEnumerator Clock()
     {
         while (currentTime <= endTime)
         {
             if (!timePaused)
             {
-                currentTime += new GameTime(ConvertRealTimeToGameTime(Time.deltaTime), 0, 0);
+                currentTime.addDeltaTime();
             }
             yield return new WaitForEndOfFrame();
         }
         EndOfDay();
         
     }
-
-
+    public void ChangePause() => timePaused = !timePaused;
+    public void unPauseTime()
+    {
+        timePaused = false;
+    }
     public float ConvertRealTimeToGameTime(float inLifeTime)//converts real time in seconds to in game time seconds
     {
         return inLifeTime * rate;
@@ -196,30 +109,54 @@ public class TimeManager : MonoBehaviour
         return inGameTime / rate;
     }
 
+    #endregion
+
+    #region Day
+
     public void BeginTheDay()
     {
-        //play begin day sound effects
         SoundManager.main.PlaySoundEffect(SoundEffects.daystart);
-        //play music
-        SoundManager.main.PlayMainGameMusic();
     }
 
     public void EndOfDay()
     {
         SatisfactionManager.main.CheckSatisfactionCondition();
     }
+    
+    #endregion
 
-    public void AddProductEmail(GameObject Mail)
+    #region Emails
+
+    public void AddProductEmail(Mail mail)
     {
-        productMails.Add(Mail);
+        bool siteAlreadyIn = false;
+        for (int i = 0; i < productMails.Count; i++)
+        {
+            if (productMails[i].data.siteName == mail.data.siteName)
+            {
+                siteAlreadyIn = true;
+            }
+        }
+
+        if (!siteAlreadyIn)
+        {
+            productMails.Insert(Random.Range(0, productMails.Count), mail);
+        }
     }
     private void SentProductEmail()
     {
-        StartCoroutine(MailManager.ScheduleNewMail(productMails[currentMailID]));
-        ++currentMailID;
+        if (currentMailID < productMails.Count)
+        {
+            StartCoroutine(MailManager.ScheduleNewMail(productMails[currentMailID].gameObject));
+            ++currentMailID;
+        }
 
-        if (currentMailID == productMails.Count) currentMailID = 0;
     }
+
+
+    #endregion
+
+    #region Mods
 
     public void ScheduleModDownLoad(string mod)//time is in game time
     {
@@ -229,19 +166,11 @@ public class TimeManager : MonoBehaviour
 
     IEnumerator ScheduleAddMod(string mod,float time)
     {
-        if (!GameManager.main.downloadTut)
+        GameManager.main.checkTutorial(tutNames.download);
+        GameTime scheduledTime = currentTime + new GameTime(time * 60, 0, 0);
+        while (scheduledTime >= currentTime)
         {
-            WindowManager.main.createTutorial(WindowManager.main.downloadTut);
-            GameManager.main.downloadTut = true;
-        }
-        float timer = 0;
-        while (timer < time)
-        {
-            while (timePaused)
-            {
-                yield return null;
-            }
-            timer += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
         }
         //play notification sound
         SoundManager.main.PlaySoundEffect(SoundEffects.notice);
@@ -251,7 +180,5 @@ public class TimeManager : MonoBehaviour
         WindowManager.main.CreatePopUp("Notification: " + mod + " modifier downloaded",0,5f);
     }
 
-    public void ChangePause() => timePaused = !timePaused;
-
-
+    #endregion
 }
